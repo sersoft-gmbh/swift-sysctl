@@ -1,8 +1,8 @@
 import XCTest
 
-import SysCtlTests
+import SysctlTests
 
 var tests = [XCTestCaseEntry]()
-tests += SysCtlTests.__allTests()
+tests += SysctlTests.__allTests()
 
 XCTMain(tests)
