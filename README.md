@@ -40,12 +40,12 @@ Here's an example for a new (imaginary) namespace that also has a child namespac
 
 ```swift
 struct Superpower: SysctlNamespace {
-    typealias ParentNamesapce = SysctlRootNamespace
+    typealias ParentNamespace = SysctlRootNamespace
 
     static var namePart: String { "spwr" }
 
     struct Control: SysctlNamespace {
-        typealias ParentNamesapce = Superpower
+        typealias ParentNamespace = Superpower
 
         static var namePart: String { "ctrl" }
     }
