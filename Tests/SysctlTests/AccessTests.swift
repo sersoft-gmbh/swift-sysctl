@@ -8,7 +8,6 @@ final class AccessTests: XCTestCase {
     func testReading() {
         XCTAssertFalse(sysctl.hardware.machine.isEmpty)
         XCTAssertLessThan(sysctl.kernel.bootDate, Date())
-        XCTAssertTrue(sysctl.kernel.hypervisor.isSupported)
     }
 
     func testWriting() throws {
