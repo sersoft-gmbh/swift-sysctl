@@ -47,7 +47,8 @@ jobs:
           restore-keys: |
             ${{runner.os}}-${{github.repository}}-spm-
       - name: Build & Test
-        run: swift test -v --parallel --enable-code-coverage
+        # we need to use sudo for the write tests.
+        run: sudo swift test -v --parallel --enable-code-coverage
       - name: Generate Coverage Files
         if: runner.os == 'macOS'
         run: xcrun llvm-cov export -format="lcov" .build/debug/*PackageTests.xctest/Contents/MacOS/*PackageTests -instr-profile .build/debug/codecov/default.profdata > coverage.lcov
