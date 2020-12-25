@@ -58,15 +58,24 @@ public struct SysctlContainer<Namespace: SysctlNamespace> {
         try Namespace._buildName(for: namespace[keyPath: fieldPath]).withCString(work)
     }
 
+    private func _sysctlFailed(errno: errno_t,
+                               cStringName: UnsafePointer<CChar>,
+                               writing: Bool = false,
+                               file: StaticString = #file,
+                               line: UInt = #line) -> Never {
+        fatalError("sysctlbyname failed when \(writing ? "writing" : "reading") '\(String(cString: cStringName))' (\(errno))!",
+                   file: file, line: line)
+    }
+
     @usableFromInline
     func _readValue<Value: SysctlValue>(for fieldPath: KeyPath<Namespace, Namespace.Field<Value>>) -> Value {
         _withName(for: fieldPath) {
             var size = Int()
-            guard sysctlbyname($0, nil, &size, nil, 0) == 0 else { fatalError("sysctlbyname failed (\(errno))!") }
+            guard sysctlbyname($0, nil, &size, nil, 0) == 0 else { _sysctlFailed(errno: errno, cStringName: $0) }
             let capacity = size / MemoryLayout<Value.SysctlPointerType>.size
             let pointer = UnsafeMutablePointer<Value.SysctlPointerType>.allocate(capacity: capacity)
             defer { pointer.deallocate() }
-            guard sysctlbyname($0, pointer, &size, nil, 0) == 0 else { fatalError("sysctlbyname failed (\(errno))!") }
+            guard sysctlbyname($0, pointer, &size, nil, 0) == 0 else { _sysctlFailed(errno: errno, cStringName: $0) }
             return Value(sysctlPointer: pointer)
         }
     }
@@ -76,7 +85,7 @@ public struct SysctlContainer<Namespace: SysctlNamespace> {
         _withName(for: fieldPath) { sysctlName in
             value.withSysctlPointer {
                 guard sysctlbyname(sysctlName, nil, nil, UnsafeMutableRawPointer(mutating: $0), $1) == 0 else {
-                    fatalError("sysctlbyname failed (\(errno))!")
+                    _sysctlFailed(errno: errno, cStringName: sysctlName, writing: true)
                 }
             }
         }
