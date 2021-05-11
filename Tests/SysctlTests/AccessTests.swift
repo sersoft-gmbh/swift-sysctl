@@ -20,7 +20,7 @@ final class AccessTests: XCTestCase {
         XCTAssertGreaterThanOrEqual(sysctl.kernel.hostID, 0)
         XCTAssertFalse(sysctl.kernel.hostname.isEmpty)
         XCTAssertLessThan(sysctl.kernel.bootDate, Date())
-        // machdep
+        // machineDependent
         XCTAssertFalse(sysctl.machineDependent.cpu.brandString.isEmpty)
     }
 
