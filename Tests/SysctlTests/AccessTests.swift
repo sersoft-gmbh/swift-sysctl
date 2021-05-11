@@ -6,8 +6,22 @@ final class AccessTests: XCTestCase {
     private let sysctl = SystemControl()
 
     func testReading() {
+        // hardware
         XCTAssertFalse(sysctl.hardware.machine.isEmpty)
+        XCTAssertFalse(sysctl.hardware.model.isEmpty)
+        XCTAssertGreaterThan(sysctl.hardware.numberOfCPUs, 0)
+        XCTAssertGreaterThan(sysctl.hardware.physicalCPUs, 0)
+        XCTAssertFalse(sysctl.hardware.model.isEmpty)
+        // kernel
+        XCTAssertFalse(sysctl.kernel.kind.isEmpty)
+        XCTAssertFalse(sysctl.kernel.version.isEmpty)
+        XCTAssertFalse(sysctl.kernel.revision.isEmpty)
+        XCTAssertFalse(sysctl.kernel.fullVersionText.isEmpty)
+        XCTAssertGreaterThanOrEqual(sysctl.kernel.hostID, 0)
+        XCTAssertFalse(sysctl.kernel.hostname.isEmpty)
         XCTAssertLessThan(sysctl.kernel.bootDate, Date())
+        // machineDependent
+        XCTAssertFalse(sysctl.machineDependent.cpu.brandString.isEmpty)
     }
 
     func testWriting() throws {

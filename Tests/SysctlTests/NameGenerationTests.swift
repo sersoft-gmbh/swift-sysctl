@@ -9,6 +9,8 @@ final class NameGenerationTests: XCTestCase {
         XCTAssertEqual(root.hardware.machine, "hw.machine")
         XCTAssertEqual(root.hardware.model, "hw.model")
         XCTAssertEqual(root.hardware.numberOfCPUs, "hw.ncpu")
+        XCTAssertEqual(root.hardware.physicalCPUs, "hw.physicalcpu")
+        XCTAssertEqual(root.hardware.memorySize, "hw.memsize")
     }
 
     func testKernelNamespace() {
@@ -22,6 +24,10 @@ final class NameGenerationTests: XCTestCase {
         XCTAssertEqual(root.kernel.osBuild, "kern.osversion")
         XCTAssertEqual(root.kernel.revision, "kern.osrevision")
         XCTAssertEqual(root.kernel.version, "kern.osrelease")
+    }
+    
+    func testMachdepNamespace() {
+        XCTAssertEqual(root.machineDependent.cpu.brandString, "machdep.cpu.brand_string")
     }
 
     func testNetworkingNamespace() {

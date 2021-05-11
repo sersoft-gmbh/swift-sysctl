@@ -49,6 +49,13 @@ extension CInt: SysctlValue {
     public typealias SysctlPointerType = Self
 }
 
+/// Make 64-bit C Integers conform to SysctlValue for
+/// large numbers (e.g., memsize)
+extension CLongLong: SysctlValue {
+    /// See `SysctlValue.SysctlPointerType`
+    public typealias SysctlPointerType = Self
+}
+
 extension timeval: SysctlValue {
     /// See `SysctlValue.SysctlPointerType`
     public typealias SysctlPointerType = Self
