@@ -62,16 +62,16 @@ public struct SysctlContainer<Namespace: SysctlNamespace> {
 
     /// Runs `sysctlbyname` trapping on failures.
     /// Signature is copied from `sysctlbyname` except for the `file` and `line` parameters.
-    private func _runSysctl(_ name: UnsafePointer<CChar>!,
-                            _ oldptr: UnsafeMutableRawPointer!,
-                            _ oldlenptr: UnsafeMutablePointer<Int>!,
-                            _ newptr: UnsafeMutableRawPointer!,
-                            _ newlen: Int,
-                            file: StaticString = #file,
-                            line: UInt = #line) {
+    private func _runSysctlByName(_ name: UnsafePointer<CChar>,
+                                  _ oldptr: UnsafeMutableRawPointer?,
+                                  _ oldlenptr: UnsafeMutablePointer<Int>?,
+                                  _ newptr: UnsafeMutableRawPointer?,
+                                  _ newlen: Int,
+                                  file: StaticString = #file,
+                                  line: UInt = #line) {
         guard sysctlbyname(name, oldptr, oldlenptr, newptr, newlen) != 0 else { return }
         defer { errno = 0 } // Reset for unsafe builds that don't trap.
-        fatalError("sysctlbyname failed when \(newptr != nil ? "writing" : "reading") '\(String(cString: name))' (\(errno))!",
+        fatalError("sysctlbyname failed when \(newptr != nil ? "writing" : "reading") '\(String(cString: name))' (\(errno)): \(String(cString: strerror(errno)))!",
                    file: file, line: line)
     }
 
@@ -79,11 +79,11 @@ public struct SysctlContainer<Namespace: SysctlNamespace> {
     func _readValue<Value: SysctlValue>(for fieldPath: KeyPath<Namespace, Namespace.Field<Value>>) -> Value {
         _withName(for: fieldPath) {
             var size = Int()
-            _runSysctl($0, nil, &size, nil, 0)
+            _runSysctlByName($0, nil, &size, nil, 0)
             let capacity = size / MemoryLayout<Value.SysctlPointerType>.size
             let pointer = UnsafeMutablePointer<Value.SysctlPointerType>.allocate(capacity: capacity)
             defer { pointer.deallocate() }
-            _runSysctl($0, pointer, &size, nil, 0)
+            _runSysctlByName($0, pointer, &size, nil, 0)
             return Value(sysctlPointer: pointer)
         }
     }
@@ -92,7 +92,7 @@ public struct SysctlContainer<Namespace: SysctlNamespace> {
     func _writeValue<Value: SysctlValue>(_ value: Value, to fieldPath: WritableKeyPath<Namespace, Namespace.Field<Value>>) {
         _withName(for: fieldPath) { sysctlName in
             value.withSysctlPointer {
-                _runSysctl(sysctlName, nil, nil, UnsafeMutableRawPointer(mutating: $0), $1)
+                _runSysctlByName(sysctlName, nil, nil, UnsafeMutableRawPointer(mutating: $0), $1)
             }
         }
     }

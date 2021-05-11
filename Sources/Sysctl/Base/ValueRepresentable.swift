@@ -29,7 +29,7 @@ extension SysctlValueRepresentable {
 
 extension Bool: SysctlValueRepresentable {
     /// See `SysctlValueRepresentable.SysctlValue`
-    public typealias SysctlValue = CShort
+    public typealias SysctlValue = CInt // Bools are actually represented by way too big ints - CSignedChar would suffice but is reported as invalid argument.
 
     /// See `SysctlValueRepresentable.sysctlValue``
     @inlinable
