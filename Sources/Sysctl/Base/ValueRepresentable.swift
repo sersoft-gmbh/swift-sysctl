@@ -29,7 +29,7 @@ extension SysctlValueRepresentable {
 
 extension Bool: SysctlValueRepresentable {
     /// See `SysctlValueRepresentable.SysctlValue`
-    public typealias SysctlValue = CInt
+    public typealias SysctlValue = CShort
 
     /// See `SysctlValueRepresentable.sysctlValue``
     @inlinable
@@ -49,8 +49,8 @@ extension Date: SysctlValueRepresentable {
     /// See `SysctlValueRepresentable.sysctlValue`
     public var sysctlValue: SysctlValue {
         let timeInterval = timeIntervalSince1970
-        let seconds = __darwin_time_t(timeInterval)
-        let uSeconds = __darwin_suseconds_t((timeInterval - TimeInterval(seconds)) * TimeInterval(USEC_PER_SEC))
+        let seconds = time_t(timeInterval)
+        let uSeconds = suseconds_t((timeInterval - TimeInterval(seconds)) * TimeInterval(USEC_PER_SEC))
         return timeval(tv_sec: seconds, tv_usec: uSeconds)
     }
 

@@ -1,4 +1,4 @@
-/// MachineDependent (`machdep`) namespace for Sysctl
+/// The namespace for the machine dependent values (`machdep`).
 public struct MachineDependent: SysctlNamespace {
     /// See SysctlNamespace
     public typealias ParentNamespace = SysctlRootNamespace
@@ -8,7 +8,7 @@ public struct MachineDependent: SysctlNamespace {
 }
 
 extension MachineDependent {
-    /// The namespace for CPU  (`cpu`) values inside the machdep namespace.
+    /// The namespace for CPU  (`cpu`) values inside the machine dependent namespace.
     public struct CPU: SysctlNamespace {
         /// See SysctlNamespace
         public typealias ParentNamespace = MachineDependent
@@ -16,14 +16,15 @@ extension MachineDependent {
         /// See SysctlNamespace
         public static var namePart: String { "cpu" }
 
-        /// The kind of cpu (`brand_string`).
+        /// The cpu brand (`brand_string`).
         public var brandString: Field<String> { "brand_string" }
     }
-    
+
+    /// The cpu values (`cpu`).
     public var cpu: CPU { .init() }
 }
 
 extension SysctlRootNamespace {
-    /// The MachineDependent (`machdep`) part.
+    /// The machine dependent values (`machdep`).
     public var machineDependent: MachineDependent { .init() }
 }

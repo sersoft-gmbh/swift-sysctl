@@ -5,14 +5,15 @@ import Sysctl
 final class AccessTests: XCTestCase {
     private let sysctl = SystemControl()
 
-    func testReading() {
-        // hardware
+    func testReadingHardwareNamespace() {
         XCTAssertFalse(sysctl.hardware.machine.isEmpty)
         XCTAssertFalse(sysctl.hardware.model.isEmpty)
         XCTAssertGreaterThan(sysctl.hardware.numberOfCPUs, 0)
         XCTAssertGreaterThan(sysctl.hardware.physicalCPUs, 0)
-        XCTAssertFalse(sysctl.hardware.model.isEmpty)
-        // kernel
+        XCTAssertGreaterThan(sysctl.hardware.memorySize, 0)
+    }
+
+    func testReadingKernelNamespace() {
         XCTAssertFalse(sysctl.kernel.kind.isEmpty)
         XCTAssertFalse(sysctl.kernel.version.isEmpty)
         XCTAssertFalse(sysctl.kernel.revision.isEmpty)
@@ -20,11 +21,13 @@ final class AccessTests: XCTestCase {
         XCTAssertGreaterThanOrEqual(sysctl.kernel.hostID, 0)
         XCTAssertFalse(sysctl.kernel.hostname.isEmpty)
         XCTAssertLessThan(sysctl.kernel.bootDate, Date())
-        // machineDependent
+    }
+
+    func testReadingMachineDependentNamespace() {
         XCTAssertFalse(sysctl.machineDependent.cpu.brandString.isEmpty)
     }
 
-    func testWriting() throws {
+    func testWritingNetworking() throws {
         // Writing always fails if we're not root.
         try XCTSkipUnless(getuid() == 0)
         let oldValue = sysctl.networking.ipv4.icmp.answerNetworkMaskRequests

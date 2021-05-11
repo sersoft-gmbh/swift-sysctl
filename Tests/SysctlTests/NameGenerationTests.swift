@@ -26,7 +26,7 @@ final class NameGenerationTests: XCTestCase {
         XCTAssertEqual(root.kernel.version, "kern.osrelease")
     }
     
-    func testMachdepNamespace() {
+    func testMachineDependentNamespace() {
         XCTAssertEqual(root.machineDependent.cpu.brandString, "machdep.cpu.brand_string")
     }
 

@@ -44,13 +44,16 @@ extension String: SysctlValue {
     }
 }
 
+extension CShort: SysctlValue {
+    /// See `SysctlValue.SysctlPointerType`
+    public typealias SysctlPointerType = Self
+}
+
 extension CInt: SysctlValue {
     /// See `SysctlValue.SysctlPointerType`
     public typealias SysctlPointerType = Self
 }
 
-/// Make 64-bit C Integers conform to SysctlValue for
-/// large numbers (e.g., memsize)
 extension CLongLong: SysctlValue {
     /// See `SysctlValue.SysctlPointerType`
     public typealias SysctlPointerType = Self

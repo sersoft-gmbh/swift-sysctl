@@ -13,10 +13,10 @@ public struct Hardware: SysctlNamespace {
 
     /// The number of CPUs (`ncpu`).
     public var numberOfCPUs: Field<CInt> { "ncpu" }
-    /// The user's number of physical cpus (`physicalcpu`).
+    /// The  number of physical CPUs (`physicalcpu`).
     public var physicalCPUs: Field<CInt> { "physicalcpu" }
     
-    /// The user's memory size (`memsize`) in bytes.
+    /// The memory size (`memsize`) in bytes.
     public var memorySize: Field<CLongLong>  { "memsize" }
 }
 
