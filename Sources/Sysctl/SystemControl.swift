@@ -33,3 +33,7 @@ public struct SystemControl {
         nonmutating set { container[dynamicMember: field] = newValue }
     }
 }
+
+#if compiler(>=5.5.2) && canImport(_Concurrency)
+extension SystemControl: Sendable {}
+#endif

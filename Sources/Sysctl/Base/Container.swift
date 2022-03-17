@@ -5,7 +5,7 @@ extension SysctlNamespace {
     static var _isRoot: Bool { self == SysctlRootNamespace.self }
 
     @inlinable
-    static func _nameParts() -> [String] {
+    static func _nameParts() -> Array<String> {
         _isRoot ? [] : ParentNamespace._nameParts() + CollectionOfOne(namePart)
     }
 
@@ -97,3 +97,7 @@ public struct SysctlContainer<Namespace: SysctlNamespace> {
         }
     }
 }
+
+#if compiler(>=5.5.2) && canImport(_Concurrency)
+extension SysctlContainer: Sendable {}
+#endif
