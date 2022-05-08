@@ -4,7 +4,7 @@
 ![Tests](https://github.com/sersoft-gmbh/swift-sysctl/workflows/Tests/badge.svg)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/061aa9fba7d548f9a9bab8e35800b47a)](https://www.codacy.com/gh/sersoft-gmbh/swift-sysctl/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sersoft-gmbh/swift-sysctl&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/sersoft-gmbh/swift-sysctl/branch/main/graph/badge.svg?token=XckcIyFIbQ)](https://codecov.io/gh/sersoft-gmbh/swift-sysctl)
-[![jazzy](https://raw.githubusercontent.com/sersoft-gmbh/swift-sysctl/gh-pages/badge.svg?sanitize=true)](https://sersoft-gmbh.github.io/swift-sysctl)
+[![Docs](https://img.shields.io/badge/-documentation-informational)](https://sersoft-gmbh.github.io/swift-sysctl)
 
 A Swift interface for reading (and writing) `sysctl` values.
 
@@ -123,7 +123,7 @@ enum MagicSpellPower: SysctlValueRepresentable {
 
 ## Possible Features
 
-While not yet integrated, the following features might provide added value and could make it into Swift Sysctl in the future:
+While not yet integrated, the following features might provide added value and could make it into this package in the future:
 
 -   Allow for checks whether certain values are available before accessing them.
 -   Support for dynamic names in `sysctl` (e.g. names depending on the number of cpus or network interfaces).
@@ -135,7 +135,7 @@ The API is documented using header doc. If you prefer to view the documentation 
 
 ## Contributing
 
-If you find a bug / like to see a new feature in Swift Sysctl there are a few ways of helping out:
+If you find a bug / like to see a new feature there are a few ways of helping out:
 
 -   If you can fix the bug / implement the feature yourself please do and open a PR.
 -   If you know how to code (which you probably do), please add a (failing) test and open a PR. We'll try to get your test green ASAP.
