@@ -1,0 +1,511 @@
+{
+  "abstract" : [
+    {
+      "text" : "The top level object to use for retrieving containers and values from sysctl.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "It gives access to children namespaces and values of ",
+      "type" : "text"
+    },
+    {
+      "code" : "SysctlRootNamespace",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:6Sysctl13SystemControlV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "SystemControl"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Sysctl"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "SystemControl"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "SystemControl"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@frozen"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@dynamicMemberLookup"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "SystemControl"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/Sysctl\/s8SendableP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-3o0io",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-6okj9",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-71y3b"
+      ],
+      "title" : "Subscripts"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl\/systemcontrol"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/SystemControl": {
+  "abstract" : [
+    {
+      "text" : "The top level object to use for retrieving containers and values from sysctl.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "It gives access to children namespaces and values of ",
+      "type" : "text"
+    },
+    {
+      "code" : "SysctlRootNamespace",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SystemControl"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SystemControl"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SystemControl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/systemcontrol"
+},
+"doc://Sysctl/documentation/Sysctl/SystemControl/init()": {
+  "abstract" : [
+    {
+      "text" : "Creates a new instance. Trivial to call.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/systemcontrol\/init()"
+},
+"doc://Sysctl/documentation/Sysctl/SystemControl/subscript(dynamicMember:)-3o0io": {
+  "abstract" : [
+    {
+      "text" : "Reads the value for a field on the root namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "subscript"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "dynamicMember"
+    },
+    {
+      "kind" : "text",
+      "text" : " _: "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7KeyPathC",
+      "text" : "KeyPath"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A13RootNamespaceV",
+      "text" : "SysctlRootNamespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A13RootNamespaceV",
+      "text" : "SysctlRootNamespace"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+      "text" : "Field"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ">>) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-3o0io",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "subscript(dynamicMember:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/systemcontrol\/subscript(dynamicmember:)-3o0io"
+},
+"doc://Sysctl/documentation/Sysctl/SystemControl/subscript(dynamicMember:)-6okj9": {
+  "abstract" : [
+    {
+      "text" : "Returns a child container for the given child namespace path.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "subscript"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "ChildSpace"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "dynamicMember"
+    },
+    {
+      "kind" : "text",
+      "text" : " _: "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7KeyPathC",
+      "text" : "KeyPath"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A13RootNamespaceV",
+      "text" : "SysctlRootNamespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "ChildSpace"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV",
+      "text" : "SysctlContainer"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "ChildSpace"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-6okj9",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "subscript(dynamicMember:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/systemcontrol\/subscript(dynamicmember:)-6okj9"
+},
+"doc://Sysctl/documentation/Sysctl/SystemControl/subscript(dynamicMember:)-71y3b": {
+  "abstract" : [
+    {
+      "text" : "Reads or writes the value for a field on the root namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "subscript"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "dynamicMember"
+    },
+    {
+      "kind" : "text",
+      "text" : " _: "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s15WritableKeyPathC",
+      "text" : "WritableKeyPath"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A13RootNamespaceV",
+      "text" : "SysctlRootNamespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A13RootNamespaceV",
+      "text" : "SysctlRootNamespace"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+      "text" : "Field"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ">>) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-71y3b",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "subscript(dynamicMember:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/systemcontrol\/subscript(dynamicmember:)-71y3b"
+},
+"doc://Sysctl/s8SendableP": {
+  "identifier" : "doc:\/\/Sysctl\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

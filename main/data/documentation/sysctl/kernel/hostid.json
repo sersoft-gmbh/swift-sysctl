@@ -1,0 +1,349 @@
+{
+  "abstract" : [
+    {
+      "text" : "The host ID (",
+      "type" : "text"
+    },
+    {
+      "code" : "hostid",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/hostID"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:6Sysctl6KernelV6hostIDAA0A10NamedFieldVyACs5Int32VGvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "hostID"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl6KernelV",
+        "text" : "Kernel"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+        "text" : "Field"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s4CInta",
+        "text" : "CInt"
+      },
+      {
+        "kind" : "text",
+        "text" : ">"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Sysctl"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "hostID"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "hostID"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl6KernelV",
+              "text" : "Kernel"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/Field",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+              "text" : "Field"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s4CInta",
+              "text" : "CInt"
+            },
+            {
+              "kind" : "text",
+              "text" : "> { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "nonmutating"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl\/kernel\/hostid"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel": {
+  "abstract" : [
+    {
+      "text" : "The namespace for the kernel values (",
+      "type" : "text"
+    },
+    {
+      "code" : "kern",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Kernel"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Kernel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Kernel",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel/hostID": {
+  "abstract" : [
+    {
+      "text" : "The host ID (",
+      "type" : "text"
+    },
+    {
+      "code" : "hostid",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hostID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl6KernelV",
+      "text" : "Kernel"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+      "text" : "Field"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/hostID",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hostID",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel\/hostid"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace/Field": {
+  "abstract" : [
+    {
+      "text" : "A field inside this namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Field"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/Field",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Field"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlNamespace.Field",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamespace\/field"
+}
+}
+}

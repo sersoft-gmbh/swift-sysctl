@@ -1,0 +1,249 @@
+{
+  "abstract" : [
+    {
+      "text" : "See ",
+      "type" : "text"
+    },
+    {
+      "code" : "ExpressibleByStringLiteral",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamedField"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamedField\/StringLiteralType"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:6Sysctl0A10NamedFieldV17StringLiteralTypea",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "StringLiteralType"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Sysctl"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "StringLiteralType"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
+    "title" : "SysctlNamedField.StringLiteralType"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "typealias"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "StringLiteralType"
+            },
+            {
+              "kind" : "text",
+              "text" : " = "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl\/sysctlnamedfield\/stringliteraltype"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamedField": {
+  "abstract" : [
+    {
+      "text" : "Describes a sysctl field name inside a sysctl namespace.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "For easier definition, use the ",
+      "type" : "text"
+    },
+    {
+      "code" : "SysctlNamespace.Field",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " typealias.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Fields are ",
+      "type" : "text"
+    },
+    {
+      "code" : "ExpressibleByStringLiteral",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Thus you can simply use ",
+      "type" : "text"
+    },
+    {
+      "code" : "\"yourfieldname\"",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " to create fields.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlNamedField"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamedField",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlNamedField"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlNamedField",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamedfield"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamedField/StringLiteralType": {
+  "abstract" : [
+    {
+      "text" : "See ",
+      "type" : "text"
+    },
+    {
+      "code" : "ExpressibleByStringLiteral",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringLiteralType"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamedField\/StringLiteralType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringLiteralType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlNamedField.StringLiteralType",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamedfield\/stringliteraltype"
+}
+}
+}

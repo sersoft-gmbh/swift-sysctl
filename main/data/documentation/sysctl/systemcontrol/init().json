@@ -1,0 +1,176 @@
+{
+  "abstract" : [
+    {
+      "text" : "Creates a new instance. Trivial to call.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/init()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:6Sysctl13SystemControlVACycfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Sysctl"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "()"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl\/systemcontrol\/init()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/SystemControl": {
+  "abstract" : [
+    {
+      "text" : "The top level object to use for retrieving containers and values from sysctl.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "It gives access to children namespaces and values of ",
+      "type" : "text"
+    },
+    {
+      "code" : "SysctlRootNamespace",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SystemControl"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SystemControl"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SystemControl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/systemcontrol"
+},
+"doc://Sysctl/documentation/Sysctl/SystemControl/init()": {
+  "abstract" : [
+    {
+      "text" : "Creates a new instance. Trivial to call.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/systemcontrol\/init()"
+}
+}
+}

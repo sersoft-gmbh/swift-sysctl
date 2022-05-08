@@ -1,0 +1,236 @@
+{
+  "abstract" : [
+    {
+      "text" : "See SysctlNamespace",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/ParentNamespace"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:6Sysctl6KernelV15ParentNamespacea",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ParentNamespace"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Sysctl"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ParentNamespace"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
+    "title" : "Kernel.ParentNamespace"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "typealias"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ParentNamespace"
+            },
+            {
+              "kind" : "text",
+              "text" : " = "
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A13RootNamespaceV",
+              "text" : "SysctlRootNamespace"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl\/kernel\/parentnamespace"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel": {
+  "abstract" : [
+    {
+      "text" : "The namespace for the kernel values (",
+      "type" : "text"
+    },
+    {
+      "code" : "kern",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Kernel"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Kernel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Kernel",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel/ParentNamespace": {
+  "abstract" : [
+    {
+      "text" : "See SysctlNamespace",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParentNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/ParentNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParentNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Kernel.ParentNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel\/parentnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace": {
+  "abstract" : [
+    {
+      "text" : "The root namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlRootNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlRootNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlRootNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlrootnamespace"
+}
+}
+}

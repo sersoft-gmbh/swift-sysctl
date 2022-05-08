@@ -1,0 +1,563 @@
+{
+  "abstract" : [
+    {
+      "text" : "The root namespace.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:6Sysctl0A13RootNamespaceV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "SysctlRootNamespace"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Sysctl"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "SysctlRootNamespace"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "SysctlRootNamespace"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@frozen"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "SysctlRootNamespace"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/Sysctl\/s8SendableP",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/hardware",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/kernel",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/machineDependent",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/networking"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/ParentNamespace"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/namePart"
+      ],
+      "title" : "Type Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/SysctlNamespace-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl\/sysctlrootnamespace"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace": {
+  "abstract" : [
+    {
+      "text" : "Describes a namespace in the sysctl landscape.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Sysctl separates its values using dots (e.g. ",
+      "type" : "text"
+    },
+    {
+      "code" : "net.inet.ip.forwarding",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Each part (without the dots) is represented as a namespace (e.g. ",
+      "type" : "text"
+    },
+    {
+      "code" : "net",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " -> ",
+      "type" : "text"
+    },
+    {
+      "code" : "Networking",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", ",
+      "type" : "text"
+    },
+    {
+      "code" : "inet",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " -> ",
+      "type" : "text"
+    },
+    {
+      "code" : "Networking.IPv4",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", …).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace": {
+  "abstract" : [
+    {
+      "text" : "The root namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlRootNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlRootNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlRootNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlrootnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace/ParentNamespace": {
+  "abstract" : [
+    {
+      "text" : "The parent of the root is always the root namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParentNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/ParentNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParentNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlRootNamespace.ParentNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlrootnamespace\/parentnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace/SysctlNamespace-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/SysctlNamespace-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "SysctlNamespace Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlrootnamespace\/sysctlnamespace-implementations"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace/hardware": {
+  "abstract" : [
+    {
+      "text" : "The hardware (",
+      "type" : "text"
+    },
+    {
+      "code" : "hw",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ") part.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hardware"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl8HardwareV",
+      "text" : "Hardware"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/hardware",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hardware",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlrootnamespace\/hardware"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace/kernel": {
+  "abstract" : [
+    {
+      "text" : "The kernel values (",
+      "type" : "text"
+    },
+    {
+      "code" : "kern",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kernel"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl6KernelV",
+      "text" : "Kernel"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/kernel",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "kernel",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlrootnamespace\/kernel"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace/machineDependent": {
+  "abstract" : [
+    {
+      "text" : "The machine dependent values (",
+      "type" : "text"
+    },
+    {
+      "code" : "machdep",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "machineDependent"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl16MachineDependentV",
+      "text" : "MachineDependent"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/machineDependent",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "machineDependent",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlrootnamespace\/machinedependent"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace/namePart": {
+  "abstract" : [
+    {
+      "text" : "The root namespace has no name part. Do not call this.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "namePart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/namePart",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "namePart",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlrootnamespace\/namepart"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace/networking": {
+  "abstract" : [
+    {
+      "text" : "The networking (",
+      "type" : "text"
+    },
+    {
+      "code" : "net",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ") part.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "networking"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl10NetworkingV",
+      "text" : "Networking"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/networking",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "networking",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlrootnamespace\/networking"
+},
+"doc://Sysctl/s8SendableP": {
+  "identifier" : "doc:\/\/Sysctl\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

@@ -1,0 +1,271 @@
+{
+  "abstract" : [
+    {
+      "text" : "The hardware (",
+      "type" : "text"
+    },
+    {
+      "code" : "hw",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ") part.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/hardware"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "Sysctl",
+    "externalID" : "s:6Sysctl0A13RootNamespaceV8hardwareAA8HardwareVvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "hardware"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl8HardwareV",
+        "text" : "Hardware"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Sysctl"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "hardware"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "hardware"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl8HardwareV",
+              "text" : "Hardware"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl\/sysctlrootnamespace\/hardware"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/Hardware": {
+  "abstract" : [
+    {
+      "text" : "Namespace for the hardware part (",
+      "type" : "text"
+    },
+    {
+      "code" : "hw",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Hardware"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Hardware"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Hardware",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/hardware"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace": {
+  "abstract" : [
+    {
+      "text" : "The root namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlRootNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlRootNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlRootNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlrootnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace/hardware": {
+  "abstract" : [
+    {
+      "text" : "The hardware (",
+      "type" : "text"
+    },
+    {
+      "code" : "hw",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ") part.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hardware"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl8HardwareV",
+      "text" : "Hardware"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/hardware",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hardware",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlrootnamespace\/hardware"
+}
+}
+}

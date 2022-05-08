@@ -1,0 +1,307 @@
+{
+  "abstract" : [
+    {
+      "text" : "The IPv6 part (",
+      "type" : "text"
+    },
+    {
+      "code" : "inet6",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/ipv6-swift.property"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "Sysctl",
+    "externalID" : "s:6Sysctl10NetworkingV4ipv6AC4IPv6Vvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ipv6"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl10NetworkingV",
+        "text" : "Networking"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl10NetworkingV4IPv6V",
+        "text" : "IPv6"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Sysctl"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "ipv6"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ipv6"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl10NetworkingV",
+              "text" : "Networking"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl10NetworkingV4IPv6V",
+              "text" : "IPv6"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl\/networking\/ipv6-swift.property"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/Networking": {
+  "abstract" : [
+    {
+      "text" : "The namespace for the networking values (",
+      "type" : "text"
+    },
+    {
+      "code" : "net",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Networking"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Networking"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Networking",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking"
+},
+"doc://Sysctl/documentation/Sysctl/Networking/IPv6-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "The namespace for IPv6 networking values (",
+      "type" : "text"
+    },
+    {
+      "code" : "inet6",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "IPv6"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "IPv6"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Networking.IPv6",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct"
+},
+"doc://Sysctl/documentation/Sysctl/Networking/ipv6-swift.property": {
+  "abstract" : [
+    {
+      "text" : "The IPv6 part (",
+      "type" : "text"
+    },
+    {
+      "code" : "inet6",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ipv6"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl10NetworkingV",
+      "text" : "Networking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl10NetworkingV4IPv6V",
+      "text" : "IPv6"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/ipv6-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ipv6",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/ipv6-swift.property"
+}
+}
+}

@@ -1,0 +1,182 @@
+{
+  "abstract" : [
+    {
+      "text" : "The underlyling type of the pointer read from \/ written to sysctl.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/SysctlPointerType"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "associatedtype"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "SysctlPointerType"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Sysctl"
+      }
+    ],
+    "required" : true,
+    "role" : "symbol",
+    "roleHeading" : "Associated Type",
+    "symbolKind" : "associatedtype",
+    "title" : "SysctlPointerType"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "associatedtype"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "SysctlPointerType"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl\/sysctlvalue\/sysctlpointertype"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlValue": {
+  "abstract" : [
+    {
+      "text" : "Describes a type that can be read from \/ written to sysctl.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Usually, no new conformances to this protocol are necessary and the set of default conformances below will suffice.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlValue"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlValue",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlvalue"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlValue/SysctlPointerType": {
+  "abstract" : [
+    {
+      "text" : "The underlyling type of the pointer read from \/ written to sysctl.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "associatedtype"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlPointerType"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/SysctlPointerType",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "SysctlPointerType",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlvalue\/sysctlpointertype"
+}
+}
+}

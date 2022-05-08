@@ -1,0 +1,357 @@
+{
+  "abstract" : [
+    {
+      "text" : "The name part of the namespace (e.g. ",
+      "type" : "text"
+    },
+    {
+      "code" : "net",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " for ",
+      "type" : "text"
+    },
+    {
+      "code" : "Networking",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", or ",
+      "type" : "text"
+    },
+    {
+      "code" : "hw",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " for ",
+      "type" : "text"
+    },
+    {
+      "code" : "Hardware",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/namePart"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:6Sysctl0A9NamespaceP8namePartSSvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "namePart"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Sysctl"
+      }
+    ],
+    "required" : true,
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "namePart"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "namePart"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl\/sysctlnamespace\/namepart"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace": {
+  "abstract" : [
+    {
+      "text" : "Describes a namespace in the sysctl landscape.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Sysctl separates its values using dots (e.g. ",
+      "type" : "text"
+    },
+    {
+      "code" : "net.inet.ip.forwarding",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Each part (without the dots) is represented as a namespace (e.g. ",
+      "type" : "text"
+    },
+    {
+      "code" : "net",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " -> ",
+      "type" : "text"
+    },
+    {
+      "code" : "Networking",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", ",
+      "type" : "text"
+    },
+    {
+      "code" : "inet",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " -> ",
+      "type" : "text"
+    },
+    {
+      "code" : "Networking.IPv4",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", …).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace/namePart": {
+  "abstract" : [
+    {
+      "text" : "The name part of the namespace (e.g. ",
+      "type" : "text"
+    },
+    {
+      "code" : "net",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " for ",
+      "type" : "text"
+    },
+    {
+      "code" : "Networking",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", or ",
+      "type" : "text"
+    },
+    {
+      "code" : "hw",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " for ",
+      "type" : "text"
+    },
+    {
+      "code" : "Hardware",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "namePart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/namePart",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "namePart",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamespace\/namepart"
+}
+}
+}
