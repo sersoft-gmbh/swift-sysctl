@@ -26,7 +26,7 @@ public struct SysctlRootNamespace: SysctlNamespace {
 
     /// The root namespace has no name part. Do not call this.
     public static var namePart: String {
-        assertionFailure("`namePart` accessed on `SysctlRootNamespace`!")
+        assertionFailure("`\(#function)` accessed on `\(Self.self)`!")
         return ""
     }
 
