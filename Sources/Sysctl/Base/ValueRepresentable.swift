@@ -3,7 +3,7 @@ import Foundation
 /// Describes a type that can be represented by a `SyctlValue` conforming type.
 /// It will automatically provide a `SysctlValue` conformance for this type, using the underlying `SysctlValue` type.
 #if compiler(>=5.7)
-public protocol SysctlValueRepresentable: Sysctl.SysctlValue
+public protocol SysctlValueRepresentable<SysctlValue>: Sysctl.SysctlValue
 where SysctlPointerType == Self.SysctlValue.SysctlPointerType
 {
     /// The underlying `SysctlValue` conforming type.
@@ -16,7 +16,7 @@ where SysctlPointerType == Self.SysctlValue.SysctlPointerType
     init(sysctlValue: SysctlValue)
 }
 #else
-public protocol SysctlValueRepresentable<SysctlValue>: Sysctl.SysctlValue
+public protocol SysctlValueRepresentable: Sysctl.SysctlValue
 where SysctlPointerType == Self.SysctlValue.SysctlPointerType
 {
     /// The underlying `SysctlValue` conforming type.
