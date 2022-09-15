@@ -151,7 +151,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -226,42 +226,7 @@
 },
 "doc://Sysctl/documentation/Sysctl/SysctlValueRepresentable": {
   "abstract" : [
-    {
-      "text" : "Describes a type that can be represented by a ",
-      "type" : "text"
-    },
-    {
-      "code" : "SyctlValue",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " conforming type.",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "It will automatically provide a ",
-      "type" : "text"
-    },
-    {
-      "code" : "SysctlValue",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " conformance for this type, using the underlying ",
-      "type" : "text"
-    },
-    {
-      "code" : "SysctlValue",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " type.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
