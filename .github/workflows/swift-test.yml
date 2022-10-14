@@ -30,20 +30,20 @@ jobs:
           #   swift-version: 5.7
           #   xcode-version: ''
 
-    runs-on: ${{matrix.os}}
+    runs-on: ${{ matrix.os }}
 
     steps:
-      - if: runner.os == 'macOS'
+      - if: ${{ runner.os == 'macOS' }}
         uses: maxim-lobanov/setup-xcode@v1.5.0
         with:
-          xcode-version: ${{matrix.xcode-version}}
+          xcode-version: ${{ matrix.xcode-version }}
       - name: Install Swift
-        if: runner.os == 'Linux'
+        if: ${{ runner.os == 'Linux' }}
         uses: sersoft-gmbh/swifty-linux-action@v2.1.0
         with:
-          release-version: ${{matrix.swift-version}}
-          platform: ${{matrix.os}}
-          github-token: ${{secrets.GITHUB_TOKEN}}
+          release-version: ${{ matrix.swift-version }}
+          platform: ${{ matrix.os }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Read OS Version
         uses: sersoft-gmbh/os-version-action@v2.0.0
         id: os-version
@@ -54,9 +54,9 @@ jobs:
       - uses: actions/cache@v3.0.11
         with:
           path: .build
-          key: ${{runner.os}}-${{steps.os-version.outputs.version}}-${{github.repository}}-spm-${{steps.swift-version.outputs.version}}-${{hashFiles('**/Package.resolved')}}
+          key: ${{ runner.os }}-${{ steps.os-version.outputs.version }}-${{ github.repository }}-spm-${{ steps.swift-version.outputs.version }}-${{ hashFiles('**/Package.resolved') }}
           restore-keys: |
-            ${{runner.os}}-${{steps.os-version.outputs.version}}-${{github.repository}}-spm-${{steps.swift-version.outputs.version}}-
+            ${{ runner.os }}-${{ steps.os-version.outputs.version }}-${{ github.repository }}-spm-${{ steps.swift-version.outputs.version }}-
       - name: Build & Test
         # we need to use sudo for the write tests.
         run: sudo swift test -v --parallel --enable-code-coverage
@@ -65,8 +65,8 @@ jobs:
         id: coverage-files
       - uses: codecov/codecov-action@v3.1.1
         with:
-          token: ${{secrets.CODECOV_TOKEN}}
-          files: ${{join(fromJSON(steps.coverage-files.outputs.files), ',')}}
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: ${{ join(fromJSON(steps.coverage-files.outputs.files), ',') }}
           fail_ci_if_error: true
 
   test-xcode:
@@ -79,7 +79,6 @@ jobs:
           - platform=iOS Simulator,OS=latest,name=iPad Pro (11-inch) (3rd generation)
           - platform=tvOS Simulator,OS=latest,name=Apple TV 4K (2nd generation)
           - platform=watchOS Simulator,OS=latest,name=Apple Watch Series 7 (45mm)
-
     steps:
       - uses: maxim-lobanov/setup-xcode@v1.5.0
         with:
@@ -89,7 +88,7 @@ jobs:
         with:
           spm-package: './'
           scheme: swift-sysctl
-          destination: ${{matrix.destination}}
+          destination: ${{ matrix.destination }}
           action: test
           parallel-testing-enabled: true
           enable-code-coverage: true
@@ -97,6 +96,6 @@ jobs:
         id: coverage-files
       - uses: codecov/codecov-action@v3.1.1
         with:
-          token: ${{secrets.CODECOV_TOKEN}}
-          files: ${{join(fromJSON(steps.coverage-files.outputs.files), ',')}}
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: ${{ join(fromJSON(steps.coverage-files.outputs.files), ',') }}
           fail_ci_if_error: true
