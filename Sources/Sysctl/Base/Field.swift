@@ -24,11 +24,9 @@ public struct SysctlNamedField<Parent: SysctlNamespace, Value: SysctlValue>: Has
     }
 }
 
+extension SysctlNamedField: Sendable where Value: Sendable {}
+
 extension SysctlNamespace {
     /// A field inside this namespace.
     public typealias Field<T: SysctlValue> = SysctlNamedField<Self, T>
 }
-
-#if compiler(>=5.5.2) && canImport(_Concurrency)
-extension SysctlNamedField: Sendable where Value: Sendable {}
-#endif

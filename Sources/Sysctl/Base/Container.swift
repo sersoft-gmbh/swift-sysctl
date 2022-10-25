@@ -18,7 +18,7 @@ extension SysctlNamespace {
 /// A container that gives access to the children namespaces and values of a `SysctlNamespace`.
 @frozen
 @dynamicMemberLookup
-public struct SysctlContainer<Namespace: SysctlNamespace> {
+public struct SysctlContainer<Namespace: SysctlNamespace>: Sendable {
     /// The namespace of the container.
     @usableFromInline
     let namespace: Namespace
@@ -97,7 +97,3 @@ public struct SysctlContainer<Namespace: SysctlNamespace> {
         }
     }
 }
-
-#if compiler(>=5.5.2) && canImport(_Concurrency)
-extension SysctlContainer: Sendable {}
-#endif

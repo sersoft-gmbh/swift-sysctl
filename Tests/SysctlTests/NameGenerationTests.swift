@@ -47,7 +47,7 @@ final class NameGenerationTests: XCTestCase {
 
 // Small helper that gives access to names instead of values.
 @dynamicMemberLookup
-fileprivate struct NameContainer<Namespace: SysctlNamespace> {
+fileprivate struct NameContainer<Namespace: SysctlNamespace>: Sendable {
     let namespace: Namespace
 
     subscript<ChildSpace: SysctlNamespace>(dynamicMember childSpace: KeyPath<Namespace, ChildSpace>) -> NameContainer<ChildSpace>

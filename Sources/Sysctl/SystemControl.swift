@@ -2,7 +2,7 @@
 /// It gives access to children namespaces and values of `SysctlRootNamespace`.
 @frozen
 @dynamicMemberLookup
-public struct SystemControl {
+public struct SystemControl: Sendable {
     @usableFromInline
     let container = SysctlContainer<SysctlRootNamespace>(namespace: .init())
 
@@ -33,7 +33,3 @@ public struct SystemControl {
         nonmutating set { container[dynamicMember: field] = newValue }
     }
 }
-
-#if compiler(>=5.5.2) && canImport(_Concurrency)
-extension SystemControl: Sendable {}
-#endif
