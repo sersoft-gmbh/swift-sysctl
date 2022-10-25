@@ -61,7 +61,7 @@ jobs:
         # we need to use sudo for the write tests.
         run: sudo swift test -v --parallel --enable-code-coverage
       - name: Generate Coverage Files
-        uses: sersoft-gmbh/swift-coverage-action@v3.0.0
+        uses: sersoft-gmbh/swift-coverage-action@v3.0.1
         id: coverage-files
       - uses: codecov/codecov-action@v3.1.1
         with:
@@ -92,7 +92,7 @@ jobs:
           action: test
           parallel-testing-enabled: true
           enable-code-coverage: true
-      - uses: sersoft-gmbh/swift-coverage-action@v3.0.0
+      - uses: sersoft-gmbh/swift-coverage-action@v3.0.1
         id: coverage-files
       - uses: codecov/codecov-action@v3.1.1
         with:
