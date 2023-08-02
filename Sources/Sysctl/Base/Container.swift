@@ -47,7 +47,7 @@ extension SysctlField {
             defer { mib.deallocate() }
             _sysctlNameToMIB($0, mib, &len).requireSuccess()
             return .init(unsafeUninitializedCapacity: len) { buffer, initializedCount in
-#if swift(>=5.9)
+#if swift(>=5.8)
                 buffer.baseAddress?.moveUpdate(from: mib, count: len)
 #else
                 buffer.baseAddress?.moveAssign(from: mib, count: len)
