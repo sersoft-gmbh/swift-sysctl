@@ -62,7 +62,7 @@ extension SysctlRootNamespace {
 
 To access a value from `sysctl`, there are (computed) properties on the namespaces. So for example for `hw.machine` there's a property `machine` on the `Hardware` namespace.
 To access new values, simply declare a new (computed) property on the namespace the field is in (either in a namespace that you implemented on your own or by extending an existing one). The value type of these properties needs to be `Field<T>` where `T` is the type of value.
-`Field` is a typealias for `SysctlNamedField` inside a namespace. A field contains the last name part of the value's name. Thus you simply return the name as string.
+`Field` is a typealias for `SysctlField` inside a namespace. A field contains the last name part of the value's name. Thus you simply return the name as string.
 If the value is writable, you also provide a `nonmutating set` implementation, which can be left empty.
 
 Continuing our example, here's how fields on `Superpower` would look like:
@@ -126,7 +126,6 @@ enum MagicSpellPower: SysctlValueRepresentable {
 While not yet integrated, the following features might provide added value and could make it into this package in the future:
 
 -   Allow for checks whether certain values are available before accessing them.
--   Support for dynamic names in `sysctl` (e.g. names depending on the number of cpus or network interfaces).
 -   Improved error handling. Right now Swift Sysctl crashes if `sysctl` fails.
 
 ## Documentation
