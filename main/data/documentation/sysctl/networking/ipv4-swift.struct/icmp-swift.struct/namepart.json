@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -282,10 +276,7 @@
 },
 "doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct/ICMP-swift.struct/namePart": {
   "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

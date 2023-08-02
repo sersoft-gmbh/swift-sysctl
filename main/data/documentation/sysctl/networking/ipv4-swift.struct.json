@@ -92,6 +92,7 @@
     {
       "identifiers" : [
         "doc:\/\/Sysctl\/s8SendableP",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace"
       ],
       "kind" : "relationships",
@@ -111,14 +112,16 @@
     {
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/ICMP-swift.struct",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/IP-swift.struct"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/IP-swift.struct",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/UDP-swift.struct"
       ],
       "title" : "Structures"
     },
     {
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/icmp-swift.property",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/ip-swift.property"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/ip-swift.property",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/udp-swift.property"
       ],
       "title" : "Instance Properties"
     },
@@ -130,6 +133,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/managementInformationBasePart-2nzsu",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/namePart"
       ],
       "title" : "Type Properties"
@@ -137,6 +141,7 @@
     {
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/SysctlFullyQualifiedNamespace-Implementations",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/SysctlNamespace-Implementations"
       ],
       "title" : "Default Implementations"
@@ -337,10 +342,7 @@
 },
 "doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct/ParentNamespace": {
   "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -369,6 +371,17 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/parentnamespace"
 },
+"doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct/SysctlFullyQualifiedNamespace-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/SysctlFullyQualifiedNamespace-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "SysctlFullyQualifiedNamespace Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/sysctlfullyqualifiednamespace-implementations"
+},
 "doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct/SysctlNamespace-Implementations": {
   "abstract" : [
 
@@ -379,6 +392,48 @@
   "title" : "SysctlNamespace Implementations",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/sysctlnamespace-implementations"
+},
+"doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct/UDP-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "The namespace for UDP (",
+      "type" : "text"
+    },
+    {
+      "code" : "udp",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ") values inside the IPv4 networking namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UDP"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/UDP-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UDP"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Networking.IPv4.UDP",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/udp-swift.struct"
 },
 "doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct/icmp-swift.property": {
   "abstract" : [
@@ -506,12 +561,51 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/ip-swift.property"
 },
+"doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct/managementInformationBasePart-2nzsu": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "managementInformationBasePart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/managementInformationBasePart-2nzsu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "managementInformationBasePart",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/managementinformationbasepart-2nzsu"
+},
 "doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct/namePart": {
   "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -550,6 +644,100 @@
   "title" : "namePart",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/namepart"
+},
+"doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct/udp-swift.property": {
+  "abstract" : [
+    {
+      "text" : "The UDP (",
+      "type" : "text"
+    },
+    {
+      "code" : "udp",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ") part.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "udp"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl10NetworkingV",
+      "text" : "Networking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl10NetworkingV4IPv4V",
+      "text" : "IPv4"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl10NetworkingV4IPv4V3UDPV",
+      "text" : "UDP"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/udp-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "udp",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/udp-swift.property"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlFullyQualifiedNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlNamespace": {
   "abstract" : [
@@ -590,8 +778,9 @@
       "type" : "text"
     },
     {
-      "code" : "Networking",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ", ",
@@ -606,7 +795,7 @@
       "type" : "text"
     },
     {
-      "code" : "Networking.IPv4",
+      "code" : "Networking\/IPv4",
       "type" : "codeVoice"
     },
     {

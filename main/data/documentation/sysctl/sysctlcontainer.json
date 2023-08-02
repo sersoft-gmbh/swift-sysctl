@@ -5,8 +5,9 @@
       "type" : "text"
     },
     {
-      "code" : "SysctlNamespace",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ".",
@@ -157,9 +158,9 @@
   "topicSections" : [
     {
       "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlContainer\/subscript(dynamicMember:)-57k7b",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlContainer\/subscript(dynamicMember:)-6011h",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlContainer\/subscript(dynamicMember:)-9ejis",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlContainer\/subscript(dynamicMember:)-9imvr"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlContainer\/subscript(dynamicMember:)-9tg45"
       ],
       "title" : "Subscripts"
     }
@@ -189,6 +190,48 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl"
 },
+"doc://Sysctl/documentation/Sysctl/Networking": {
+  "abstract" : [
+    {
+      "text" : "The namespace for the networking values (",
+      "type" : "text"
+    },
+    {
+      "code" : "net",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Networking"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Networking"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Networking",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking"
+},
 "doc://Sysctl/documentation/Sysctl/SysctlContainer": {
   "abstract" : [
     {
@@ -196,8 +239,9 @@
       "type" : "text"
     },
     {
-      "code" : "SysctlNamespace",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ".",
@@ -230,6 +274,92 @@
   "title" : "SysctlContainer",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlcontainer"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlContainer/subscript(dynamicMember:)-57k7b": {
+  "abstract" : [
+    {
+      "text" : "Reads or writes the value for a field on the namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "subscript"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "dynamicMember"
+    },
+    {
+      "kind" : "text",
+      "text" : " _: "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s15WritableKeyPathC",
+      "text" : "WritableKeyPath"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Namespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Namespace"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+      "text" : "Field"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ">>) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlContainer\/subscript(dynamicMember:)-57k7b",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "subscript(dynamicMember:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlcontainer\/subscript(dynamicmember:)-57k7b"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlContainer/subscript(dynamicMember:)-6011h": {
   "abstract" : [
@@ -313,7 +443,7 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlcontainer\/subscript(dynamicmember:)-6011h"
 },
-"doc://Sysctl/documentation/Sysctl/SysctlContainer/subscript(dynamicMember:)-9ejis": {
+"doc://Sysctl/documentation/Sysctl/SysctlContainer/subscript(dynamicMember:)-9tg45": {
   "abstract" : [
     {
       "text" : "Reads the value for a field on the namespace.",
@@ -392,98 +522,12 @@
       "text" : "Value"
     }
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlContainer\/subscript(dynamicMember:)-9ejis",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlContainer\/subscript(dynamicMember:)-9tg45",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "subscript(dynamicMember:)",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlcontainer\/subscript(dynamicmember:)-9ejis"
-},
-"doc://Sysctl/documentation/Sysctl/SysctlContainer/subscript(dynamicMember:)-9imvr": {
-  "abstract" : [
-    {
-      "text" : "Reads or writes the value for a field on the namespace.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "subscript"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "genericParameter",
-      "text" : "Value"
-    },
-    {
-      "kind" : "text",
-      "text" : ">("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "dynamicMember"
-    },
-    {
-      "kind" : "text",
-      "text" : " _: "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s15WritableKeyPathC",
-      "text" : "WritableKeyPath"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Namespace"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Namespace"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
-      "text" : "Field"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Value"
-    },
-    {
-      "kind" : "text",
-      "text" : ">>) -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Value"
-    }
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlContainer\/subscript(dynamicMember:)-9imvr",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "subscript(dynamicMember:)",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlcontainer\/subscript(dynamicmember:)-9imvr"
+  "url" : "\/documentation\/sysctl\/sysctlcontainer\/subscript(dynamicmember:)-9tg45"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlNamespace": {
   "abstract" : [
@@ -524,8 +568,9 @@
       "type" : "text"
     },
     {
-      "code" : "Networking",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ", ",
@@ -540,7 +585,7 @@
       "type" : "text"
     },
     {
-      "code" : "Networking.IPv4",
+      "code" : "Networking\/IPv4",
       "type" : "codeVoice"
     },
     {

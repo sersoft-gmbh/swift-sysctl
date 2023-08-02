@@ -1,14 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "SysctlValue.withSysctlPointer(do:)",
-      "type" : "codeVoice"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -480,14 +470,7 @@
 },
 "doc://Sysctl/documentation/Sysctl/SysctlValue/withSysctlPointer(do:)-pl2w": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "SysctlValue.withSysctlPointer(do:)",
-      "type" : "codeVoice"
-    }
+
   ],
   "conformance" : {
     "availabilityPrefix" : [

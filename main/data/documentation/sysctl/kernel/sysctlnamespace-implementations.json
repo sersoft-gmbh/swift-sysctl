@@ -36,6 +36,13 @@
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Field"
       ],
       "title" : "Type Aliases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/managementInformationBasePart-8r1tt"
+      ],
+      "title" : "Type Properties"
     }
   ],
   "variants" : [
@@ -138,6 +145,52 @@
   "title" : "Kernel.Field",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/kernel\/field"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel/managementInformationBasePart-8r1tt": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "managementInformationBasePart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/managementInformationBasePart-8r1tt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "managementInformationBasePart",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel\/managementinformationbasepart-8r1tt"
 }
 }
 }

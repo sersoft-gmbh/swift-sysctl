@@ -34,6 +34,7 @@
   "topicSections" : [
     {
       "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable"
@@ -47,11 +48,19 @@
         "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlContainer",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamedField",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/User",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/VirtualMemory"
       ],
       "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamedField"
+      ],
+      "title" : "Type Aliases"
     }
   ],
   "variants" : [
@@ -254,8 +263,9 @@
       "type" : "text"
     },
     {
-      "code" : "SysctlNamespace",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ".",
@@ -289,10 +299,10 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlcontainer"
 },
-"doc://Sysctl/documentation/Sysctl/SysctlNamedField": {
+"doc://Sysctl/documentation/Sysctl/SysctlField": {
   "abstract" : [
     {
-      "text" : "Describes a sysctl field name inside a sysctl namespace.",
+      "text" : "Describes a field inside a sysctl namespace.",
       "type" : "text"
     },
     {
@@ -304,8 +314,9 @@
       "type" : "text"
     },
     {
-      "code" : "SysctlNamespace.Field",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/Field",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : " typealias.",
@@ -320,7 +331,7 @@
       "type" : "text"
     },
     {
-      "code" : "ExpressibleByStringLiteral",
+      "code" : "Swift\/ExpressibleByStringLiteral",
       "type" : "codeVoice"
     },
     {
@@ -334,12 +345,100 @@
     {
       "text" : " to create fields.",
       "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "If the ",
+      "type" : "text"
+    },
+    {
+      "code" : "Namespace",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " conforms to ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ", the field can also be expressed by an integer literal.",
+      "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
       "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlField"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlField"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlField",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfield"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlFullyQualifiedNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamedField": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
     },
     {
       "kind" : "text",
@@ -402,8 +501,9 @@
       "type" : "text"
     },
     {
-      "code" : "Networking",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ", ",
@@ -418,7 +518,7 @@
       "type" : "text"
     },
     {
-      "code" : "Networking.IPv4",
+      "code" : "Networking\/IPv4",
       "type" : "codeVoice"
     },
     {
@@ -452,6 +552,40 @@
   "title" : "SysctlNamespace",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace/Field": {
+  "abstract" : [
+    {
+      "text" : "A field inside this namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Field"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/Field",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Field"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlNamespace.Field",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamespace\/field"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlRootNamespace": {
   "abstract" : [
@@ -571,12 +705,13 @@
       "type" : "text"
     },
     {
-      "text" : "It gives access to children namespaces and values of ",
+      "text" : "It gives access to child namespaces and values of ",
       "type" : "text"
     },
     {
-      "code" : "SysctlRootNamespace",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ".",
@@ -609,6 +744,68 @@
   "title" : "SystemControl",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/systemcontrol"
+},
+"doc://Sysctl/documentation/Sysctl/User": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "User"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/User",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "User"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "User",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/user"
+},
+"doc://Sysctl/documentation/Sysctl/VirtualMemory": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "VirtualMemory"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/VirtualMemory",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "VirtualMemory"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "VirtualMemory",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/virtualmemory"
 }
 }
 }

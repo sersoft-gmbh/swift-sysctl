@@ -98,6 +98,40 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl"
 },
+"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace": {
+  "abstract" : [
+    {
+      "text" : "The root namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlRootNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlRootNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlRootNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlrootnamespace"
+},
 "doc://Sysctl/documentation/Sysctl/SystemControl": {
   "abstract" : [
     {
@@ -109,12 +143,13 @@
       "type" : "text"
     },
     {
-      "text" : "It gives access to children namespaces and values of ",
+      "text" : "It gives access to child namespaces and values of ",
       "type" : "text"
     },
     {
-      "code" : "SysctlRootNamespace",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ".",

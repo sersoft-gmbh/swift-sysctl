@@ -484,14 +484,7 @@
 },
 "doc://Sysctl/documentation/Sysctl/SysctlValue/withSysctlPointer(do:)-pl2w": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "SysctlValue.withSysctlPointer(do:)",
-      "type" : "codeVoice"
-    }
+
   ],
   "conformance" : {
     "availabilityPrefix" : [
@@ -630,14 +623,7 @@
 },
 "doc://Sysctl/documentation/Sysctl/SysctlValueRepresentable/withSysctlPointer(do:)": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "SysctlValue.withSysctlPointer(do:)",
-      "type" : "codeVoice"
-    }
+
   ],
   "fragments" : [
     {

@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -196,10 +190,7 @@
 },
 "doc://Sysctl/documentation/Sysctl/MachineDependent/namePart": {
   "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

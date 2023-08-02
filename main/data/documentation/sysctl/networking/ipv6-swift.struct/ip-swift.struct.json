@@ -585,8 +585,9 @@
       "type" : "text"
     },
     {
-      "code" : "Networking",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ", ",
@@ -601,7 +602,7 @@
       "type" : "text"
     },
     {
-      "code" : "Networking.IPv4",
+      "code" : "Networking\/IPv4",
       "type" : "codeVoice"
     },
     {

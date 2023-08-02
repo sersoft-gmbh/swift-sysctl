@@ -288,10 +288,7 @@
 },
 "doc://Sysctl/documentation/Sysctl/Networking/IPv6-swift.struct/ICMP-swift.struct/ParentNamespace": {
   "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -418,10 +415,7 @@
 },
 "doc://Sysctl/documentation/Sysctl/Networking/IPv6-swift.struct/ICMP-swift.struct/namePart": {
   "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -585,8 +579,9 @@
       "type" : "text"
     },
     {
-      "code" : "Networking",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ", ",
@@ -601,7 +596,7 @@
       "type" : "text"
     },
     {
-      "code" : "Networking.IPv4",
+      "code" : "Networking\/IPv4",
       "type" : "codeVoice"
     },
     {

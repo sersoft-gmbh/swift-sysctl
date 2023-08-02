@@ -90,6 +90,7 @@
     {
       "identifiers" : [
         "doc:\/\/Sysctl\/s8SendableP",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace"
       ],
       "kind" : "relationships",
@@ -108,7 +109,8 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Hypervisor-swift.struct"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Hypervisor-swift.struct",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Processes-swift.struct"
       ],
       "title" : "Structures"
     },
@@ -119,9 +121,16 @@
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/hostID",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/hostname",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/hypervisor-swift.property",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/isJobControlAvailable",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/isSingleUser",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/kind",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/maxOpenFiles",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/maxOpenFilesPerProcess",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/maxProcesses",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/maxProcessesPerUser",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/maxVirtualNodes",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/osBuild",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/processes-swift.property",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/revision",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/version"
       ],
@@ -135,6 +144,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/managementInformationBasePart-10vry",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/namePart"
       ],
       "title" : "Type Properties"
@@ -142,6 +152,7 @@
     {
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/SysctlFullyQualifiedNamespace-Implementations",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/SysctlNamespace-Implementations"
       ],
       "title" : "Default Implementations"
@@ -258,10 +269,7 @@
 },
 "doc://Sysctl/documentation/Sysctl/Kernel/ParentNamespace": {
   "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -289,6 +297,48 @@
   "title" : "Kernel.ParentNamespace",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/kernel\/parentnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel/Processes-swift.struct": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Processes"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Processes-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Processes"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Kernel.Processes",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel\/processes-swift.struct"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel/SysctlFullyQualifiedNamespace-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/SysctlFullyQualifiedNamespace-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "SysctlFullyQualifiedNamespace Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel\/sysctlfullyqualifiednamespace-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/Kernel/SysctlNamespace-Implementations": {
   "abstract" : [
@@ -623,6 +673,73 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/kernel\/hypervisor-swift.property"
 },
+"doc://Sysctl/documentation/Sysctl/Kernel/isJobControlAvailable": {
+  "abstract" : [
+    {
+      "text" : "Whether or not job control is available (",
+      "type" : "text"
+    },
+    {
+      "code" : "job_control",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isJobControlAvailable"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl6KernelV",
+      "text" : "Kernel"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+      "text" : "Field"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/isJobControlAvailable",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isJobControlAvailable",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel\/isjobcontrolavailable"
+},
 "doc://Sysctl/documentation/Sysctl/Kernel/isSingleUser": {
   "abstract" : [
     {
@@ -757,12 +874,386 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/kernel\/kind"
 },
-"doc://Sysctl/documentation/Sysctl/Kernel/namePart": {
+"doc://Sysctl/documentation/Sysctl/Kernel/managementInformationBasePart-10vry": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "managementInformationBasePart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/managementInformationBasePart-10vry",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "managementInformationBasePart",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel\/managementinformationbasepart-10vry"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel/maxOpenFiles": {
   "abstract" : [
     {
-      "text" : "See SysctlNamespace",
+      "text" : "The maximum number of files that may be open on the system (",
+      "type" : "text"
+    },
+    {
+      "code" : "maxfiles",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
       "type" : "text"
     }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "maxOpenFiles"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl6KernelV",
+      "text" : "Kernel"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+      "text" : "Field"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/maxOpenFiles",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "maxOpenFiles",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel\/maxopenfiles"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel/maxOpenFilesPerProcess": {
+  "abstract" : [
+    {
+      "text" : "The maximum number of files that may be open for a single process (",
+      "type" : "text"
+    },
+    {
+      "code" : "maxfilesperproc",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "maxOpenFilesPerProcess"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl6KernelV",
+      "text" : "Kernel"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+      "text" : "Field"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/maxOpenFilesPerProcess",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "maxOpenFilesPerProcess",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel\/maxopenfilesperprocess"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel/maxProcesses": {
+  "abstract" : [
+    {
+      "text" : "The maximum number of concurrent processes allowed (",
+      "type" : "text"
+    },
+    {
+      "code" : "maxproc",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "maxProcesses"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl6KernelV",
+      "text" : "Kernel"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+      "text" : "Field"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/maxProcesses",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "maxProcesses",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel\/maxprocesses"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel/maxProcessesPerUser": {
+  "abstract" : [
+    {
+      "text" : "The maximum number of concurrent processes allowed per user (",
+      "type" : "text"
+    },
+    {
+      "code" : "maxvnodes",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "maxProcessesPerUser"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl6KernelV",
+      "text" : "Kernel"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+      "text" : "Field"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/maxProcessesPerUser",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "maxProcessesPerUser",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel\/maxprocessesperuser"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel/maxVirtualNodes": {
+  "abstract" : [
+    {
+      "text" : "The maximum number of virtual nodes allowed (",
+      "type" : "text"
+    },
+    {
+      "code" : "maxprocperuid",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "maxVirtualNodes"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl6KernelV",
+      "text" : "Kernel"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+      "text" : "Field"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/maxVirtualNodes",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "maxVirtualNodes",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel\/maxvirtualnodes"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel/namePart": {
+  "abstract" : [
+
   ],
   "fragments" : [
     {
@@ -868,6 +1359,60 @@
   "title" : "osBuild",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/kernel\/osbuild"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel/processes-swift.property": {
+  "abstract" : [
+    {
+      "text" : "The processes (",
+      "type" : "text"
+    },
+    {
+      "code" : "proc",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "processes"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl6KernelV",
+      "text" : "Kernel"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl6KernelV9ProcessesV",
+      "text" : "Processes"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/processes-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "processes",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel\/processes-swift.property"
 },
 "doc://Sysctl/documentation/Sysctl/Kernel/revision": {
   "abstract" : [
@@ -1003,6 +1548,79 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/kernel\/version"
 },
+"doc://Sysctl/documentation/Sysctl/Networking": {
+  "abstract" : [
+    {
+      "text" : "The namespace for the networking values (",
+      "type" : "text"
+    },
+    {
+      "code" : "net",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Networking"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Networking"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Networking",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlFullyQualifiedNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace"
+},
 "doc://Sysctl/documentation/Sysctl/SysctlNamespace": {
   "abstract" : [
     {
@@ -1042,8 +1660,9 @@
       "type" : "text"
     },
     {
-      "code" : "Networking",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ", ",
@@ -1058,7 +1677,7 @@
       "type" : "text"
     },
     {
-      "code" : "Networking.IPv4",
+      "code" : "Networking\/IPv4",
       "type" : "codeVoice"
     },
     {

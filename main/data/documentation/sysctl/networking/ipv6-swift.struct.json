@@ -92,6 +92,7 @@
     {
       "identifiers" : [
         "doc:\/\/Sysctl\/s8SendableP",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace"
       ],
       "kind" : "relationships",
@@ -130,6 +131,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/managementInformationBasePart-5f0cm",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/namePart"
       ],
       "title" : "Type Properties"
@@ -137,6 +139,7 @@
     {
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/SysctlFullyQualifiedNamespace-Implementations",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/SysctlNamespace-Implementations"
       ],
       "title" : "Default Implementations"
@@ -337,10 +340,7 @@
 },
 "doc://Sysctl/documentation/Sysctl/Networking/IPv6-swift.struct/ParentNamespace": {
   "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -368,6 +368,17 @@
   "title" : "Networking.IPv6.ParentNamespace",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/parentnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/Networking/IPv6-swift.struct/SysctlFullyQualifiedNamespace-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/SysctlFullyQualifiedNamespace-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "SysctlFullyQualifiedNamespace Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/sysctlfullyqualifiednamespace-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/Networking/IPv6-swift.struct/SysctlNamespace-Implementations": {
   "abstract" : [
@@ -506,12 +517,51 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/ip-swift.property"
 },
+"doc://Sysctl/documentation/Sysctl/Networking/IPv6-swift.struct/managementInformationBasePart-5f0cm": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "managementInformationBasePart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/managementInformationBasePart-5f0cm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "managementInformationBasePart",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/managementinformationbasepart-5f0cm"
+},
 "doc://Sysctl/documentation/Sysctl/Networking/IPv6-swift.struct/namePart": {
   "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -550,6 +600,37 @@
   "title" : "namePart",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/namepart"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlFullyQualifiedNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlNamespace": {
   "abstract" : [
@@ -590,8 +671,9 @@
       "type" : "text"
     },
     {
-      "code" : "Networking",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ", ",
@@ -606,7 +688,7 @@
       "type" : "text"
     },
     {
-      "code" : "Networking.IPv4",
+      "code" : "Networking\/IPv4",
       "type" : "codeVoice"
     },
     {

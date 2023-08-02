@@ -37,8 +37,9 @@
       "type" : "text"
     },
     {
-      "code" : "Networking",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ", ",
@@ -53,7 +54,7 @@
       "type" : "text"
     },
     {
-      "code" : "Networking.IPv4",
+      "code" : "Networking\/IPv4",
       "type" : "codeVoice"
     },
     {
@@ -154,19 +155,32 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherited By",
+      "type" : "inheritedBy"
+    },
+    {
+      "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Hypervisor-swift.struct",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Processes-swift.struct",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Processes-swift.struct\/ByPID-swift.struct",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/CPU-swift.struct",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/ICMP-swift.struct",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/IP-swift.struct",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/UDP-swift.struct",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/ICMP-swift.struct",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/IP-swift.struct",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/User",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/VirtualMemory"
       ],
       "kind" : "relationships",
       "title" : "Conforming Types",
@@ -196,6 +210,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/managementInformationBasePart-5tyxi",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/namePart"
       ],
       "title" : "Type Properties"
@@ -351,6 +366,68 @@
   "title" : "Kernel.Hypervisor",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/kernel\/hypervisor-swift.struct"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel/Processes-swift.struct": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Processes"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Processes-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Processes"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Kernel.Processes",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel\/processes-swift.struct"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel/Processes-swift.struct/ByPID-swift.struct": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ByPID"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Processes-swift.struct\/ByPID-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ByPID"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Kernel.Processes.ByPID",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/bypid-swift.struct"
 },
 "doc://Sysctl/documentation/Sysctl/MachineDependent": {
   "abstract" : [
@@ -604,6 +681,48 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/ip-swift.struct"
 },
+"doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct/UDP-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "The namespace for UDP (",
+      "type" : "text"
+    },
+    {
+      "code" : "udp",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ") values inside the IPv4 networking namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UDP"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/UDP-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UDP"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Networking.IPv4.UDP",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/udp-swift.struct"
+},
 "doc://Sysctl/documentation/Sysctl/Networking/IPv6-swift.struct": {
   "abstract" : [
     {
@@ -730,6 +849,37 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/ip-swift.struct"
 },
+"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlFullyQualifiedNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace"
+},
 "doc://Sysctl/documentation/Sysctl/SysctlNamespace": {
   "abstract" : [
     {
@@ -769,8 +919,9 @@
       "type" : "text"
     },
     {
-      "code" : "Networking",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ", ",
@@ -785,7 +936,7 @@
       "type" : "text"
     },
     {
-      "code" : "Networking.IPv4",
+      "code" : "Networking\/IPv4",
       "type" : "codeVoice"
     },
     {
@@ -869,8 +1020,9 @@
       "type" : "text"
     },
     {
-      "code" : "SysctlRootNamespace",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : " if this namespace is located at the root of sysctl (e.g. ",
@@ -916,6 +1068,74 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlnamespace\/parentnamespace"
 },
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace/managementInformationBasePart-5tyxi": {
+  "abstract" : [
+    {
+      "text" : "The mib part of the namespace (e.g. ",
+      "type" : "text"
+    },
+    {
+      "code" : "CTL_NET",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " for ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ")",
+      "type" : "text"
+    }
+  ],
+  "defaultImplementations" : 2,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "managementInformationBasePart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/managementInformationBasePart-5tyxi",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "managementInformationBasePart",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-5tyxi"
+},
 "doc://Sysctl/documentation/Sysctl/SysctlNamespace/namePart": {
   "abstract" : [
     {
@@ -931,8 +1151,9 @@
       "type" : "text"
     },
     {
-      "code" : "Networking",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ", or ",
@@ -947,8 +1168,9 @@
       "type" : "text"
     },
     {
-      "code" : "Hardware",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ").",
@@ -1027,6 +1249,68 @@
   "title" : "SysctlRootNamespace",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlrootnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/User": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "User"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/User",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "User"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "User",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/user"
+},
+"doc://Sysctl/documentation/Sysctl/VirtualMemory": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "VirtualMemory"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/VirtualMemory",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "VirtualMemory"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "VirtualMemory",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/virtualmemory"
 },
 "doc://Sysctl/s8SendableP": {
   "identifier" : "doc:\/\/Sysctl\/s8SendableP",

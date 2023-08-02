@@ -90,6 +90,7 @@
     {
       "identifiers" : [
         "doc:\/\/Sysctl\/s8SendableP",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace"
       ],
       "kind" : "relationships",
@@ -126,6 +127,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/managementInformationBasePart-76rhd",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/namePart"
       ],
       "title" : "Type Properties"
@@ -133,6 +135,7 @@
     {
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/SysctlFullyQualifiedNamespace-Implementations",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/SysctlNamespace-Implementations"
       ],
       "title" : "Default Implementations"
@@ -249,10 +252,7 @@
 },
 "doc://Sysctl/documentation/Sysctl/MachineDependent/ParentNamespace": {
   "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -280,6 +280,17 @@
   "title" : "MachineDependent.ParentNamespace",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/machinedependent\/parentnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/MachineDependent/SysctlFullyQualifiedNamespace-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/SysctlFullyQualifiedNamespace-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "SysctlFullyQualifiedNamespace Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/machinedependent\/sysctlfullyqualifiednamespace-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/MachineDependent/SysctlNamespace-Implementations": {
   "abstract" : [
@@ -346,12 +357,51 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/machinedependent\/cpu-swift.property"
 },
+"doc://Sysctl/documentation/Sysctl/MachineDependent/managementInformationBasePart-76rhd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "managementInformationBasePart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/managementInformationBasePart-76rhd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "managementInformationBasePart",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/machinedependent\/managementinformationbasepart-76rhd"
+},
 "doc://Sysctl/documentation/Sysctl/MachineDependent/namePart": {
   "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -390,6 +440,79 @@
   "title" : "namePart",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/machinedependent\/namepart"
+},
+"doc://Sysctl/documentation/Sysctl/Networking": {
+  "abstract" : [
+    {
+      "text" : "The namespace for the networking values (",
+      "type" : "text"
+    },
+    {
+      "code" : "net",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Networking"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Networking"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Networking",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlFullyQualifiedNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlNamespace": {
   "abstract" : [
@@ -430,8 +553,9 @@
       "type" : "text"
     },
     {
-      "code" : "Networking",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ", ",
@@ -446,7 +570,7 @@
       "type" : "text"
     },
     {
-      "code" : "Networking.IPv4",
+      "code" : "Networking\/IPv4",
       "type" : "codeVoice"
     },
     {

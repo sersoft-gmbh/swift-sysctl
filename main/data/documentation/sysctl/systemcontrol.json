@@ -9,12 +9,13 @@
       "type" : "text"
     },
     {
-      "text" : "It gives access to children namespaces and values of ",
+      "text" : "It gives access to child namespaces and values of ",
       "type" : "text"
     },
     {
-      "code" : "SysctlRootNamespace",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ".",
@@ -137,9 +138,9 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-3o0io",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-3vr2e",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-6okj9",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-71y3b"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-742b4"
       ],
       "title" : "Subscripts"
     }
@@ -169,6 +170,40 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl"
 },
+"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace": {
+  "abstract" : [
+    {
+      "text" : "The root namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlRootNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlRootNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlRootNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlrootnamespace"
+},
 "doc://Sysctl/documentation/Sysctl/SystemControl": {
   "abstract" : [
     {
@@ -180,12 +215,13 @@
       "type" : "text"
     },
     {
-      "text" : "It gives access to children namespaces and values of ",
+      "text" : "It gives access to child namespaces and values of ",
       "type" : "text"
     },
     {
-      "code" : "SysctlRootNamespace",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ".",
@@ -243,7 +279,7 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/systemcontrol\/init()"
 },
-"doc://Sysctl/documentation/Sysctl/SystemControl/subscript(dynamicMember:)-3o0io": {
+"doc://Sysctl/documentation/Sysctl/SystemControl/subscript(dynamicMember:)-3vr2e": {
   "abstract" : [
     {
       "text" : "Reads the value for a field on the root namespace.",
@@ -324,12 +360,12 @@
       "text" : "Value"
     }
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-3o0io",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-3vr2e",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "subscript(dynamicMember:)",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/systemcontrol\/subscript(dynamicmember:)-3o0io"
+  "url" : "\/documentation\/sysctl\/systemcontrol\/subscript(dynamicmember:)-3vr2e"
 },
 "doc://Sysctl/documentation/Sysctl/SystemControl/subscript(dynamicMember:)-6okj9": {
   "abstract" : [
@@ -414,7 +450,7 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/systemcontrol\/subscript(dynamicmember:)-6okj9"
 },
-"doc://Sysctl/documentation/Sysctl/SystemControl/subscript(dynamicMember:)-71y3b": {
+"doc://Sysctl/documentation/Sysctl/SystemControl/subscript(dynamicMember:)-742b4": {
   "abstract" : [
     {
       "text" : "Reads or writes the value for a field on the root namespace.",
@@ -495,12 +531,12 @@
       "text" : "Value"
     }
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-71y3b",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-742b4",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "subscript(dynamicMember:)",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/systemcontrol\/subscript(dynamicmember:)-71y3b"
+  "url" : "\/documentation\/sysctl\/systemcontrol\/subscript(dynamicmember:)-742b4"
 },
 "doc://Sysctl/s8SendableP": {
   "identifier" : "doc:\/\/Sysctl\/s8SendableP",

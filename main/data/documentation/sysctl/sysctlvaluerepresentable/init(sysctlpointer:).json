@@ -1,12 +1,13 @@
 {
-  "abstract" : [
+  "deprecationSummary" : [
     {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "SysctlValue.init(sysctlPointer:)",
-      "type" : "codeVoice"
+      "inlineContent" : [
+        {
+          "text" : "Use initializer with capacity",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
     }
   ],
   "hierarchy" : {
@@ -81,6 +82,9 @@
       {
         "name" : "Sysctl"
       }
+    ],
+    "platforms" : [
+
     ],
     "role" : "symbol",
     "roleHeading" : "Initializer",
@@ -236,6 +240,7 @@
     }
   ],
   "defaultImplementations" : 2,
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "identifier",
@@ -289,15 +294,9 @@
 },
 "doc://Sysctl/documentation/Sysctl/SysctlValueRepresentable/init(sysctlPointer:)": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "SysctlValue.init(sysctlPointer:)",
-      "type" : "codeVoice"
-    }
+
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "identifier",

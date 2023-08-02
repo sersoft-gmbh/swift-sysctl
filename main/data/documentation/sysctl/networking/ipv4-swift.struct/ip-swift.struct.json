@@ -111,7 +111,8 @@
     {
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/IP-swift.struct\/forwardingEnabled",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/IP-swift.struct\/redirectsEnabled"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/IP-swift.struct\/redirectsEnabled",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/IP-swift.struct\/timeToLive"
       ],
       "title" : "Instance Properties"
     },
@@ -288,10 +289,7 @@
 },
 "doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct/IP-swift.struct/ParentNamespace": {
   "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -418,10 +416,7 @@
 },
 "doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct/IP-swift.struct/namePart": {
   "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -546,6 +541,91 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/ip-swift.struct\/redirectsenabled"
 },
+"doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct/IP-swift.struct/timeToLive": {
+  "abstract" : [
+    {
+      "text" : "The maximum supported time-to-live (hop count) (",
+      "type" : "text"
+    },
+    {
+      "code" : "ttl",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "timeToLive"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl10NetworkingV",
+      "text" : "Networking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl10NetworkingV4IPv4V",
+      "text" : "IPv4"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl10NetworkingV4IPv4V2IPV",
+      "text" : "IP"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+      "text" : "Field"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/IP-swift.struct\/timeToLive",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "timeToLive",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/ip-swift.struct\/timetolive"
+},
 "doc://Sysctl/documentation/Sysctl/SysctlNamespace": {
   "abstract" : [
     {
@@ -585,8 +665,9 @@
       "type" : "text"
     },
     {
-      "code" : "Networking",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ", ",
@@ -601,7 +682,7 @@
       "type" : "text"
     },
     {
-      "code" : "Networking.IPv4",
+      "code" : "Networking\/IPv4",
       "type" : "codeVoice"
     },
     {

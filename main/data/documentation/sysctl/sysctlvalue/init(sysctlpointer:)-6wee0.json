@@ -8,7 +8,7 @@
   "defaultImplementationsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-9xe4d"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-3wpo2"
       ],
       "title" : "SysctlValue Implementations"
     },
@@ -17,6 +17,17 @@
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable\/init(sysctlPointer:)"
       ],
       "title" : "SysctlValueRepresentable Implementations"
+    }
+  ],
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "Use initializer with capacity",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
     }
   ],
   "hierarchy" : {
@@ -81,6 +92,9 @@
       {
         "name" : "Sysctl"
       }
+    ],
+    "platforms" : [
+
     ],
     "required" : true,
     "role" : "symbol",
@@ -221,6 +235,61 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlvalue"
 },
+"doc://Sysctl/documentation/Sysctl/SysctlValue/init(sysctlPointer:)-3wpo2": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "sysctlPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SP",
+      "text" : "UnsafePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "SysctlPointerType"
+    },
+    {
+      "kind" : "text",
+      "text" : ">)"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-3wpo2",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(sysctlPointer:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-3wpo2"
+},
 "doc://Sysctl/documentation/Sysctl/SysctlValue/init(sysctlPointer:)-6wee0": {
   "abstract" : [
     {
@@ -229,6 +298,7 @@
     }
   ],
   "defaultImplementations" : 2,
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "identifier",
@@ -280,110 +350,11 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-6wee0"
 },
-"doc://Sysctl/documentation/Sysctl/SysctlValue/init(sysctlPointer:)-9xe4d": {
-  "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "SysctlValue.init(sysctlPointer:)",
-      "type" : "codeVoice"
-    }
-  ],
-  "conformance" : {
-    "availabilityPrefix" : [
-      {
-        "text" : "Available when",
-        "type" : "text"
-      }
-    ],
-    "conformancePrefix" : [
-      {
-        "text" : "Conforms when",
-        "type" : "text"
-      }
-    ],
-    "constraints" : [
-      {
-        "code" : "Self",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : " is ",
-        "type" : "text"
-      },
-      {
-        "code" : "Self.SysctlPointerType",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : ".",
-        "type" : "text"
-      }
-    ]
-  },
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "sysctlPointer"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SP",
-      "text" : "UnsafePointer"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "SysctlPointerType"
-    },
-    {
-      "kind" : "text",
-      "text" : ">)"
-    }
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-9xe4d",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "init(sysctlPointer:)",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-9xe4d"
-},
 "doc://Sysctl/documentation/Sysctl/SysctlValueRepresentable/init(sysctlPointer:)": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "SysctlValue.init(sysctlPointer:)",
-      "type" : "codeVoice"
-    }
+
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "identifier",

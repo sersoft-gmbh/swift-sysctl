@@ -36,6 +36,13 @@
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/Field"
       ],
       "title" : "Type Aliases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/managementInformationBasePart-3xe2c"
+      ],
+      "title" : "Type Properties"
     }
   ],
   "variants" : [
@@ -138,6 +145,52 @@
   "title" : "Networking.Field",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/field"
+},
+"doc://Sysctl/documentation/Sysctl/Networking/managementInformationBasePart-3xe2c": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "managementInformationBasePart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/managementInformationBasePart-3xe2c",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "managementInformationBasePart",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/managementinformationbasepart-3xe2c"
 }
 }
 }

@@ -29,7 +29,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:6Sysctl10NetworkingV4IPv6V4ICMPV15redirectTimeoutAA0A10NamedFieldVyAGs5Int32VGvp",
+    "externalID" : "s:6Sysctl10NetworkingV4IPv6V4ICMPV15redirectTimeoutAA0A5FieldVyAGs5Int32VGvp",
     "fragments" : [
       {
         "kind" : "keyword",

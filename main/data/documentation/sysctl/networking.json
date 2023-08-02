@@ -90,6 +90,7 @@
     {
       "identifiers" : [
         "doc:\/\/Sysctl\/s8SendableP",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace"
       ],
       "kind" : "relationships",
@@ -128,6 +129,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/managementInformationBasePart-92zqi",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/namePart"
       ],
       "title" : "Type Properties"
@@ -135,6 +137,7 @@
     {
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/SysctlFullyQualifiedNamespace-Implementations",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/SysctlNamespace-Implementations"
       ],
       "title" : "Default Implementations"
@@ -293,10 +296,7 @@
 },
 "doc://Sysctl/documentation/Sysctl/Networking/ParentNamespace": {
   "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -324,6 +324,17 @@
   "title" : "Networking.ParentNamespace",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/parentnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/Networking/SysctlFullyQualifiedNamespace-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/SysctlFullyQualifiedNamespace-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "SysctlFullyQualifiedNamespace Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/sysctlfullyqualifiednamespace-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/Networking/SysctlNamespace-Implementations": {
   "abstract" : [
@@ -444,12 +455,51 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv6-swift.property"
 },
+"doc://Sysctl/documentation/Sysctl/Networking/managementInformationBasePart-92zqi": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "managementInformationBasePart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/managementInformationBasePart-92zqi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "managementInformationBasePart",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/managementinformationbasepart-92zqi"
+},
 "doc://Sysctl/documentation/Sysctl/Networking/namePart": {
   "abstract" : [
-    {
-      "text" : "See SysctlNamespace",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -488,6 +538,37 @@
   "title" : "namePart",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/namepart"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlFullyQualifiedNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlNamespace": {
   "abstract" : [
@@ -528,8 +609,9 @@
       "type" : "text"
     },
     {
-      "code" : "Networking",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ", ",
@@ -544,7 +626,7 @@
       "type" : "text"
     },
     {
-      "code" : "Networking.IPv4",
+      "code" : "Networking\/IPv4",
       "type" : "codeVoice"
     },
     {

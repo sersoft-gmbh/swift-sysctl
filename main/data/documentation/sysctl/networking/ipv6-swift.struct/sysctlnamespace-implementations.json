@@ -37,6 +37,13 @@
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/Field"
       ],
       "title" : "Type Aliases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/managementInformationBasePart-1vnys"
+      ],
+      "title" : "Type Properties"
     }
   ],
   "variants" : [
@@ -181,6 +188,52 @@
   "title" : "Networking.IPv6.Field",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/field"
+},
+"doc://Sysctl/documentation/Sysctl/Networking/IPv6-swift.struct/managementInformationBasePart-1vnys": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "managementInformationBasePart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/managementInformationBasePart-1vnys",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "managementInformationBasePart",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/managementinformationbasepart-1vnys"
 }
 }
 }

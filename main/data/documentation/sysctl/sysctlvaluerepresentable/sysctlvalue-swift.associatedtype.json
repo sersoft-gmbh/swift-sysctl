@@ -5,8 +5,9 @@
       "type" : "text"
     },
     {
-      "code" : "SysctlValue",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : " conforming type.",
@@ -262,8 +263,9 @@
       "type" : "text"
     },
     {
-      "code" : "SysctlValue",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : " conforming type.",

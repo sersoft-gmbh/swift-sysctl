@@ -88,10 +88,10 @@
               "text" : "> = "
             },
             {
-              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamedField",
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:6Sysctl0A10NamedFieldV",
-              "text" : "SysctlNamedField"
+              "preciseIdentifier" : "s:6Sysctl0A5FieldV",
+              "text" : "SysctlField"
             },
             {
               "kind" : "text",
@@ -261,10 +261,10 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/sysctlnamespace-implementations"
 },
-"doc://Sysctl/documentation/Sysctl/SysctlNamedField": {
+"doc://Sysctl/documentation/Sysctl/SysctlField": {
   "abstract" : [
     {
-      "text" : "Describes a sysctl field name inside a sysctl namespace.",
+      "text" : "Describes a field inside a sysctl namespace.",
       "type" : "text"
     },
     {
@@ -276,8 +276,9 @@
       "type" : "text"
     },
     {
-      "code" : "SysctlNamespace.Field",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/Field",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : " typealias.",
@@ -292,7 +293,7 @@
       "type" : "text"
     },
     {
-      "code" : "ExpressibleByStringLiteral",
+      "code" : "Swift\/ExpressibleByStringLiteral",
       "type" : "codeVoice"
     },
     {
@@ -305,6 +306,31 @@
     },
     {
       "text" : " to create fields.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "If the ",
+      "type" : "text"
+    },
+    {
+      "code" : "Namespace",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " conforms to ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ", the field can also be expressed by an integer literal.",
       "type" : "text"
     }
   ],
@@ -319,21 +345,86 @@
     },
     {
       "kind" : "identifier",
-      "text" : "SysctlNamedField"
+      "text" : "SysctlField"
     }
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamedField",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "SysctlNamedField"
+      "text" : "SysctlField"
     }
   ],
   "role" : "symbol",
-  "title" : "SysctlNamedField",
+  "title" : "SysctlField",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlnamedfield"
+  "url" : "\/documentation\/sysctl\/sysctlfield"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlFullyQualifiedNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace/Field": {
+  "abstract" : [
+    {
+      "text" : "A field inside this namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Field"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/Field",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Field"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlNamespace.Field",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamespace\/field"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlValue": {
   "abstract" : [

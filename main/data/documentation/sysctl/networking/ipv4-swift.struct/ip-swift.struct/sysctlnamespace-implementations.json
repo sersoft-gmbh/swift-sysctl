@@ -38,6 +38,13 @@
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/IP-swift.struct\/Field"
       ],
       "title" : "Type Aliases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/IP-swift.struct\/managementInformationBasePart"
+      ],
+      "title" : "Type Properties"
     }
   ],
   "variants" : [
@@ -224,6 +231,52 @@
   "title" : "Networking.IPv4.IP.Field",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/ip-swift.struct\/field"
+},
+"doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct/IP-swift.struct/managementInformationBasePart": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "managementInformationBasePart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/IP-swift.struct\/managementInformationBasePart",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "managementInformationBasePart",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/ip-swift.struct\/managementinformationbasepart"
 }
 }
 }

@@ -27,7 +27,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:6Sysctl8HardwareV12numberOfCPUsAA0A10NamedFieldVyACs5Int32VGvp",
+    "externalID" : "s:6Sysctl8HardwareV12numberOfCPUsAA0A5FieldVyACs5Int32VGvp",
     "fragments" : [
       {
         "kind" : "keyword",

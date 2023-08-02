@@ -1,14 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "SysctlValue.withSysctlPointer(do:)",
-      "type" : "codeVoice"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -464,14 +454,7 @@
 },
 "doc://Sysctl/documentation/Sysctl/SysctlValueRepresentable/withSysctlPointer(do:)": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "SysctlValue.withSysctlPointer(do:)",
-      "type" : "codeVoice"
-    }
+
   ],
   "fragments" : [
     {

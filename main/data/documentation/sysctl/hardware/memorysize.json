@@ -27,7 +27,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:6Sysctl8HardwareV10memorySizeAA0A10NamedFieldVyACs5Int64VGvp",
+    "externalID" : "s:6Sysctl8HardwareV10memorySizeAA0A5FieldVyACs5Int64VGvp",
     "fragments" : [
       {
         "kind" : "keyword",
