@@ -148,12 +148,12 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-7xle2",
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-4t3r8",
                         "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
                         "type" : "init"
                       },
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-4t3r8",
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-7xle2",
                         "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
                         "type" : "init"
                       }
