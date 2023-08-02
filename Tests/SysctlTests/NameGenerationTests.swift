@@ -111,16 +111,20 @@ final class NameGenerationTests: XCTestCase {
 
         XCTAssertEqual(root.networking.ipv4.icmp.answerBroadAndMulticastEchoRequests, "net.inet.icmp.bmcastecho")
         XCTAssertNil(root.networking.ipv4.icmp.answerBroadAndMulticastEchoRequests as Array<CInt>?)
+#if os(macOS)
         XCTAssertEqual(root.networking.ipv4.icmp.answerNetworkMaskRequests, "net.inet.icmp.maskrepl")
         XCTAssertNil(root.networking.ipv4.icmp.answerNetworkMaskRequests as Array<CInt>?)
+#endif
 
         XCTAssertEqual(root.networking.ipv4.ip.forwardingEnabled, "net.inet.ip.forwarding")
         XCTAssertNil(root.networking.ipv4.ip.forwardingEnabled as Array<CInt>?)
         XCTAssertEqual(root.networking.ipv4.ip.redirectsEnabled, "net.inet.ip.redirect")
         XCTAssertNil(root.networking.ipv4.ip.redirectsEnabled as Array<CInt>?)
 
+#if os(macOS)
         XCTAssertEqual(root.networking.ipv4.udp.checksumEnabled, "net.inet.udp.checksum")
         XCTAssertNil(root.networking.ipv4.udp.checksumEnabled as Array<CInt>?)
+#endif
 
         // IPv6
         XCTAssertEqual(root.networking.ipv6, "net.inet6")

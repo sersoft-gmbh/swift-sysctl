@@ -45,18 +45,15 @@ extension Networking {
                 nonmutating set {}
             }
 
+#if os(macOS)
             /// Whether to answer network mask requests (`maskrepl`).
             public var answerNetworkMaskRequests: Field<Bool> {
-                get {
-#if swift(>=5.8)
-                    return .init(managementInformationBasePart: ICMPCTL_MASKREPL, namePart: "maskrepl")
-#else
-                    return "maskrepl"
-#endif
-                }
+                get { .init(managementInformationBasePart: ICMPCTL_MASKREPL, namePart: "maskrepl") }
                 nonmutating set {}
             }
+#endif
         }
+
 
         /// The namespace for UDP (`udp`) values inside the IPv4 networking namespace.
         public struct UDP: SysctlNamespace {
@@ -64,17 +61,13 @@ extension Networking {
 
             public static var namePart: String { "udp" }
 
+#if os(macOS)
             /// Whether to calculate checksums (`checksum`).
             public var checksumEnabled: Field<Bool> {
-                get {
-#if swift(>=5.8)
-                    return .init(managementInformationBasePart: UDPCTL_CHECKSUM, namePart: "checksum")
-#else
-                    return "checksum"
-#endif
-                }
+                get { .init(managementInformationBasePart: UDPCTL_CHECKSUM, namePart: "checksum") }
                 nonmutating set {}
             }
+#endif
         }
 
         /// The IP (`ip`) part.

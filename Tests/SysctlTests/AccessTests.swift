@@ -37,10 +37,12 @@ final class AccessTests: XCTestCase {
     func testWritingNetworking() throws {
         // Writing always fails if we're not root.
         try XCTSkipUnless(getuid() == 0)
+#if os(macOS)
         let oldValue = sysctl.networking.ipv4.icmp.answerNetworkMaskRequests
         sysctl.networking.ipv4.icmp.answerNetworkMaskRequests = !oldValue
         XCTAssertEqual(sysctl.networking.ipv4.icmp.answerNetworkMaskRequests, !oldValue)
         sysctl.networking.ipv4.icmp.answerNetworkMaskRequests = oldValue
         XCTAssertEqual(sysctl.networking.ipv4.icmp.answerNetworkMaskRequests, oldValue)
+#endif
     }
 }
