@@ -1,10 +1,11 @@
+import Darwin
+
 /// The namespace for the networking values (`net`).
-public struct Networking: SysctlNamespace {
-    /// See SysctlNamespace
+public struct Networking: SysctlFullyQualifiedNamespace {
     public typealias ParentNamespace = SysctlRootNamespace
 
-    /// See SysctlNamespace
     public static var namePart: String { "net" }
+    public static var managementInformationBasePart: CInt { CTL_NET }
 }
 
 extension SysctlRootNamespace {

@@ -1,19 +1,18 @@
+import Darwin
+
 /// The namespace for the machine dependent values (`machdep`).
-public struct MachineDependent: SysctlNamespace {
-    /// See SysctlNamespace
+public struct MachineDependent: SysctlFullyQualifiedNamespace {
     public typealias ParentNamespace = SysctlRootNamespace
 
-    /// See SysctlNamespace
     public static var namePart: String { "machdep" }
+    public static var managementInformationBasePart: CInt { CTL_MACHDEP }
 }
 
 extension MachineDependent {
     /// The namespace for CPU  (`cpu`) values inside the machine dependent namespace.
     public struct CPU: SysctlNamespace {
-        /// See SysctlNamespace
         public typealias ParentNamespace = MachineDependent
 
-        /// See SysctlNamespace
         public static var namePart: String { "cpu" }
 
         /// The cpu brand (`brand_string`).

@@ -1,12 +1,12 @@
 /// The top level object to use for retrieving containers and values from sysctl.
-/// It gives access to children namespaces and values of `SysctlRootNamespace`.
+/// It gives access to child namespaces and values of ``SysctlRootNamespace``.
 @frozen
 @dynamicMemberLookup
 public struct SystemControl: Sendable {
     @usableFromInline
     let container = SysctlContainer<SysctlRootNamespace>(namespace: .init())
 
-    /// Creates a new instance. Trivial to call.
+    /// Creates a new instance. Trivial to call.     
     public init() {}
 
     /// Returns a child container for the given child namespace path.

@@ -5,17 +5,63 @@ extension SysctlNamespace {
     static var _isRoot: Bool { self == SysctlRootNamespace.self }
 
     @inlinable
-    static func _nameParts() -> Array<String> {
-        _isRoot ? [] : ParentNamespace._nameParts() + CollectionOfOne(namePart)
+    static func _mibParts() -> Array<CInt>? {
+        guard !_isRoot else { return .init() }
+        guard let parent = ParentNamespace._mibParts(),
+              let mibPart = managementInformationBasePart
+        else { return nil }
+        return parent + CollectionOfOne(mibPart)
     }
 
     @inlinable
-    static func _buildName<T>(for field: Field<T>) -> String {
-        (_nameParts() + CollectionOfOne(field.namePart)).joined(separator: ".")
+    static func _nameParts() -> Array<String> {
+        _isRoot ? .init() : ParentNamespace._nameParts() + CollectionOfOne(namePart)
     }
 }
 
-/// A container that gives access to the children namespaces and values of a `SysctlNamespace`.
+extension SysctlFullyQualifiedNamespace {
+    @inlinable
+    static func _mibParts() -> Array<CInt> {
+        _isRoot ? .init() : ParentNamespace._mibParts() + CollectionOfOne(managementInformationBasePart)
+    }
+}
+
+extension SysctlField {
+    @inlinable
+    func _buildMib() -> Array<CInt>? {
+        guard let mibPart, let parts = Namespace._mibParts() else { return nil }
+        return parts + CollectionOfOne(mibPart)
+    }
+
+    @inlinable
+    func _buildName() -> String? {
+        guard let namePart else { return nil }
+        return (Namespace._nameParts() + CollectionOfOne(namePart)).joined(separator: ".")
+    }
+
+    private static func _mib(forName name: String) -> Array<CInt> {
+        name.withCString {
+            var len = Int()
+            _sysctlNameToMIB($0, nil, &len).requireSuccess()
+            let mib = UnsafeMutablePointer<CInt>.allocate(capacity: len)
+            defer { mib.deallocate() }
+            _sysctlNameToMIB($0, mib, &len).requireSuccess()
+            return .init(unsafeUninitializedCapacity: len) { buffer, initializedCount in
+                buffer.baseAddress?.moveUpdate(from: mib, count: len)
+                initializedCount = len
+            }
+        }
+    }
+
+    @usableFromInline
+    func _withMIB<T>(do work: (inout UnsafeMutableBufferPointer<CInt>) throws -> T) rethrows -> T {
+        guard var mib = _buildMib() ?? _buildName().map(Self._mib(forName:))
+        else { fatalError("Invalid field: \(self)") }
+        return try mib.withUnsafeMutableBufferPointer(work)
+    }
+}
+
+/// A container that gives access to the children namespaces and values of a ``SysctlNamespace``.
 @frozen
 @dynamicMemberLookup
 public struct SysctlContainer<Namespace: SysctlNamespace>: Sendable {
@@ -53,46 +99,25 @@ public struct SysctlContainer<Namespace: SysctlNamespace>: Sendable {
         get { _readValue(for: field) }
         nonmutating set { _writeValue(newValue, to: field) }
     }
-    
-    @inlinable
-    func _withName<T, Value: SysctlValue>(for fieldPath: KeyPath<Namespace, Namespace.Field<Value>>,
-                                          do work: (UnsafePointer<CChar>) throws -> T) rethrows -> T {
-        try Namespace._buildName(for: namespace[keyPath: fieldPath]).withCString(work)
-    }
-
-    /// Runs `sysctlbyname` trapping on failures.
-    /// Signature is copied from `sysctlbyname` except for the `file` and `line` parameters.
-    private func _runSysctlByName(_ name: UnsafePointer<CChar>,
-                                  _ oldptr: UnsafeMutableRawPointer?,
-                                  _ oldlenptr: UnsafeMutablePointer<Int>?,
-                                  _ newptr: UnsafeMutableRawPointer?,
-                                  _ newlen: Int,
-                                  file: StaticString = #file,
-                                  line: UInt = #line) {
-        guard sysctlbyname(name, oldptr, oldlenptr, newptr, newlen) != 0 else { return }
-        defer { errno = 0 } // Reset for unsafe builds that don't trap.
-        fatalError("sysctlbyname failed when \(newptr != nil ? "writing" : "reading") '\(String(cString: name))' (\(errno)): \(String(cString: strerror(errno)))!",
-                   file: file, line: line)
-    }
 
     @usableFromInline
     func _readValue<Value: SysctlValue>(for fieldPath: KeyPath<Namespace, Namespace.Field<Value>>) -> Value {
-        _withName(for: fieldPath) {
+        namespace[keyPath: fieldPath]._withMIB {
             var size = Int()
-            _runSysctlByName($0, nil, &size, nil, 0)
+            _sysctl($0.baseAddress!, numericCast($0.count), nil, &size, nil, 0).requireSuccess()
             let capacity = size / MemoryLayout<Value.SysctlPointerType>.size
             let pointer = UnsafeMutablePointer<Value.SysctlPointerType>.allocate(capacity: capacity)
             defer { pointer.deallocate() }
-            _runSysctlByName($0, pointer, &size, nil, 0)
-            return Value(sysctlPointer: pointer)
+            _sysctl($0.baseAddress!, numericCast($0.count), pointer, &size, nil, 0).requireSuccess()
+            return Value(sysctlPointer: pointer, capacity: capacity)
         }
     }
 
     @usableFromInline
     func _writeValue<Value: SysctlValue>(_ value: Value, to fieldPath: WritableKeyPath<Namespace, Namespace.Field<Value>>) {
-        _withName(for: fieldPath) { sysctlName in
+        namespace[keyPath: fieldPath]._withMIB { mib in
             value.withSysctlPointer {
-                _runSysctlByName(sysctlName, nil, nil, UnsafeMutableRawPointer(mutating: $0), $1)
+                _sysctl(mib.baseAddress!, numericCast(mib.count), nil, nil, UnsafeMutableRawPointer(mutating: $0), $1).requireSuccess()
             }
         }
     }

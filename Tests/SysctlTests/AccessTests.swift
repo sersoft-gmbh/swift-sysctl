@@ -27,6 +27,13 @@ final class AccessTests: XCTestCase {
         XCTAssertFalse(sysctl.machineDependent.cpu.brandString.isEmpty)
     }
 
+    func testReadingProcesses() {
+        let all = sysctl.kernel.processes.all
+        XCTAssertTrue(all.map(\.kp_proc.p_pid).contains(ProcessInfo.processInfo.processIdentifier))
+        let ourPID = sysctl.kernel.processes.byPid[ProcessInfo.processInfo.processIdentifier]
+        XCTAssertTrue(ourPID.map(\.kp_proc.p_pid).contains(ProcessInfo.processInfo.processIdentifier))
+    }
+
     func testWritingNetworking() throws {
         // Writing always fails if we're not root.
         try XCTSkipUnless(getuid() == 0)
