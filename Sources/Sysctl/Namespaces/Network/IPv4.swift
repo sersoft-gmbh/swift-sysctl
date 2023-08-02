@@ -1,3 +1,4 @@
+import Darwin
 import Foundation
 
 extension Networking {
@@ -46,7 +47,13 @@ extension Networking {
 
             /// Whether to answer network mask requests (`maskrepl`).
             public var answerNetworkMaskRequests: Field<Bool> {
-                get { .init(managementInformationBasePart: ICMPCTL_MASKREPL, namePart: "maskrepl") }
+                get {
+#if swift(>=5.8)
+                    return .init(managementInformationBasePart: ICMPCTL_MASKREPL, namePart: "maskrepl")
+#else
+                    return "maskrepl"
+#endif
+                }
                 nonmutating set {}
             }
         }
@@ -59,7 +66,13 @@ extension Networking {
 
             /// Whether to calculate checksums (`checksum`).
             public var checksumEnabled: Field<Bool> {
-                get { .init(managementInformationBasePart: UDPCTL_CHECKSUM, namePart: "checksum") }
+                get {
+#if swift(>=5.8)
+                    return .init(managementInformationBasePart: UDPCTL_CHECKSUM, namePart: "checksum")
+#else
+                    return "checksum"
+#endif
+                }
                 nonmutating set {}
             }
         }
