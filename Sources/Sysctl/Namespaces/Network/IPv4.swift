@@ -54,7 +54,6 @@ extension Networking {
 #endif
         }
 
-
         /// The namespace for UDP (`udp`) values inside the IPv4 networking namespace.
         public struct UDP: SysctlNamespace {
             public typealias ParentNamespace = IPv4

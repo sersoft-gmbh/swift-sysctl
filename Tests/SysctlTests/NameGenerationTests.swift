@@ -120,6 +120,8 @@ final class NameGenerationTests: XCTestCase {
         XCTAssertNil(root.networking.ipv4.ip.forwardingEnabled as Array<CInt>?)
         XCTAssertEqual(root.networking.ipv4.ip.redirectsEnabled, "net.inet.ip.redirect")
         XCTAssertNil(root.networking.ipv4.ip.redirectsEnabled as Array<CInt>?)
+        XCTAssertEqual(root.networking.ipv4.ip.timeToLive, "net.inet.ip.ttl")
+        XCTAssertNil(root.networking.ipv4.ip.timeToLive as Array<CInt>?)
 
 #if os(macOS)
         XCTAssertEqual(root.networking.ipv4.udp.checksumEnabled, "net.inet.udp.checksum")
