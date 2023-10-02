@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The standard search path for the user.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -224,7 +230,18 @@
 },
 "doc://Sysctl/documentation/Sysctl/User": {
   "abstract" : [
-
+    {
+      "text" : "The ",
+      "type" : "text"
+    },
+    {
+      "code" : "user",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " namespace.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -255,7 +272,10 @@
 },
 "doc://Sysctl/documentation/Sysctl/User/standardSearchPath": {
   "abstract" : [
-
+    {
+      "text" : "The standard search path for the user.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

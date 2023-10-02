@@ -915,7 +915,18 @@
 },
 "doc://Sysctl/documentation/Sysctl/User": {
   "abstract" : [
-
+    {
+      "text" : "The ",
+      "type" : "text"
+    },
+    {
+      "code" : "user",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " namespace.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -946,7 +957,18 @@
 },
 "doc://Sysctl/documentation/Sysctl/VirtualMemory": {
   "abstract" : [
-
+    {
+      "text" : "The virtual memory namespace (",
+      "type" : "text"
+    },
+    {
+      "code" : "vm",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

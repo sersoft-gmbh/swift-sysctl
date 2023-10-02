@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Accesses processes by process identifier (PID).",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -192,7 +198,18 @@
 },
 "doc://Sysctl/documentation/Sysctl/Kernel/Processes-swift.struct": {
   "abstract" : [
-
+    {
+      "text" : "The namespace for the processes (",
+      "type" : "text"
+    },
+    {
+      "code" : "proc",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -223,7 +240,10 @@
 },
 "doc://Sysctl/documentation/Sysctl/Kernel/Processes-swift.struct/ByPID-swift.struct": {
   "abstract" : [
-
+    {
+      "text" : "Accesses processes by process identifier (PID).",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -391,7 +411,10 @@
 },
 "doc://Sysctl/documentation/Sysctl/Kernel/Processes-swift.struct/ByPID-swift.struct/subscript(_:)": {
   "abstract" : [
-
+    {
+      "text" : "The process(es) for the given pid.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

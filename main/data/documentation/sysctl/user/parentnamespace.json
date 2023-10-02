@@ -152,7 +152,18 @@
 },
 "doc://Sysctl/documentation/Sysctl/User": {
   "abstract" : [
-
+    {
+      "text" : "The ",
+      "type" : "text"
+    },
+    {
+      "code" : "user",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " namespace.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

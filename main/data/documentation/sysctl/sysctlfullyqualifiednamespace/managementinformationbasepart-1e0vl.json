@@ -8,9 +8,9 @@
   "defaultImplementationsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart-2izp1"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/managementInformationBasePart-2izp1"
       ],
-      "title" : "SysctlFullyQualifiedNamespace Implementations"
+      "title" : "SysctlNamespace Implementations"
     }
   ],
   "hierarchy" : {
@@ -239,7 +239,7 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-1e0vl"
 },
-"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace/managementInformationBasePart-2izp1": {
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace/managementInformationBasePart-2izp1": {
   "abstract" : [
 
   ],
@@ -278,12 +278,12 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart-2izp1",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/managementInformationBasePart-2izp1",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "managementInformationBasePart",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-2izp1"
+  "url" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-2izp1"
 }
 }
 }

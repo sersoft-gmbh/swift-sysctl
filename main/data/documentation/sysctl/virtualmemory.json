@@ -1,4 +1,18 @@
 {
+  "abstract" : [
+    {
+      "text" : "The virtual memory namespace (",
+      "type" : "text"
+    },
+    {
+      "code" : "vm",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -356,7 +370,18 @@
 },
 "doc://Sysctl/documentation/Sysctl/VirtualMemory": {
   "abstract" : [
-
+    {
+      "text" : "The virtual memory namespace (",
+      "type" : "text"
+    },
+    {
+      "code" : "vm",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

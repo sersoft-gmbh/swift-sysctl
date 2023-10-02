@@ -272,7 +272,18 @@
 },
 "doc://Sysctl/documentation/Sysctl/Kernel/Processes-swift.struct": {
   "abstract" : [
-
+    {
+      "text" : "The namespace for the processes (",
+      "type" : "text"
+    },
+    {
+      "code" : "proc",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -303,7 +314,10 @@
 },
 "doc://Sysctl/documentation/Sysctl/Kernel/Processes-swift.struct/ByPID-swift.struct": {
   "abstract" : [
-
+    {
+      "text" : "Accesses processes by process identifier (PID).",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -706,7 +720,18 @@
 },
 "doc://Sysctl/documentation/Sysctl/User": {
   "abstract" : [
-
+    {
+      "text" : "The ",
+      "type" : "text"
+    },
+    {
+      "code" : "user",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " namespace.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -737,7 +762,18 @@
 },
 "doc://Sysctl/documentation/Sysctl/VirtualMemory": {
   "abstract" : [
-
+    {
+      "text" : "The virtual memory namespace (",
+      "type" : "text"
+    },
+    {
+      "code" : "vm",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

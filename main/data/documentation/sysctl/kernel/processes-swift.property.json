@@ -209,7 +209,18 @@
 },
 "doc://Sysctl/documentation/Sysctl/Kernel/Processes-swift.struct": {
   "abstract" : [
-
+    {
+      "text" : "The namespace for the processes (",
+      "type" : "text"
+    },
+    {
+      "code" : "proc",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
