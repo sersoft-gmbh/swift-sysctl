@@ -1,0 +1,529 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart-1e0vl"
+      ],
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/managementInformationBasePart-5tyxi"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart-2izp1"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "Sysctl",
+    "externalID" : "s:6Sysctl0A23FullyQualifiedNamespacePAAE29managementInformationBaseParts5Int32VSgvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "managementInformationBasePart"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s4CInta",
+        "text" : "CInt"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Sysctl"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "managementInformationBasePart"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "managementInformationBasePart"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s4CInta",
+              "text" : "CInt"
+            },
+            {
+              "kind" : "text",
+              "text" : "? { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-2izp1"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/Networking": {
+  "abstract" : [
+    {
+      "text" : "The namespace for the networking values (",
+      "type" : "text"
+    },
+    {
+      "code" : "net",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Networking"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Networking"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Networking",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking"
+},
+"doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "The namespace for IPv4 networking values (",
+      "type" : "text"
+    },
+    {
+      "code" : "inet",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "IPv4"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "IPv4"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Networking.IPv4",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlFullyQualifiedNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace/managementInformationBasePart-1e0vl": {
+  "abstract" : [
+    {
+      "text" : "The mib part of the namespace.",
+      "type" : "text"
+    }
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "managementInformationBasePart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart-1e0vl",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "managementInformationBasePart",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-1e0vl"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace/managementInformationBasePart-2izp1": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "managementInformationBasePart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart-2izp1",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "managementInformationBasePart",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-2izp1"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace": {
+  "abstract" : [
+    {
+      "text" : "Describes a namespace in the sysctl landscape.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Sysctl separates its values using dots (e.g. ",
+      "type" : "text"
+    },
+    {
+      "code" : "net.inet.ip.forwarding",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Each part (without the dots) is represented as a namespace (e.g. ",
+      "type" : "text"
+    },
+    {
+      "code" : "net",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " -> ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ", ",
+      "type" : "text"
+    },
+    {
+      "code" : "inet",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " -> ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ", …).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace/managementInformationBasePart-5tyxi": {
+  "abstract" : [
+    {
+      "text" : "The mib part of the namespace (e.g. ",
+      "type" : "text"
+    },
+    {
+      "code" : "CTL_NET",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " for ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ")",
+      "type" : "text"
+    }
+  ],
+  "defaultImplementations" : 2,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "managementInformationBasePart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/managementInformationBasePart-5tyxi",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "managementInformationBasePart",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-5tyxi"
+}
+}
+}

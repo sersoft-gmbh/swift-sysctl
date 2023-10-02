@@ -1,0 +1,515 @@
+{
+  "abstract" : [
+    {
+      "text" : "A field inside this namespace.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/CPU-swift.struct",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/CPU-swift.struct\/SysctlNamespace-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/CPU-swift.struct\/Field"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "Sysctl",
+    "externalID" : "s:6Sysctl0A9NamespacePAAE5Fielda::SYNTHESIZED::s:6Sysctl16MachineDependentV3CPUV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Field"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Sysctl"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Field"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
+    "title" : "MachineDependent.CPU.Field"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "typealias"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Field"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "Value"
+            },
+            {
+              "kind" : "text",
+              "text" : "> = "
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A5FieldV",
+              "text" : "SysctlField"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Value"
+            },
+            {
+              "kind" : "text",
+              "text" : "> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Value"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A5ValueP",
+              "text" : "SysctlValue"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl\/machinedependent\/cpu-swift.struct\/field"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/MachineDependent": {
+  "abstract" : [
+    {
+      "text" : "The namespace for the machine dependent values (",
+      "type" : "text"
+    },
+    {
+      "code" : "machdep",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MachineDependent"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MachineDependent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MachineDependent",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/machinedependent"
+},
+"doc://Sysctl/documentation/Sysctl/MachineDependent/CPU-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "The namespace for CPU  (",
+      "type" : "text"
+    },
+    {
+      "code" : "cpu",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ") values inside the machine dependent namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CPU"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/CPU-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CPU"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MachineDependent.CPU",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/machinedependent\/cpu-swift.struct"
+},
+"doc://Sysctl/documentation/Sysctl/MachineDependent/CPU-swift.struct/Field": {
+  "abstract" : [
+    {
+      "text" : "A field inside this namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Field"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/CPU-swift.struct\/Field",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Field"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MachineDependent.CPU.Field",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/machinedependent\/cpu-swift.struct\/field"
+},
+"doc://Sysctl/documentation/Sysctl/MachineDependent/CPU-swift.struct/SysctlNamespace-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/CPU-swift.struct\/SysctlNamespace-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "SysctlNamespace Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/machinedependent\/cpu-swift.struct\/sysctlnamespace-implementations"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlField": {
+  "abstract" : [
+    {
+      "text" : "Describes a field inside a sysctl namespace.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "For easier definition, use the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/Field",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " typealias.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Fields are ",
+      "type" : "text"
+    },
+    {
+      "code" : "Swift\/ExpressibleByStringLiteral",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Thus you can simply use ",
+      "type" : "text"
+    },
+    {
+      "code" : "\"yourfieldname\"",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " to create fields.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "If the ",
+      "type" : "text"
+    },
+    {
+      "code" : "Namespace",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " conforms to ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ", the field can also be expressed by an integer literal.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlField"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlField"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlField",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfield"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlFullyQualifiedNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace/Field": {
+  "abstract" : [
+    {
+      "text" : "A field inside this namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Field"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/Field",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Field"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlNamespace.Field",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamespace\/field"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlValue": {
+  "abstract" : [
+    {
+      "text" : "Describes a type that can be read from \/ written to sysctl.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Usually, no new conformances to this protocol are necessary and the set of default conformances below will suffice.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlValue"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlValue",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlvalue"
+}
+}
+}
