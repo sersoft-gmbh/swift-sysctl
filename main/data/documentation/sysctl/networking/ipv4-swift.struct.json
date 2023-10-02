@@ -795,8 +795,9 @@
       "type" : "text"
     },
     {
-      "code" : "Networking\/IPv4",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ", …).",

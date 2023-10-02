@@ -122,20 +122,14 @@
                         "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-3wpo2",
                         "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
                         "type" : "init"
-                      }
-                    ],
-                    "title" : "SysctlValue Implementations",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "children" : [
+                      },
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvaluerepresentable\/init(sysctlpointer:)",
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-8wf4d",
                         "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>)",
                         "type" : "init"
                       }
                     ],
-                    "title" : "SysctlValueRepresentable Implementations",
+                    "title" : "SysctlValue Implementations",
                     "type" : "groupMarker"
                   }
                 ],
@@ -148,28 +142,22 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-4t3r8",
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-7xle2",
                         "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
                         "type" : "init"
                       },
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-7xle2",
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-751yh",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-4t3r8",
                         "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
                         "type" : "init"
                       }
                     ],
                     "title" : "SysctlValue Implementations",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "children" : [
-                      {
-                        "path" : "\/documentation\/sysctl\/sysctlvaluerepresentable\/init(sysctlpointer:capacity:)",
-                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>, capacity: Int)",
-                        "type" : "init"
-                      }
-                    ],
-                    "title" : "SysctlValueRepresentable Implementations",
                     "type" : "groupMarker"
                   }
                 ],
@@ -189,20 +177,14 @@
                         "path" : "\/documentation\/sysctl\/sysctlvalue\/withsysctlpointer(do:)-pl2w",
                         "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
                         "type" : "method"
-                      }
-                    ],
-                    "title" : "SysctlValue Implementations",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "children" : [
+                      },
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvaluerepresentable\/withsysctlpointer(do:)",
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/withsysctlpointer(do:)-6ybr3",
                         "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlValue.SysctlPointerType>, Int) throws -> T) rethrows -> T",
                         "type" : "method"
                       }
                     ],
-                    "title" : "SysctlValueRepresentable Implementations",
+                    "title" : "SysctlValue Implementations",
                     "type" : "groupMarker"
                   }
                 ],
@@ -1645,7 +1627,7 @@
                   },
                   {
                     "path" : "\/documentation\/sysctl\/sysctlfield\/init(integerliteral:)",
-                    "title" : "init(integerLiteral: CInt)",
+                    "title" : "init(integerLiteral: SysctlField<Namespace, Value>.IntegerLiteralType)",
                     "type" : "init"
                   },
                   {
@@ -2033,6 +2015,653 @@
             "path" : "\/documentation\/sysctl\/sysctlnamedfield",
             "title" : "SysctlNamedField",
             "type" : "typealias"
+          },
+          {
+            "title" : "Extended Modules",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Extended Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/clockinfo\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/clockinfo\/init(sysctlpointer:capacity:)-3bdd9",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/clockinfo\/init(sysctlpointer:capacity:)-55j5y",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/clockinfo\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/clockinfo\/sysctlpointertype",
+                        "title" : "clockinfo.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/darwin\/clockinfo\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/darwin\/clockinfo",
+                "title" : "clockinfo",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/kinfo_proc\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/kinfo_proc\/init(sysctlpointer:capacity:)-72l8j",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/kinfo_proc\/init(sysctlpointer:capacity:)-8futd",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/kinfo_proc\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/kinfo_proc\/sysctlpointertype",
+                        "title" : "kinfo_proc.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/darwin\/kinfo_proc\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/darwin\/kinfo_proc",
+                "title" : "kinfo_proc",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/loadavg\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/loadavg\/init(sysctlpointer:capacity:)-2c9qx",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/loadavg\/init(sysctlpointer:capacity:)-3bsc8",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/loadavg\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/loadavg\/sysctlpointertype",
+                        "title" : "loadavg.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/darwin\/loadavg\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/darwin\/loadavg",
+                "title" : "loadavg",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/timeval\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/timeval\/init(sysctlpointer:capacity:)-7xtvr",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/timeval\/init(sysctlpointer:capacity:)-9g5vs",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/timeval\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/timeval\/sysctlpointertype",
+                        "title" : "timeval.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/darwin\/timeval\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/darwin\/timeval",
+                "title" : "timeval",
+                "type" : "extension"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/darwin",
+            "title" : "Darwin",
+            "type" : "extension"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Extended Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/foundation\/date\/init(sysctlpointer:)-5txn3",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/foundation\/date\/init(sysctlpointer:)-9b1eh",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/foundation\/date\/init(sysctlpointer:capacity:)-49fxz",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/foundation\/date\/init(sysctlpointer:capacity:)-860y8",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/foundation\/date\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlValue.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/foundation\/date\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/foundation\/date\/init(sysctlvalue:)",
+                        "title" : "init(sysctlValue: Date.SysctlValue)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/foundation\/date\/sysctlvalue-swift.property",
+                        "title" : "var sysctlValue: Date.SysctlValue",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/foundation\/date\/sysctlvalue-swift.typealias",
+                        "title" : "Date.SysctlValue",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/foundation\/date\/sysctlvaluerepresentable-implementations",
+                    "title" : "SysctlValueRepresentable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/foundation\/date",
+                "title" : "Date",
+                "type" : "extension"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/foundation",
+            "title" : "Foundation",
+            "type" : "extension"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Extended Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/array\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/array\/init(sysctlpointer:capacity:)-3l11v",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/array\/init(sysctlpointer:capacity:)-5gg96",
+                        "title" : "init(sysctlPointer: UnsafePointer<Array<Element>.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/array\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Array<Element>.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/array\/sysctlpointertype",
+                        "title" : "Array.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/swift\/array\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/swift\/array",
+                "title" : "Array",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/bool\/init(sysctlpointer:)-34v24",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/bool\/init(sysctlpointer:)-5k8qu",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/bool\/init(sysctlpointer:capacity:)-1vr2o",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/bool\/init(sysctlpointer:capacity:)-3l11s",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/bool\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlValue.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/swift\/bool\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/bool\/init(sysctlvalue:)",
+                        "title" : "init(sysctlValue: Bool.SysctlValue)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/bool\/sysctlvalue-swift.property",
+                        "title" : "var sysctlValue: Bool.SysctlValue",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/bool\/sysctlvalue-swift.typealias",
+                        "title" : "Bool.SysctlValue",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/swift\/bool\/sysctlvaluerepresentable-implementations",
+                    "title" : "SysctlValueRepresentable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/swift\/bool",
+                "title" : "Bool",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int32\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int32\/init(sysctlpointer:capacity:)-3ozb2",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int32\/init(sysctlpointer:capacity:)-6noue",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int32\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int32\/sysctlpointertype",
+                        "title" : "Int32.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/swift\/int32\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/swift\/int32",
+                "title" : "Int32",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int64\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int64\/init(sysctlpointer:capacity:)-3el25",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int64\/init(sysctlpointer:capacity:)-6dao5",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int64\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int64\/sysctlpointertype",
+                        "title" : "Int64.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/swift\/int64\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/swift\/int64",
+                "title" : "Int64",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/string\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/string\/init(sysctlpointer:capacity:)-3l129",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/string\/init(sysctlpointer:capacity:)-4csc0",
+                        "title" : "init(sysctlPointer: UnsafePointer<String.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/string\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<String.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/string\/sysctlpointertype",
+                        "title" : "String.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/swift\/string\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/swift\/string",
+                "title" : "String",
+                "type" : "extension"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/swift",
+            "title" : "Swift",
+            "type" : "extension"
           }
         ],
         "path" : "\/documentation\/sysctl",
@@ -2044,6 +2673,6 @@
   "schemaVersion" : {
     "major" : 0,
     "minor" : 1,
-    "patch" : 0
+    "patch" : 1
   }
 }

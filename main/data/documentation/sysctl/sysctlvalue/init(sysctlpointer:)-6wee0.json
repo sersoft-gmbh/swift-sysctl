@@ -8,15 +8,10 @@
   "defaultImplementationsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-3wpo2"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-3wpo2",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-8wf4d"
       ],
       "title" : "SysctlValue Implementations"
-    },
-    {
-      "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable\/init(sysctlPointer:)"
-      ],
-      "title" : "SysctlValueRepresentable Implementations"
     }
   ],
   "deprecationSummary" : [
@@ -350,7 +345,7 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-6wee0"
 },
-"doc://Sysctl/documentation/Sysctl/SysctlValueRepresentable/init(sysctlPointer:)": {
+"doc://Sysctl/documentation/Sysctl/SysctlValue/init(sysctlPointer:)-8wf4d": {
   "abstract" : [
 
   ],
@@ -406,12 +401,12 @@
       "text" : ">)"
     }
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable\/init(sysctlPointer:)",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-8wf4d",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "init(sysctlPointer:)",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlvaluerepresentable\/init(sysctlpointer:)"
+  "url" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-8wf4d"
 }
 }
 }

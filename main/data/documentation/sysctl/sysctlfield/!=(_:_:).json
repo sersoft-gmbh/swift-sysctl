@@ -69,7 +69,10 @@
     ],
     "modules" : [
       {
-        "name" : "Sysctl"
+        "name" : "Sysctl",
+        "relatedModules" : [
+          "Swift"
+        ]
       }
     ],
     "role" : "symbol",

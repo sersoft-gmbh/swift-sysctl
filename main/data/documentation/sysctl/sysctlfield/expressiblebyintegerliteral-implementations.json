@@ -320,8 +320,33 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s4CInta",
-      "text" : "CInt"
+      "preciseIdentifier" : "s:6Sysctl0A5FieldV",
+      "text" : "SysctlField"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Namespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ">."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A5FieldVA2A0A23FullyQualifiedNamespaceRzrlE18IntegerLiteralTypea",
+      "text" : "IntegerLiteralType"
     },
     {
       "kind" : "text",

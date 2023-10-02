@@ -83,7 +83,7 @@
             },
             {
               "kind" : "genericParameter",
-              "text" : "T"
+              "text" : "Value"
             },
             {
               "kind" : "text",
@@ -109,7 +109,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "text" : "T"
+              "text" : "Value"
             },
             {
               "kind" : "text",
@@ -125,7 +125,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "text" : "T"
+              "text" : "Value"
             },
             {
               "kind" : "text",

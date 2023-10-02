@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "The root namespace has no name part. Do not call this.",
+      "text" : "The root namespace has no name part. Do not call this!",
       "type" : "text"
     }
   ],
@@ -189,7 +189,7 @@
 "doc://Sysctl/documentation/Sysctl/SysctlRootNamespace/namePart": {
   "abstract" : [
     {
-      "text" : "The root namespace has no name part. Do not call this.",
+      "text" : "The root namespace has no name part. Do not call this!",
       "type" : "text"
     }
   ],

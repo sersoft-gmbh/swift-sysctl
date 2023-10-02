@@ -83,8 +83,33 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:s4CInta",
-        "text" : "CInt"
+        "preciseIdentifier" : "s:6Sysctl0A5FieldV",
+        "text" : "SysctlField"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Namespace"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Value"
+      },
+      {
+        "kind" : "text",
+        "text" : ">."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A5FieldVA2A0A23FullyQualifiedNamespaceRzrlE18IntegerLiteralTypea",
+        "text" : "IntegerLiteralType"
       },
       {
         "kind" : "text",
@@ -137,9 +162,36 @@
               "text" : ": "
             },
             {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:s4CInta",
-              "text" : "CInt"
+              "preciseIdentifier" : "s:6Sysctl0A5FieldV",
+              "text" : "SysctlField"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Namespace"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Value"
+            },
+            {
+              "kind" : "text",
+              "text" : ">."
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/IntegerLiteralType",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A5FieldVA2A0A23FullyQualifiedNamespaceRzrlE18IntegerLiteralTypea",
+              "text" : "IntegerLiteralType"
             },
             {
               "kind" : "text",
@@ -295,6 +347,85 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlfield\/expressiblebyintegerliteral-implementations"
 },
+"doc://Sysctl/documentation/Sysctl/SysctlField/IntegerLiteralType": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Namespace",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "SysctlFullyQualifiedNamespace",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " and ",
+        "type" : "text"
+      },
+      {
+        "code" : "Value",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "SysctlValue",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "IntegerLiteralType"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/IntegerLiteralType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "IntegerLiteralType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlField.IntegerLiteralType",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfield\/integerliteraltype"
+},
 "doc://Sysctl/documentation/Sysctl/SysctlField/init(integerLiteral:)": {
   "abstract" : [
 
@@ -366,8 +497,33 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s4CInta",
-      "text" : "CInt"
+      "preciseIdentifier" : "s:6Sysctl0A5FieldV",
+      "text" : "SysctlField"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Namespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ">."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A5FieldVA2A0A23FullyQualifiedNamespaceRzrlE18IntegerLiteralTypea",
+      "text" : "IntegerLiteralType"
     },
     {
       "kind" : "text",
