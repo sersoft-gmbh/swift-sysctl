@@ -101,15 +101,18 @@ extension Kernel {
 }
 
 extension Kernel {
+    /// The namespace for the processes (`proc`).
     public struct Processes: SysctlFullyQualifiedNamespace {
         public typealias ParentNamespace = Kernel
 
+        /// Accesses processes by process identifier (PID).
         public struct ByPID: SysctlFullyQualifiedNamespace {
             public typealias ParentNamespace = Processes
 
             public static var namePart: String { "pid" }
             public static var managementInformationBasePart: CInt { KERN_PROC_PID }
 
+            /// The process(es) for the given pid.
             public subscript(pid: CInt) -> Field<Array<kinfo_proc>> {
                 .init(managementInformationBasePart: pid)
             }
@@ -118,9 +121,11 @@ extension Kernel {
         public static var namePart: String { "proc" }
         public static var managementInformationBasePart: CInt { KERN_PROC }
 
+        /// All processes (`all`).
         public var all: Field<Array<kinfo_proc>> {
             .init(managementInformationBasePart: KERN_PROC_ALL, namePart: "all")
         }
+        /// Processes by identifier (`pid`).
         public var byPid: ByPID { .init() }
     }
 

@@ -1,5 +1,6 @@
 import Darwin
 
+/// The virtual memory namespace (`vm`).
 public struct VirtualMemory: SysctlFullyQualifiedNamespace {
     public typealias ParentNamespace = SysctlRootNamespace
 

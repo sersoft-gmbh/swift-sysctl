@@ -12,8 +12,8 @@ public struct SystemControl: Sendable {
     /// Returns a child container for the given child namespace path.
     /// - Parameter childSpace: The keypath to the child namespace.
     @inlinable
-    public subscript<ChildSpace: SysctlNamespace>(dynamicMember childSpace: KeyPath<SysctlRootNamespace, ChildSpace>) -> SysctlContainer<ChildSpace>
-    where ChildSpace.ParentNamespace == SysctlRootNamespace
+    public subscript<ChildSpace>(dynamicMember childSpace: KeyPath<SysctlRootNamespace, ChildSpace>) -> SysctlContainer<ChildSpace>
+    where ChildSpace: SysctlNamespace, ChildSpace.ParentNamespace == SysctlRootNamespace
     {
         container[dynamicMember: childSpace]
     }
@@ -21,14 +21,18 @@ public struct SystemControl: Sendable {
     /// Reads the value for a field on the root namespace.
     /// - Parameter field: The keypath to the field of the root namespace.
     @inlinable
-    public subscript<Value: SysctlValue>(dynamicMember field: KeyPath<SysctlRootNamespace, SysctlRootNamespace.Field<Value>>) -> Value {
+    public subscript<Value>(dynamicMember field: KeyPath<SysctlRootNamespace, SysctlRootNamespace.Field<Value>>) -> Value
+    where Value: SysctlValue
+    {
         container[dynamicMember: field]
     }
 
     /// Reads or writes the value for a field on the root namespace.
     /// - Parameter field: The keypath to the field of the root namespace.
     @inlinable
-    public subscript<Value: SysctlValue>(dynamicMember field: WritableKeyPath<SysctlRootNamespace, SysctlRootNamespace.Field<Value>>) -> Value {
+    public subscript<Value>(dynamicMember field: WritableKeyPath<SysctlRootNamespace, SysctlRootNamespace.Field<Value>>) -> Value
+    where Value: SysctlValue
+    {
         get { container[dynamicMember: field] }
         nonmutating set { container[dynamicMember: field] = newValue }
     }

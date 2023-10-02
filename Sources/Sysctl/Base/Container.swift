@@ -79,8 +79,8 @@ public struct SysctlContainer<Namespace: SysctlNamespace>: Sendable {
     /// Returns a child container for the given child namespace path.
     /// - Parameter childSpace: The keypath to the child namespace.
     @inlinable
-    public subscript<ChildSpace: SysctlNamespace>(dynamicMember childSpace: KeyPath<Namespace, ChildSpace>) -> SysctlContainer<ChildSpace>
-    where ChildSpace.ParentNamespace == Namespace
+    public subscript<ChildSpace>(dynamicMember childSpace: KeyPath<Namespace, ChildSpace>) -> SysctlContainer<ChildSpace>
+    where ChildSpace: SysctlNamespace, ChildSpace.ParentNamespace == Namespace
     {
         SysctlContainer<ChildSpace>(namespace: namespace[keyPath: childSpace])
     }
