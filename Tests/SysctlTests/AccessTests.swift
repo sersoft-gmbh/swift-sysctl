@@ -1,7 +1,6 @@
 import XCTest
 import Sysctl
 
-/// This tests some basic accesses that are true on all systems.
 final class AccessTests: XCTestCase {
     private let sysctl = SystemControl()
 

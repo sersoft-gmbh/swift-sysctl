@@ -26,7 +26,7 @@ where ParentNamespace: SysctlFullyQualifiedNamespace
 
 extension SysctlFullyQualifiedNamespace {
     @inlinable
-    public static  var managementInformationBasePart: CInt? { managementInformationBasePart as CInt }
+    public static var managementInformationBasePart: CInt? { managementInformationBasePart as CInt }
 }
 
 /// The root namespace.
@@ -35,13 +35,13 @@ public struct SysctlRootNamespace: SysctlFullyQualifiedNamespace {
     /// The parent of the root is always the root namespace.
     public typealias ParentNamespace = Self
 
-    /// The root namespace has no name part. Do not call this.
+    /// The root namespace has no name part. Do not call this!
     public static var namePart: String {
         assertionFailure("`\(#function)` accessed on `\(Self.self)`!")
         return .init()
     }
 
-    /// The root namespace has no mib part. Do not call this.
+    /// The root namespace has no mib part. Do not call this!
     public static var managementInformationBasePart: CInt {
         assertionFailure("`\(#function)` accessed on `\(Self.self)`!")
         return .init()

@@ -7,7 +7,6 @@ public struct SysctlField<Namespace: SysctlNamespace, Value: SysctlValue>: Senda
     /// The mib part of the field.
     @usableFromInline
     let mibPart: CInt?
-
     /// The name part of the field.
     @usableFromInline
     let namePart: String?
@@ -19,10 +18,12 @@ public struct SysctlField<Namespace: SysctlNamespace, Value: SysctlValue>: Senda
         namePart = _name
     }
 
+    @inlinable
     public init(managementInformationBasePart: CInt, namePart: String) {
         self.init(_mib: managementInformationBasePart, _name: namePart)
     }
 
+    @inlinable
     public init(managementInformationBasePart: CInt? = nil, namePart: String) {
         self.init(_mib: managementInformationBasePart, _name: namePart)
     }
@@ -38,10 +39,12 @@ extension SysctlField: ExpressibleByStringLiteral {
 }
 
 extension SysctlField where Namespace: SysctlFullyQualifiedNamespace {
+    @inlinable
     public init(managementInformationBasePart: CInt, namePart: String? = nil) {
         self.init(_mib: managementInformationBasePart, _name: namePart)
     }
 
+    @inlinable
     public init?(managementInformationBasePart: CInt?, namePart: String?) {
         guard managementInformationBasePart != nil || namePart != nil else { return nil }
         self.init(_mib: managementInformationBasePart, _name: namePart)
@@ -52,14 +55,14 @@ extension SysctlField: ExpressibleByIntegerLiteral where Namespace: SysctlFullyQ
     public typealias IntegerLiteralType = CInt
 
     @inlinable
-    public init(integerLiteral value: CInt) {
+    public init(integerLiteral value: IntegerLiteralType) {
         self.init(_mib: value, _name: nil)
     }
 }
 
 extension SysctlNamespace {
     /// A field inside this namespace.
-    public typealias Field<T: SysctlValue> = SysctlField<Self, T>
+    public typealias Field<Value: SysctlValue> = SysctlField<Self, Value>
 }
 
 @available(*, deprecated, message: "Use SysctlField", renamed: "SysctlField")

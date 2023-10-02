@@ -97,11 +97,7 @@ extension Array: SysctlValue where Element: SysctlValue {
         defer { buffer.deallocate() }
         for (offset, element) in enumerated() {
             element.withSysctlPointer { ptr, size in
-#if swift(>=5.8)
                 buffer.initializeElement(at: offset, to: ptr.pointee)
-#else
-                buffer[offset] = ptr.pointee
-#endif
             }
         }
         return try work(buffer.baseAddress!, buffer.count)

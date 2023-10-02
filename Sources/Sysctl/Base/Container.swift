@@ -29,21 +29,13 @@ extension SysctlFullyQualifiedNamespace {
 extension SysctlField {
     @inlinable
     func _buildMib() -> Array<CInt>? {
-#if swift(>=5.7)
         guard let mibPart, let parts = Namespace._mibParts() else { return nil }
-#else
-        guard let mibPart = mibPart, let parts = Namespace._mibParts() else { return nil }
-#endif
         return parts + CollectionOfOne(mibPart)
     }
 
     @inlinable
     func _buildName() -> String? {
-#if swift(>=5.7)
         guard let namePart else { return nil }
-#else
-        guard let namePart = namePart else { return nil }
-#endif
         return (Namespace._nameParts() + CollectionOfOne(namePart)).joined(separator: ".")
     }
 
@@ -55,11 +47,7 @@ extension SysctlField {
             defer { mib.deallocate() }
             _sysctlNameToMIB($0, mib, &len).requireSuccess()
             return .init(unsafeUninitializedCapacity: len) { buffer, initializedCount in
-#if swift(>=5.8)
                 buffer.baseAddress?.moveUpdate(from: mib, count: len)
-#else
-                buffer.baseAddress?.moveAssign(from: mib, count: len)
-#endif
                 initializedCount = len
             }
         }

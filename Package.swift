@@ -1,8 +1,17 @@
-// swift-tools-version:5.8
+// swift-tools-version:5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
-import Foundation
+
+let swiftSettings: Array<SwiftSetting> = [
+    .enableUpcomingFeature("ConciseMagicFile"),
+    .enableUpcomingFeature("ExistentialAny"),
+    .enableUpcomingFeature("BareSlashRegexLiterals"),
+    .enableUpcomingFeature("DisableOutwardActorInference"),
+//    .enableExperimentalFeature("AccessLevelOnImport"),
+//    .enableExperimentalFeature("VariadicGenerics"),
+//    .unsafeFlags(["-warn-concurrency"], .when(configuration: .debug)),
+]
 
 let package = Package(
     name: "swift-sysctl",
@@ -12,16 +21,18 @@ let package = Package(
             name: "Sysctl",
             targets: ["Sysctl"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
+    ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .target(name: "Sysctl"),
+        .target(
+            name: "Sysctl",
+            swiftSettings: swiftSettings),
         .testTarget(
             name: "SysctlTests",
-            dependencies: ["Sysctl"]),
+            dependencies: ["Sysctl"],
+            swiftSettings: swiftSettings),
     ]
 )
-
-if ProcessInfo.processInfo.environment["ENABLE_DOCC_SUPPORT"] == "1" {
-    package.dependencies.append(.package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"))
-}

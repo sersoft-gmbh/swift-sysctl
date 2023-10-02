@@ -1,7 +1,6 @@
 import XCTest
 @testable import Sysctl
 
-/// This tests the name generation.
 final class NameGenerationTests: XCTestCase {
     private let root = LookupContainer(namespace: SysctlRootNamespace())
 
@@ -170,11 +169,11 @@ fileprivate struct LookupContainer<Namespace: SysctlNamespace>: Sendable {
         ChildSpace._mibParts()
     }
 
-    subscript<Value: SysctlValue>(dynamicMember field: KeyPath<Namespace, Namespace.Field<Value>>) -> String? {
+    subscript(dynamicMember field: KeyPath<Namespace, Namespace.Field<some SysctlValue>>) -> String? {
         namespace[keyPath: field]._buildName()
     }
 
-    subscript<Value: SysctlValue>(dynamicMember field: KeyPath<Namespace, Namespace.Field<Value>>) -> Array<CInt>? {
+    subscript(dynamicMember field: KeyPath<Namespace, Namespace.Field<some SysctlValue>>) -> Array<CInt>? {
         namespace[keyPath: field]._buildMib()
     }
 }
