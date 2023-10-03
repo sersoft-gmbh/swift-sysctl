@@ -8,8 +8,8 @@
   "defaultImplementationsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-8wf4d",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-3wpo2"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-3wpo2",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-8wf4d"
       ],
       "title" : "SysctlValue Implementations"
     }

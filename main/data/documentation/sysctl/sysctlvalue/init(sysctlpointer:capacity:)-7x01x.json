@@ -8,9 +8,9 @@
   "defaultImplementationsSections" : [
     {
       "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:capacity:)-7xle2",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:capacity:)-4t3r8",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:capacity:)-751yh",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:capacity:)-7xle2"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:capacity:)-751yh"
       ],
       "title" : "SysctlValue Implementations"
     }
