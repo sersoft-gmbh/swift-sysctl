@@ -1,0 +1,210 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg\/SysctlValue-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg\/SysctlPointerType"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "Darwin",
+    "externalID" : "s:So7loadavgV6SysctlE0B11PointerTypea",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "SysctlPointerType"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Sysctl",
+        "relatedModules" : [
+          "Darwin"
+        ]
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "SysctlPointerType"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
+    "title" : "loadavg.SysctlPointerType"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "typealias"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "SysctlPointerType"
+            },
+            {
+              "kind" : "text",
+              "text" : " = "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@S@loadavg",
+              "text" : "loadavg"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl\/darwin\/loadavg\/sysctlpointertype"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/Darwin": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Darwin",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/darwin"
+},
+"doc://Sysctl/documentation/Sysctl/Darwin/loadavg": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "c:@S@loadavg",
+      "text" : "loadavg"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "loadavg"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "loadavg",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/darwin\/loadavg"
+},
+"doc://Sysctl/documentation/Sysctl/Darwin/loadavg/SysctlPointerType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlPointerType"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg\/SysctlPointerType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlPointerType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "loadavg.SysctlPointerType",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/darwin\/loadavg\/sysctlpointertype"
+},
+"doc://Sysctl/documentation/Sysctl/Darwin/loadavg/SysctlValue-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg\/SysctlValue-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "SysctlValue Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/darwin\/loadavg\/sysctlvalue-implementations"
+}
+}
+}

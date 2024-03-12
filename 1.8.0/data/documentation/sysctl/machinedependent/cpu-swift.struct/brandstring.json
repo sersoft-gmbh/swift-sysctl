@@ -1,0 +1,404 @@
+{
+  "abstract" : [
+    {
+      "text" : "The cpu brand (",
+      "type" : "text"
+    },
+    {
+      "code" : "brand_string",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/CPU-swift.struct"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/CPU-swift.struct\/brandString"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:6Sysctl16MachineDependentV3CPUV11brandStringAA0A5FieldVyAESSGvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "brandString"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl16MachineDependentV",
+        "text" : "MachineDependent"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl16MachineDependentV3CPUV",
+        "text" : "CPU"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+        "text" : "Field"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ">"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Sysctl"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "brandString"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "brandString"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl16MachineDependentV",
+              "text" : "MachineDependent"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/CPU-swift.struct",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl16MachineDependentV3CPUV",
+              "text" : "CPU"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/Field",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+              "text" : "Field"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : "> { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl\/machinedependent\/cpu-swift.struct\/brandstring"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/MachineDependent": {
+  "abstract" : [
+    {
+      "text" : "The namespace for the machine dependent values (",
+      "type" : "text"
+    },
+    {
+      "code" : "machdep",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MachineDependent"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MachineDependent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MachineDependent",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/machinedependent"
+},
+"doc://Sysctl/documentation/Sysctl/MachineDependent/CPU-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "The namespace for CPU  (",
+      "type" : "text"
+    },
+    {
+      "code" : "cpu",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ") values inside the machine dependent namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CPU"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/CPU-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CPU"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MachineDependent.CPU",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/machinedependent\/cpu-swift.struct"
+},
+"doc://Sysctl/documentation/Sysctl/MachineDependent/CPU-swift.struct/brandString": {
+  "abstract" : [
+    {
+      "text" : "The cpu brand (",
+      "type" : "text"
+    },
+    {
+      "code" : "brand_string",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "brandString"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl16MachineDependentV",
+      "text" : "MachineDependent"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl16MachineDependentV3CPUV",
+      "text" : "CPU"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+      "text" : "Field"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/CPU-swift.struct\/brandString",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "brandString",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/machinedependent\/cpu-swift.struct\/brandstring"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace/Field": {
+  "abstract" : [
+    {
+      "text" : "A field inside this namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Field"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/Field",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Field"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlNamespace.Field",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamespace\/field"
+}
+}
+}

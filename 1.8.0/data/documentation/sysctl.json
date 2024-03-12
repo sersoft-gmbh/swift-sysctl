@@ -1,0 +1,1001 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "Sysctl",
+    "modules" : [
+      {
+        "name" : "Sysctl"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "Sysctl"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlContainer",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/User",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/VirtualMemory"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamedField"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift"
+      ],
+      "title" : "Extended Modules"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/Darwin": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Darwin",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/darwin"
+},
+"doc://Sysctl/documentation/Sysctl/Foundation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Foundation",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/foundation"
+},
+"doc://Sysctl/documentation/Sysctl/Hardware": {
+  "abstract" : [
+    {
+      "text" : "Namespace for the hardware part (",
+      "type" : "text"
+    },
+    {
+      "code" : "hw",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Hardware"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Hardware"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Hardware",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/hardware"
+},
+"doc://Sysctl/documentation/Sysctl/Kernel": {
+  "abstract" : [
+    {
+      "text" : "The namespace for the kernel values (",
+      "type" : "text"
+    },
+    {
+      "code" : "kern",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Kernel"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Kernel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Kernel",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/kernel"
+},
+"doc://Sysctl/documentation/Sysctl/MachineDependent": {
+  "abstract" : [
+    {
+      "text" : "The namespace for the machine dependent values (",
+      "type" : "text"
+    },
+    {
+      "code" : "machdep",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MachineDependent"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MachineDependent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MachineDependent",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/machinedependent"
+},
+"doc://Sysctl/documentation/Sysctl/Networking": {
+  "abstract" : [
+    {
+      "text" : "The namespace for the networking values (",
+      "type" : "text"
+    },
+    {
+      "code" : "net",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Networking"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Networking"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Networking",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking"
+},
+"doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "The namespace for IPv4 networking values (",
+      "type" : "text"
+    },
+    {
+      "code" : "inet",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "IPv4"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "IPv4"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Networking.IPv4",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct"
+},
+"doc://Sysctl/documentation/Sysctl/Swift": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Swift",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/swift"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlContainer": {
+  "abstract" : [
+    {
+      "text" : "A container that gives access to the children namespaces and values of a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlContainer"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlContainer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlContainer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlContainer",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlcontainer"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlField": {
+  "abstract" : [
+    {
+      "text" : "Describes a field inside a sysctl namespace.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "For easier definition, use the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/Field",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " typealias.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Fields are ",
+      "type" : "text"
+    },
+    {
+      "code" : "Swift\/ExpressibleByStringLiteral",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Thus you can simply use ",
+      "type" : "text"
+    },
+    {
+      "code" : "\"yourfieldname\"",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " to create fields.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "If the ",
+      "type" : "text"
+    },
+    {
+      "code" : "Namespace",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " conforms to ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ", the field can also be expressed by an integer literal.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlField"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlField"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlField",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfield"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlFullyQualifiedNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlFullyQualifiedNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamedField": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlNamedField"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamedField",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlNamedField"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlNamedField",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamedfield"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace": {
+  "abstract" : [
+    {
+      "text" : "Describes a namespace in the sysctl landscape.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Sysctl separates its values using dots (e.g. ",
+      "type" : "text"
+    },
+    {
+      "code" : "net.inet.ip.forwarding",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Each part (without the dots) is represented as a namespace (e.g. ",
+      "type" : "text"
+    },
+    {
+      "code" : "net",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " -> ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ", ",
+      "type" : "text"
+    },
+    {
+      "code" : "inet",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " -> ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ", …).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace/Field": {
+  "abstract" : [
+    {
+      "text" : "A field inside this namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Field"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/Field",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Field"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlNamespace.Field",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamespace\/field"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace": {
+  "abstract" : [
+    {
+      "text" : "The root namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlRootNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlRootNamespace"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlRootNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlrootnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlValue": {
+  "abstract" : [
+    {
+      "text" : "Describes a type that can be read from \/ written to sysctl.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Usually, no new conformances to this protocol are necessary and the set of default conformances below will suffice.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlValue"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlValue",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlvalue"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlValueRepresentable": {
+  "abstract" : [
+    {
+      "text" : "Describes a type that can be represented by a ",
+      "type" : "text"
+    },
+    {
+      "code" : "SyctlValue",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " conforming type.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "It will automatically provide a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable\/SysctlValue-swift.associatedtype",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " conformance for this type, using the underlying ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable\/SysctlValue-swift.associatedtype",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlValueRepresentable"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlValueRepresentable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SysctlValueRepresentable",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlvaluerepresentable"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlValueRepresentable/SysctlValue-swift.associatedtype": {
+  "abstract" : [
+    {
+      "text" : "The underlying ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable\/SysctlValue-swift.associatedtype",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " conforming type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "associatedtype"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlValue"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A5ValueP",
+      "text" : "SysctlValue"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable\/SysctlValue-swift.associatedtype",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "SysctlValue",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlvaluerepresentable\/sysctlvalue-swift.associatedtype"
+},
+"doc://Sysctl/documentation/Sysctl/SystemControl": {
+  "abstract" : [
+    {
+      "text" : "The top level object to use for retrieving containers and values from sysctl.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "It gives access to child namespaces and values of ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SystemControl"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SystemControl"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SystemControl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/systemcontrol"
+},
+"doc://Sysctl/documentation/Sysctl/User": {
+  "abstract" : [
+    {
+      "text" : "The ",
+      "type" : "text"
+    },
+    {
+      "code" : "user",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " namespace.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "User"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/User",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "User"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "User",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/user"
+},
+"doc://Sysctl/documentation/Sysctl/VirtualMemory": {
+  "abstract" : [
+    {
+      "text" : "The virtual memory namespace (",
+      "type" : "text"
+    },
+    {
+      "code" : "vm",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "VirtualMemory"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/VirtualMemory",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "VirtualMemory"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "VirtualMemory",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/virtualmemory"
+}
+}
+}
