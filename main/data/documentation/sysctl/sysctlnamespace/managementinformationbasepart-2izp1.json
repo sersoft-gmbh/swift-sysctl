@@ -4,7 +4,7 @@
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart-1e0vl"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart"
       ],
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
@@ -272,7 +272,7 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace"
 },
-"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace/managementInformationBasePart-1e0vl": {
+"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace/managementInformationBasePart": {
   "abstract" : [
     {
       "text" : "The mib part of the namespace.",
@@ -311,13 +311,13 @@
       "text" : "CInt"
     }
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart-1e0vl",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
   "title" : "managementInformationBasePart",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-1e0vl"
+  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlNamespace": {
   "abstract" : [

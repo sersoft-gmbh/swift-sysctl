@@ -27,7 +27,7 @@
                     "type" : "groupMarker"
                   }
                 ],
-                "path" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-1e0vl",
+                "path" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart",
                 "title" : "static var managementInformationBasePart: CInt",
                 "type" : "property"
               }
@@ -113,13 +113,13 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-3wpo2",
-                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-8wf4d",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>)",
                         "type" : "init"
                       },
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-8wf4d",
-                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>)",
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-3wpo2",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
                         "type" : "init"
                       }
                     ],
@@ -136,17 +136,17 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-7xle2",
-                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
-                        "type" : "init"
-                      },
-                      {
                         "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-751yh",
                         "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>, capacity: Int)",
                         "type" : "init"
                       },
                       {
                         "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-4t3r8",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-7xle2",
                         "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
                         "type" : "init"
                       }
@@ -168,13 +168,13 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/withsysctlpointer(do:)-pl2w",
-                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/withsysctlpointer(do:)-6ybr3",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlValue.SysctlPointerType>, Int) throws -> T) rethrows -> T",
                         "type" : "method"
                       },
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/withsysctlpointer(do:)-6ybr3",
-                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlValue.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/withsysctlpointer(do:)-pl2w",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
                         "type" : "method"
                       }
                     ],

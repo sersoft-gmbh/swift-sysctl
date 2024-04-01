@@ -20,6 +20,7 @@
       }
     ],
     "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
     "title" : "SysctlValue Implementations"
   },
   "schemaVersion" : {
@@ -158,6 +159,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentableP0aB0Qa",
       "text" : "SysctlValue"
     },
     {
@@ -166,6 +168,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
       "text" : "SysctlPointerType"
     },
     {
@@ -221,6 +224,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
       "text" : "SysctlPointerType"
     },
     {
@@ -275,6 +279,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentableP0aB0Qa",
       "text" : "SysctlValue"
     },
     {
@@ -283,6 +288,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
       "text" : "SysctlPointerType"
     },
     {
@@ -355,6 +361,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
       "text" : "SysctlPointerType"
     },
     {
@@ -442,6 +449,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentableP0aB0Qa",
       "text" : "SysctlValue"
     },
     {
@@ -450,6 +458,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
       "text" : "SysctlPointerType"
     },
     {

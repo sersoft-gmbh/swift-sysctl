@@ -19,6 +19,7 @@
       }
     ],
     "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
     "title" : "ExpressibleByUnicodeScalarLiteral Implementations"
   },
   "schemaVersion" : {
@@ -226,6 +227,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s43ExpressibleByExtendedGraphemeClusterLiteralP0cdeF4TypeQa",
       "text" : "ExtendedGraphemeClusterLiteralType"
     },
     {

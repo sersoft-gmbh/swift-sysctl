@@ -101,6 +101,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
         "text" : "SysctlPointerType"
       },
       {
@@ -224,7 +225,9 @@
               "text" : "."
             },
             {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/SysctlPointerType",
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
               "text" : "SysctlPointerType"
             },
             {
@@ -449,6 +452,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
       "text" : "SysctlPointerType"
     },
     {
@@ -499,6 +503,35 @@
   "title" : "withSysctlPointer(do:)",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/darwin\/timeval\/withsysctlpointer(do:)"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlValue/SysctlPointerType": {
+  "abstract" : [
+    {
+      "text" : "The underlyling type of the pointer read from \/ written to sysctl.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "associatedtype"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlPointerType"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/SysctlPointerType",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "SysctlPointerType",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlvalue\/sysctlpointertype"
 }
 }
 }

@@ -97,7 +97,9 @@
               "text" : "."
             },
             {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/ParentNamespace",
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A9NamespaceP06ParentB0Qa",
               "text" : "ParentNamespace"
             },
             {
@@ -156,7 +158,7 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart-1e0vl"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart"
       ],
       "title" : "Type Properties"
     }
@@ -545,7 +547,7 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace"
 },
-"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace/managementInformationBasePart-1e0vl": {
+"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace/managementInformationBasePart": {
   "abstract" : [
     {
       "text" : "The mib part of the namespace.",
@@ -584,13 +586,13 @@
       "text" : "CInt"
     }
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart-1e0vl",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
   "title" : "managementInformationBasePart",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-1e0vl"
+  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlNamespace": {
   "abstract" : [
@@ -683,6 +685,69 @@
   "title" : "SysctlNamespace",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace/ParentNamespace": {
+  "abstract" : [
+    {
+      "text" : "The parent namespace for this namespace.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Use ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " if this namespace is located at the root of sysctl (e.g. ",
+      "type" : "text"
+    },
+    {
+      "code" : "net",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "associatedtype"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParentNamespace"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9NamespaceP",
+      "text" : "SysctlNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/ParentNamespace",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "ParentNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamespace\/parentnamespace"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlRootNamespace": {
   "abstract" : [

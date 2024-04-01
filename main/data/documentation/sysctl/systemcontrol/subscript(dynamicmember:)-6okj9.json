@@ -222,7 +222,9 @@
               "text" : "."
             },
             {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/ParentNamespace",
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A9NamespaceP06ParentB0Qa",
               "text" : "ParentNamespace"
             },
             {
@@ -523,6 +525,69 @@
   "title" : "SysctlNamespace",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace/ParentNamespace": {
+  "abstract" : [
+    {
+      "text" : "The parent namespace for this namespace.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Use ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " if this namespace is located at the root of sysctl (e.g. ",
+      "type" : "text"
+    },
+    {
+      "code" : "net",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "associatedtype"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParentNamespace"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9NamespaceP",
+      "text" : "SysctlNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/ParentNamespace",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "ParentNamespace",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamespace\/parentnamespace"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlRootNamespace": {
   "abstract" : [
