@@ -65,12 +65,12 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-2izp1",
+                        "path" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-q8vf",
                         "title" : "static var managementInformationBasePart: CInt?",
                         "type" : "property"
                       },
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-q8vf",
+                        "path" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-2izp1",
                         "title" : "static var managementInformationBasePart: CInt?",
                         "type" : "property"
                       }
@@ -113,13 +113,13 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-8wf4d",
-                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>)",
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-3wpo2",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
                         "type" : "init"
                       },
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-3wpo2",
-                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-8wf4d",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>)",
                         "type" : "init"
                       }
                     ],
@@ -136,11 +136,6 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-751yh",
-                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>, capacity: Int)",
-                        "type" : "init"
-                      },
-                      {
                         "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-7xle2",
                         "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
                         "type" : "init"
@@ -148,6 +143,11 @@
                       {
                         "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-4t3r8",
                         "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-751yh",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>, capacity: Int)",
                         "type" : "init"
                       }
                     ],
