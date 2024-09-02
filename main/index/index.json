@@ -18,16 +18,16 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-2izp1",
+                        "path" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-2izp1",
                         "title" : "static var managementInformationBasePart: CInt?",
                         "type" : "property"
                       }
                     ],
-                    "title" : "SysctlNamespace Implementations",
+                    "title" : "SysctlFullyQualifiedNamespace Implementations",
                     "type" : "groupMarker"
                   }
                 ],
-                "path" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart",
+                "path" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-1e0vl",
                 "title" : "static var managementInformationBasePart: CInt",
                 "type" : "property"
               }
@@ -65,12 +65,18 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-q8vf",
+                        "path" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-2izp1",
                         "title" : "static var managementInformationBasePart: CInt?",
                         "type" : "property"
-                      },
+                      }
+                    ],
+                    "title" : "SysctlFullyQualifiedNamespace Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-2izp1",
+                        "path" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-q8vf",
                         "title" : "static var managementInformationBasePart: CInt?",
                         "type" : "property"
                       }
@@ -113,13 +119,13 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-3wpo2",
-                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-8wf4d",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>)",
                         "type" : "init"
                       },
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-8wf4d",
-                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>)",
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-3wpo2",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
                         "type" : "init"
                       }
                     ],
@@ -168,13 +174,13 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/withsysctlpointer(do:)-pl2w",
-                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/withsysctlpointer(do:)-6ybr3",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlValue.SysctlPointerType>, Int) throws -> T) rethrows -> T",
                         "type" : "method"
                       },
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/withsysctlpointer(do:)-6ybr3",
-                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlValue.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/withsysctlpointer(do:)-pl2w",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
                         "type" : "method"
                       }
                     ],
