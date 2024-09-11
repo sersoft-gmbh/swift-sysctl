@@ -8,8 +8,8 @@
   "defaultImplementationsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:capacity:)-7xle2",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:capacity:)-4t3r8",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:capacity:)-7xle2",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:capacity:)-751yh"
       ],
       "title" : "SysctlValue Implementations"
@@ -96,6 +96,10 @@
         "name" : "Sysctl"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "ValueTypes.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L11"
+    },
     "required" : true,
     "role" : "symbol",
     "roleHeading" : "Initializer",

@@ -57,6 +57,10 @@
         "name" : "Sysctl"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "Network.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Network\/Network.swift#L13"
+    },
     "role" : "symbol",
     "roleHeading" : "Instance Property",
     "symbolKind" : "property",

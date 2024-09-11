@@ -53,6 +53,10 @@
         "text" : "SysctlContainer"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "Container.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Container.swift#L67"
+    },
     "role" : "symbol",
     "roleHeading" : "Structure",
     "symbolKind" : "struct",

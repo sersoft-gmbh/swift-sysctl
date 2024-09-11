@@ -51,6 +51,10 @@
         "name" : "Sysctl"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "Kernel.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Kernel.swift#L93"
+    },
     "role" : "symbol",
     "roleHeading" : "Type Property",
     "symbolKind" : "property",

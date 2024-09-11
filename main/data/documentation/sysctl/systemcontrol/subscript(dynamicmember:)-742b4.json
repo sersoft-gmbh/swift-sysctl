@@ -99,6 +99,10 @@
         "name" : "Sysctl"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "SystemControl.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/SystemControl.swift#L33"
+    },
     "role" : "symbol",
     "roleHeading" : "Instance Subscript",
     "symbolKind" : "subscript",

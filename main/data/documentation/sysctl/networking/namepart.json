@@ -50,6 +50,10 @@
         "name" : "Sysctl"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "Network.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Network\/Network.swift#L7"
+    },
     "role" : "symbol",
     "roleHeading" : "Type Property",
     "symbolKind" : "property",

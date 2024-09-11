@@ -102,6 +102,10 @@
         "text" : "SysctlNamespace"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "Namespace.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Namespace.swift#L4"
+    },
     "role" : "symbol",
     "roleHeading" : "Protocol",
     "symbolKind" : "protocol",

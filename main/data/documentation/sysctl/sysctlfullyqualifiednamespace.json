@@ -38,6 +38,10 @@
         "text" : "SysctlFullyQualifiedNamespace"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "Namespace.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Namespace.swift#L20"
+    },
     "role" : "symbol",
     "roleHeading" : "Protocol",
     "symbolKind" : "protocol",

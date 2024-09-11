@@ -60,6 +60,10 @@
         "name" : "Sysctl"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "ValueRepresentable.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueRepresentable.swift#L15"
+    },
     "required" : true,
     "role" : "symbol",
     "roleHeading" : "Initializer",

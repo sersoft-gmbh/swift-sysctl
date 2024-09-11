@@ -100,6 +100,10 @@
         "name" : "Sysctl"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "Kernel.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Kernel.swift#L116"
+    },
     "role" : "symbol",
     "roleHeading" : "Instance Subscript",
     "symbolKind" : "subscript",

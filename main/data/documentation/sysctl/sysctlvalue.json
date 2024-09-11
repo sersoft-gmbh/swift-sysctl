@@ -52,6 +52,10 @@
         "text" : "SysctlValue"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "ValueTypes.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L6"
+    },
     "role" : "symbol",
     "roleHeading" : "Protocol",
     "symbolKind" : "protocol",

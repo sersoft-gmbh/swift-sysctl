@@ -52,6 +52,10 @@
         "text" : "Networking"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "Network.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Network\/Network.swift#L4"
+    },
     "role" : "symbol",
     "roleHeading" : "Structure",
     "symbolKind" : "struct",

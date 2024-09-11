@@ -57,6 +57,10 @@
         ]
       }
     ],
+    "remoteSource" : {
+      "fileName" : "ValueRepresentable.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueRepresentable.swift#L39"
+    },
     "role" : "symbol",
     "roleHeading" : "Instance Property",
     "symbolKind" : "property",

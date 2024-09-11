@@ -54,6 +54,10 @@
         "text" : "CPU"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "MachineDependent.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/MachineDependent.swift#L13"
+    },
     "role" : "symbol",
     "roleHeading" : "Structure",
     "symbolKind" : "struct",

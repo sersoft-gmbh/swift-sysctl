@@ -123,6 +123,10 @@
         ]
       }
     ],
+    "remoteSource" : {
+      "fileName" : "ValueTypes.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L55"
+    },
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",

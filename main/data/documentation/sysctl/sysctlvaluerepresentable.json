@@ -78,6 +78,10 @@
         "text" : "SysctlValueRepresentable"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "ValueRepresentable.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueRepresentable.swift#L5"
+    },
     "role" : "symbol",
     "roleHeading" : "Protocol",
     "symbolKind" : "protocol",

@@ -61,6 +61,10 @@
         "text" : "SystemControl"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "SystemControl.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/SystemControl.swift#L5"
+    },
     "role" : "symbol",
     "roleHeading" : "Structure",
     "symbolKind" : "struct",

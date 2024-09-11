@@ -45,6 +45,10 @@
         "text" : "SysctlValue"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "ValueRepresentable.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueRepresentable.swift#L36"
+    },
     "role" : "symbol",
     "roleHeading" : "Type Alias",
     "symbolKind" : "typealias",

@@ -91,6 +91,10 @@
         "name" : "Sysctl"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "Namespace.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Namespace.swift#L13"
+    },
     "required" : true,
     "role" : "symbol",
     "roleHeading" : "Type Property",

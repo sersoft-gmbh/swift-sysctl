@@ -40,6 +40,10 @@
         "text" : "ParentNamespace"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "Kernel.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Kernel.swift#L106"
+    },
     "role" : "symbol",
     "roleHeading" : "Type Alias",
     "symbolKind" : "typealias",

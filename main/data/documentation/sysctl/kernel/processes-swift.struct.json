@@ -54,6 +54,10 @@
         "text" : "Processes"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "Kernel.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Kernel.swift#L105"
+    },
     "role" : "symbol",
     "roleHeading" : "Structure",
     "symbolKind" : "struct",

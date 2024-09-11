@@ -52,6 +52,10 @@
         "text" : "VirtualMemory"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "VirtualMemory.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/VirtualMemory.swift#L4"
+    },
     "role" : "symbol",
     "roleHeading" : "Structure",
     "symbolKind" : "struct",

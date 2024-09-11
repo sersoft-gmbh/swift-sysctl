@@ -39,6 +39,10 @@
         "name" : "Sysctl"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "ValueTypes.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L8"
+    },
     "required" : true,
     "role" : "symbol",
     "roleHeading" : "Associated Type",
