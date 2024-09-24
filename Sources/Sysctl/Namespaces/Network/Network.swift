@@ -1,4 +1,8 @@
-import Darwin
+#if swift(>=6.0)
+fileprivate import Darwin
+#else
+public import Darwin
+#endif
 
 /// The namespace for the networking values (`net`).
 public struct Networking: SysctlFullyQualifiedNamespace {

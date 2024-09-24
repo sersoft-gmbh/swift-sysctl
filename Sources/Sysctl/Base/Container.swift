@@ -1,5 +1,3 @@
-import Darwin
-
 extension SysctlNamespace {
     @usableFromInline
     static var _isRoot: Bool { self == SysctlRootNamespace.self }

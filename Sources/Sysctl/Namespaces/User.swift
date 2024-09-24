@@ -1,4 +1,8 @@
-import Darwin
+#if swift(>=6.0)
+fileprivate import Darwin
+#else
+public import Darwin
+#endif
 
 /// The `user` namespace.
 public struct User: SysctlFullyQualifiedNamespace {

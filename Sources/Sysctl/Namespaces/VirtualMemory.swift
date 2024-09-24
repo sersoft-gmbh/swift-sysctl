@@ -1,4 +1,4 @@
-import Darwin
+public import Darwin
 
 /// The virtual memory namespace (`vm`).
 public struct VirtualMemory: SysctlFullyQualifiedNamespace {

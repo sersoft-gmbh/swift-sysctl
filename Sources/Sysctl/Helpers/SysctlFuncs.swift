@@ -1,4 +1,8 @@
-import Darwin
+#if swift(>=6.0)
+internal import Darwin
+#else
+public import Darwin
+#endif
 
 struct SysctlError: Error, CustomStringConvertible {
     let target: (function: String, action: String)

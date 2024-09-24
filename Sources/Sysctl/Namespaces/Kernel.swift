@@ -1,5 +1,5 @@
-import Darwin
-import Foundation
+public import Darwin
+public import Foundation
 
 /// The namespace for the kernel values (`kern`).
 public struct Kernel: SysctlFullyQualifiedNamespace {

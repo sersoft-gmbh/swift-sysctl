@@ -1,4 +1,4 @@
-import Foundation
+public import Foundation
 
 /// Describes a type that can be represented by a ``SyctlValue`` conforming type.
 /// It will automatically provide a ``SysctlValue`` conformance for this type, using the underlying ``SysctlValue`` type.

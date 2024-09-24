@@ -1,5 +1,4 @@
-import Darwin
-import Foundation
+public import Darwin
 
 /// Describes a type that can be read from / written to sysctl.
 /// Usually, no new conformances to this protocol are necessary and the set of default conformances below will suffice.
