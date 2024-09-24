@@ -1,0 +1,179 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:m:s:e:s:So10kinfo_procV6SysctlE0C11PointerTypea",
+    "modules" : [
+      {
+        "name" : "Sysctl"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Extended Module",
+    "symbolKind" : "extension",
+    "title" : "Darwin"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Extended-Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/clockinfo",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/kinfo_proc",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg"
+      ],
+      "title" : "Extended Structures"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl\/darwin"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/Darwin": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Darwin",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/darwin"
+},
+"doc://Sysctl/documentation/Sysctl/Darwin/clockinfo": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "c:@S@clockinfo",
+      "text" : "clockinfo"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/clockinfo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "clockinfo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "clockinfo",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/darwin\/clockinfo"
+},
+"doc://Sysctl/documentation/Sysctl/Darwin/kinfo_proc": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "c:@S@kinfo_proc",
+      "text" : "kinfo_proc"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/kinfo_proc",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "kinfo_proc"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "kinfo_proc",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/darwin\/kinfo_proc"
+},
+"doc://Sysctl/documentation/Sysctl/Darwin/loadavg": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "c:@S@loadavg",
+      "text" : "loadavg"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "loadavg"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "loadavg",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/darwin\/loadavg"
+}
+}
+}

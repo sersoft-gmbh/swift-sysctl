@@ -1,0 +1,2692 @@
+{
+  "includedArchiveIdentifiers" : [
+    "Sysctl"
+  ],
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "title" : "Protocols",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-2izp1",
+                        "title" : "static var managementInformationBasePart: CInt?",
+                        "type" : "property"
+                      }
+                    ],
+                    "title" : "SysctlFullyQualifiedNamespace Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-1e0vl",
+                "title" : "static var managementInformationBasePart: CInt",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace",
+            "title" : "SysctlFullyQualifiedNamespace",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Associated Types",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlnamespace\/parentnamespace",
+                "title" : "ParentNamespace",
+                "type" : "associatedtype"
+              },
+              {
+                "title" : "Type Aliases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlnamespace\/field",
+                "title" : "SysctlNamespace.Field",
+                "type" : "typealias"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-2izp1",
+                        "title" : "static var managementInformationBasePart: CInt?",
+                        "type" : "property"
+                      }
+                    ],
+                    "title" : "SysctlFullyQualifiedNamespace Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-q8vf",
+                        "title" : "static var managementInformationBasePart: CInt?",
+                        "type" : "property"
+                      }
+                    ],
+                    "title" : "SysctlNamespace Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-5tyxi",
+                "title" : "static var managementInformationBasePart: CInt?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlnamespace\/namepart",
+                "title" : "static var namePart: String",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/sysctlnamespace",
+            "title" : "SysctlNamespace",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Associated Types",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlvalue\/sysctlpointertype",
+                "title" : "SysctlPointerType",
+                "type" : "associatedtype"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-3wpo2",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-8wf4d",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>)",
+                        "type" : "init"
+                      }
+                    ],
+                    "title" : "SysctlValue Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-6wee0",
+                "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                "type" : "init"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-7xle2",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-4t3r8",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-751yh",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      }
+                    ],
+                    "title" : "SysctlValue Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-7x01x",
+                "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/withsysctlpointer(do:)-6ybr3",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlValue.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/withsysctlpointer(do:)-pl2w",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      }
+                    ],
+                    "title" : "SysctlValue Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/sysctlvalue\/withsysctlpointer(do:)-16k5u",
+                "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/sysctlvalue",
+            "title" : "SysctlValue",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Associated Types",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlvaluerepresentable\/sysctlvalue-swift.associatedtype",
+                "title" : "SysctlValue",
+                "type" : "associatedtype"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlvaluerepresentable\/init(sysctlvalue:)",
+                "title" : "init(sysctlValue: Self.SysctlValue)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlvaluerepresentable\/sysctlvalue-swift.property",
+                "title" : "var sysctlValue: Self.SysctlValue",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/sysctlvaluerepresentable",
+            "title" : "SysctlValueRepresentable",
+            "type" : "protocol"
+          },
+          {
+            "title" : "Structures",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/hardware\/machine",
+                "title" : "var machine: Hardware.Field<String>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/hardware\/memorysize",
+                "title" : "var memorySize: Hardware.Field<CLongLong>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/hardware\/model",
+                "title" : "var model: Hardware.Field<String>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/hardware\/numberofcpus",
+                "title" : "var numberOfCPUs: Hardware.Field<CInt>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/hardware\/physicalcpus",
+                "title" : "var physicalCPUs: Hardware.Field<CInt>",
+                "type" : "property"
+              },
+              {
+                "title" : "Type Aliases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/hardware\/parentnamespace",
+                "title" : "Hardware.ParentNamespace",
+                "type" : "typealias"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/hardware\/managementinformationbasepart-4nnmv",
+                "title" : "static var managementInformationBasePart: CInt",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/hardware\/namepart",
+                "title" : "static var namePart: String",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/hardware\/managementinformationbasepart-3szsx",
+                    "title" : "static var managementInformationBasePart: CInt?",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/hardware\/sysctlfullyqualifiednamespace-implementations",
+                "title" : "SysctlFullyQualifiedNamespace Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Aliases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/hardware\/field",
+                    "title" : "Hardware.Field",
+                    "type" : "typealias"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/hardware\/managementinformationbasepart-150y7",
+                    "title" : "static var managementInformationBasePart: CInt?",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/hardware\/sysctlnamespace-implementations",
+                "title" : "SysctlNamespace Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/hardware",
+            "title" : "Hardware",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/kernel\/hypervisor-swift.struct\/issupported",
+                    "title" : "var isSupported: Kernel.Hypervisor.Field<Bool>",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Aliases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/kernel\/hypervisor-swift.struct\/parentnamespace",
+                    "title" : "Kernel.Hypervisor.ParentNamespace",
+                    "type" : "typealias"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/kernel\/hypervisor-swift.struct\/namepart",
+                    "title" : "static var namePart: String",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/kernel\/hypervisor-swift.struct\/field",
+                        "title" : "Kernel.Hypervisor.Field",
+                        "type" : "typealias"
+                      },
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/kernel\/hypervisor-swift.struct\/managementinformationbasepart",
+                        "title" : "static var managementInformationBasePart: CInt?",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/kernel\/hypervisor-swift.struct\/sysctlnamespace-implementations",
+                    "title" : "SysctlNamespace Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/kernel\/hypervisor-swift.struct",
+                "title" : "Kernel.Hypervisor",
+                "type" : "struct"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Structures",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Subscripts",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/bypid-swift.struct\/subscript(_:)",
+                        "title" : "subscript(CInt) -> Kernel.Processes.ByPID.Field<Array<kinfo_proc>>",
+                        "type" : "subscript"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/bypid-swift.struct\/parentnamespace",
+                        "title" : "Kernel.Processes.ByPID.ParentNamespace",
+                        "type" : "typealias"
+                      },
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/bypid-swift.struct\/managementinformationbasepart-9vcpc",
+                        "title" : "static var managementInformationBasePart: CInt",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/bypid-swift.struct\/namepart",
+                        "title" : "static var namePart: String",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Default Implementations",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Type Properties",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/bypid-swift.struct\/managementinformationbasepart-16f81",
+                            "title" : "static var managementInformationBasePart: CInt?",
+                            "type" : "property"
+                          }
+                        ],
+                        "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/bypid-swift.struct\/sysctlfullyqualifiednamespace-implementations",
+                        "title" : "SysctlFullyQualifiedNamespace Implementations",
+                        "type" : "symbol"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Type Aliases",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/bypid-swift.struct\/field",
+                            "title" : "Kernel.Processes.ByPID.Field",
+                            "type" : "typealias"
+                          },
+                          {
+                            "title" : "Type Properties",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/bypid-swift.struct\/managementinformationbasepart-yqvq",
+                            "title" : "static var managementInformationBasePart: CInt?",
+                            "type" : "property"
+                          }
+                        ],
+                        "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/bypid-swift.struct\/sysctlnamespace-implementations",
+                        "title" : "SysctlNamespace Implementations",
+                        "type" : "symbol"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/bypid-swift.struct",
+                    "title" : "Kernel.Processes.ByPID",
+                    "type" : "struct"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/all",
+                    "title" : "var all: Kernel.Processes.Field<Array<kinfo_proc>>",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/bypid-swift.property",
+                    "title" : "var byPid: Kernel.Processes.ByPID",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Aliases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/parentnamespace",
+                    "title" : "Kernel.Processes.ParentNamespace",
+                    "type" : "typealias"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/managementinformationbasepart-6cy5v",
+                    "title" : "static var managementInformationBasePart: CInt",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/namepart",
+                    "title" : "static var namePart: String",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/managementinformationbasepart-2qwi8",
+                        "title" : "static var managementInformationBasePart: CInt?",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/sysctlfullyqualifiednamespace-implementations",
+                    "title" : "SysctlFullyQualifiedNamespace Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/field",
+                        "title" : "Kernel.Processes.Field",
+                        "type" : "typealias"
+                      },
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/managementinformationbasepart-1ekr5",
+                        "title" : "static var managementInformationBasePart: CInt?",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/sysctlnamespace-implementations",
+                    "title" : "SysctlNamespace Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/kernel\/processes-swift.struct",
+                "title" : "Kernel.Processes",
+                "type" : "struct"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/bootdate",
+                "title" : "var bootDate: Kernel.Field<Date>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/fullversiontext",
+                "title" : "var fullVersionText: Kernel.Field<String>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/hostid",
+                "title" : "var hostID: Kernel.Field<CInt>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/hostname",
+                "title" : "var hostname: Kernel.Field<String>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/hypervisor-swift.property",
+                "title" : "var hypervisor: Kernel.Hypervisor",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/isjobcontrolavailable",
+                "title" : "var isJobControlAvailable: Kernel.Field<Bool>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/issingleuser",
+                "title" : "var isSingleUser: Kernel.Field<Bool>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/kind",
+                "title" : "var kind: Kernel.Field<String>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/maxopenfiles",
+                "title" : "var maxOpenFiles: Kernel.Field<CInt>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/maxopenfilesperprocess",
+                "title" : "var maxOpenFilesPerProcess: Kernel.Field<CInt>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/maxprocesses",
+                "title" : "var maxProcesses: Kernel.Field<CInt>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/maxprocessesperuser",
+                "title" : "var maxProcessesPerUser: Kernel.Field<CInt>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/maxvirtualnodes",
+                "title" : "var maxVirtualNodes: Kernel.Field<CInt>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/osbuild",
+                "title" : "var osBuild: Kernel.Field<String>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/processes-swift.property",
+                "title" : "var processes: Kernel.Processes",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/revision",
+                "title" : "var revision: Kernel.Field<String>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/version",
+                "title" : "var version: Kernel.Field<String>",
+                "type" : "property"
+              },
+              {
+                "title" : "Type Aliases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/parentnamespace",
+                "title" : "Kernel.ParentNamespace",
+                "type" : "typealias"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/managementinformationbasepart-10vry",
+                "title" : "static var managementInformationBasePart: CInt",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/kernel\/namepart",
+                "title" : "static var namePart: String",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/kernel\/managementinformationbasepart-4ftut",
+                    "title" : "static var managementInformationBasePart: CInt?",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/kernel\/sysctlfullyqualifiednamespace-implementations",
+                "title" : "SysctlFullyQualifiedNamespace Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Aliases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/kernel\/field",
+                    "title" : "Kernel.Field",
+                    "type" : "typealias"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/kernel\/managementinformationbasepart-8r1tt",
+                    "title" : "static var managementInformationBasePart: CInt?",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/kernel\/sysctlnamespace-implementations",
+                "title" : "SysctlNamespace Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/kernel",
+            "title" : "Kernel",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/machinedependent\/cpu-swift.struct\/brandstring",
+                    "title" : "var brandString: MachineDependent.CPU.Field<String>",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Aliases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/machinedependent\/cpu-swift.struct\/parentnamespace",
+                    "title" : "MachineDependent.CPU.ParentNamespace",
+                    "type" : "typealias"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/machinedependent\/cpu-swift.struct\/namepart",
+                    "title" : "static var namePart: String",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/machinedependent\/cpu-swift.struct\/field",
+                        "title" : "MachineDependent.CPU.Field",
+                        "type" : "typealias"
+                      },
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/machinedependent\/cpu-swift.struct\/managementinformationbasepart",
+                        "title" : "static var managementInformationBasePart: CInt?",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/machinedependent\/cpu-swift.struct\/sysctlnamespace-implementations",
+                    "title" : "SysctlNamespace Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/machinedependent\/cpu-swift.struct",
+                "title" : "MachineDependent.CPU",
+                "type" : "struct"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/machinedependent\/cpu-swift.property",
+                "title" : "var cpu: MachineDependent.CPU",
+                "type" : "property"
+              },
+              {
+                "title" : "Type Aliases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/machinedependent\/parentnamespace",
+                "title" : "MachineDependent.ParentNamespace",
+                "type" : "typealias"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/machinedependent\/managementinformationbasepart-76rhd",
+                "title" : "static var managementInformationBasePart: CInt",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/machinedependent\/namepart",
+                "title" : "static var namePart: String",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/machinedependent\/managementinformationbasepart-7gib9",
+                    "title" : "static var managementInformationBasePart: CInt?",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/machinedependent\/sysctlfullyqualifiednamespace-implementations",
+                "title" : "SysctlFullyQualifiedNamespace Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Aliases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/machinedependent\/field",
+                    "title" : "MachineDependent.Field",
+                    "type" : "typealias"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/machinedependent\/managementinformationbasepart-559so",
+                    "title" : "static var managementInformationBasePart: CInt?",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/machinedependent\/sysctlnamespace-implementations",
+                "title" : "SysctlNamespace Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/machinedependent",
+            "title" : "MachineDependent",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Structures",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/icmp-swift.struct\/answerbroadandmulticastechorequests",
+                        "title" : "var answerBroadAndMulticastEchoRequests: Networking.IPv4.ICMP.Field<Bool>",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/icmp-swift.struct\/answernetworkmaskrequests",
+                        "title" : "var answerNetworkMaskRequests: Networking.IPv4.ICMP.Field<Bool>",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/icmp-swift.struct\/parentnamespace",
+                        "title" : "Networking.IPv4.ICMP.ParentNamespace",
+                        "type" : "typealias"
+                      },
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/icmp-swift.struct\/namepart",
+                        "title" : "static var namePart: String",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Default Implementations",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Type Aliases",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/icmp-swift.struct\/field",
+                            "title" : "Networking.IPv4.ICMP.Field",
+                            "type" : "typealias"
+                          },
+                          {
+                            "title" : "Type Properties",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/icmp-swift.struct\/managementinformationbasepart",
+                            "title" : "static var managementInformationBasePart: CInt?",
+                            "type" : "property"
+                          }
+                        ],
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/icmp-swift.struct\/sysctlnamespace-implementations",
+                        "title" : "SysctlNamespace Implementations",
+                        "type" : "symbol"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/icmp-swift.struct",
+                    "title" : "Networking.IPv4.ICMP",
+                    "type" : "struct"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/ip-swift.struct\/forwardingenabled",
+                        "title" : "var forwardingEnabled: Networking.IPv4.IP.Field<Bool>",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/ip-swift.struct\/redirectsenabled",
+                        "title" : "var redirectsEnabled: Networking.IPv4.IP.Field<Bool>",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/ip-swift.struct\/timetolive",
+                        "title" : "var timeToLive: Networking.IPv4.IP.Field<CInt>",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/ip-swift.struct\/parentnamespace",
+                        "title" : "Networking.IPv4.IP.ParentNamespace",
+                        "type" : "typealias"
+                      },
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/ip-swift.struct\/namepart",
+                        "title" : "static var namePart: String",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Default Implementations",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Type Aliases",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/ip-swift.struct\/field",
+                            "title" : "Networking.IPv4.IP.Field",
+                            "type" : "typealias"
+                          },
+                          {
+                            "title" : "Type Properties",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/ip-swift.struct\/managementinformationbasepart",
+                            "title" : "static var managementInformationBasePart: CInt?",
+                            "type" : "property"
+                          }
+                        ],
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/ip-swift.struct\/sysctlnamespace-implementations",
+                        "title" : "SysctlNamespace Implementations",
+                        "type" : "symbol"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/ip-swift.struct",
+                    "title" : "Networking.IPv4.IP",
+                    "type" : "struct"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/udp-swift.struct\/checksumenabled",
+                        "title" : "var checksumEnabled: Networking.IPv4.UDP.Field<Bool>",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/udp-swift.struct\/parentnamespace",
+                        "title" : "Networking.IPv4.UDP.ParentNamespace",
+                        "type" : "typealias"
+                      },
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/udp-swift.struct\/namepart",
+                        "title" : "static var namePart: String",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Default Implementations",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Type Aliases",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/udp-swift.struct\/field",
+                            "title" : "Networking.IPv4.UDP.Field",
+                            "type" : "typealias"
+                          },
+                          {
+                            "title" : "Type Properties",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/udp-swift.struct\/managementinformationbasepart",
+                            "title" : "static var managementInformationBasePart: CInt?",
+                            "type" : "property"
+                          }
+                        ],
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/udp-swift.struct\/sysctlnamespace-implementations",
+                        "title" : "SysctlNamespace Implementations",
+                        "type" : "symbol"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/udp-swift.struct",
+                    "title" : "Networking.IPv4.UDP",
+                    "type" : "struct"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/icmp-swift.property",
+                    "title" : "var icmp: Networking.IPv4.ICMP",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/ip-swift.property",
+                    "title" : "var ip: Networking.IPv4.IP",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/udp-swift.property",
+                    "title" : "var udp: Networking.IPv4.UDP",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Aliases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/parentnamespace",
+                    "title" : "Networking.IPv4.ParentNamespace",
+                    "type" : "typealias"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/managementinformationbasepart-2nzsu",
+                    "title" : "static var managementInformationBasePart: CInt",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/namepart",
+                    "title" : "static var namePart: String",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/managementinformationbasepart-5tfji",
+                        "title" : "static var managementInformationBasePart: CInt?",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/sysctlfullyqualifiednamespace-implementations",
+                    "title" : "SysctlFullyQualifiedNamespace Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/field",
+                        "title" : "Networking.IPv4.Field",
+                        "type" : "typealias"
+                      },
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/managementinformationbasepart-1vnjw",
+                        "title" : "static var managementInformationBasePart: CInt?",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/sysctlnamespace-implementations",
+                    "title" : "SysctlNamespace Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct",
+                "title" : "Networking.IPv4",
+                "type" : "struct"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Structures",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/icmp-swift.struct\/acceptredirects",
+                        "title" : "var acceptRedirects: Networking.IPv6.ICMP.Field<Bool>",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/icmp-swift.struct\/redirecttimeout",
+                        "title" : "var redirectTimeout: Networking.IPv6.ICMP.Field<CInt>",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/icmp-swift.struct\/parentnamespace",
+                        "title" : "Networking.IPv6.ICMP.ParentNamespace",
+                        "type" : "typealias"
+                      },
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/icmp-swift.struct\/namepart",
+                        "title" : "static var namePart: String",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Default Implementations",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Type Aliases",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/icmp-swift.struct\/field",
+                            "title" : "Networking.IPv6.ICMP.Field",
+                            "type" : "typealias"
+                          },
+                          {
+                            "title" : "Type Properties",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/icmp-swift.struct\/managementinformationbasepart",
+                            "title" : "static var managementInformationBasePart: CInt?",
+                            "type" : "property"
+                          }
+                        ],
+                        "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/icmp-swift.struct\/sysctlnamespace-implementations",
+                        "title" : "SysctlNamespace Implementations",
+                        "type" : "symbol"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/icmp-swift.struct",
+                    "title" : "Networking.IPv6.ICMP",
+                    "type" : "struct"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/ip-swift.struct\/forwardingenabled",
+                        "title" : "var forwardingEnabled: Networking.IPv6.IP.Field<Bool>",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/ip-swift.struct\/redirectsenabled",
+                        "title" : "var redirectsEnabled: Networking.IPv6.IP.Field<Bool>",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/ip-swift.struct\/parentnamespace",
+                        "title" : "Networking.IPv6.IP.ParentNamespace",
+                        "type" : "typealias"
+                      },
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/ip-swift.struct\/namepart",
+                        "title" : "static var namePart: String",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Default Implementations",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Type Aliases",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/ip-swift.struct\/field",
+                            "title" : "Networking.IPv6.IP.Field",
+                            "type" : "typealias"
+                          },
+                          {
+                            "title" : "Type Properties",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/ip-swift.struct\/managementinformationbasepart",
+                            "title" : "static var managementInformationBasePart: CInt?",
+                            "type" : "property"
+                          }
+                        ],
+                        "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/ip-swift.struct\/sysctlnamespace-implementations",
+                        "title" : "SysctlNamespace Implementations",
+                        "type" : "symbol"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/ip-swift.struct",
+                    "title" : "Networking.IPv6.IP",
+                    "type" : "struct"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/icmp-swift.property",
+                    "title" : "var icmp: Networking.IPv6.ICMP",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/ip-swift.property",
+                    "title" : "var ip: Networking.IPv6.IP",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Aliases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/parentnamespace",
+                    "title" : "Networking.IPv6.ParentNamespace",
+                    "type" : "typealias"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/managementinformationbasepart-5f0cm",
+                    "title" : "static var managementInformationBasePart: CInt",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/namepart",
+                    "title" : "static var namePart: String",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/managementinformationbasepart-5tg36",
+                        "title" : "static var managementInformationBasePart: CInt?",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/sysctlfullyqualifiednamespace-implementations",
+                    "title" : "SysctlFullyQualifiedNamespace Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/field",
+                        "title" : "Networking.IPv6.Field",
+                        "type" : "typealias"
+                      },
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/managementinformationbasepart-1vnys",
+                        "title" : "static var managementInformationBasePart: CInt?",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/sysctlnamespace-implementations",
+                    "title" : "SysctlNamespace Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct",
+                "title" : "Networking.IPv6",
+                "type" : "struct"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/networking\/ipv4-swift.property",
+                "title" : "var ipv4: Networking.IPv4",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/networking\/ipv6-swift.property",
+                "title" : "var ipv6: Networking.IPv6",
+                "type" : "property"
+              },
+              {
+                "title" : "Type Aliases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/networking\/parentnamespace",
+                "title" : "Networking.ParentNamespace",
+                "type" : "typealias"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/networking\/managementinformationbasepart-92zqi",
+                "title" : "static var managementInformationBasePart: CInt",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/networking\/namepart",
+                "title" : "static var namePart: String",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/networking\/managementinformationbasepart-2y8uu",
+                    "title" : "static var managementInformationBasePart: CInt?",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/networking\/sysctlfullyqualifiednamespace-implementations",
+                "title" : "SysctlFullyQualifiedNamespace Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Aliases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/networking\/field",
+                    "title" : "Networking.Field",
+                    "type" : "typealias"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/networking\/managementinformationbasepart-3xe2c",
+                    "title" : "static var managementInformationBasePart: CInt?",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/networking\/sysctlnamespace-implementations",
+                "title" : "SysctlNamespace Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/networking",
+            "title" : "Networking",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Subscripts",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlcontainer\/subscript(dynamicmember:)-57k7b",
+                "title" : "subscript<Value>(dynamicMember _: WritableKeyPath<Namespace, Namespace.Field<Value>>) -> Value",
+                "type" : "subscript"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlcontainer\/subscript(dynamicmember:)-6011h",
+                "title" : "subscript<ChildSpace>(dynamicMember _: KeyPath<Namespace, ChildSpace>) -> SysctlContainer<ChildSpace>",
+                "type" : "subscript"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlcontainer\/subscript(dynamicmember:)-9tg45",
+                "title" : "subscript<Value>(dynamicMember _: KeyPath<Namespace, Namespace.Field<Value>>) -> Value",
+                "type" : "subscript"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/sysctlcontainer",
+            "title" : "SysctlContainer",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlfield\/init(managementinformationbasepart:namepart:)-1s6xv",
+                "title" : "init(managementInformationBasePart: CInt?, namePart: String)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlfield\/init(managementinformationbasepart:namepart:)-6emlq",
+                "title" : "init?(managementInformationBasePart: CInt?, namePart: String?)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlfield\/init(managementinformationbasepart:namepart:)-6yfl3",
+                "title" : "init(managementInformationBasePart: CInt, namePart: String)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlfield\/init(managementinformationbasepart:namepart:)-9b5ot",
+                "title" : "init(managementInformationBasePart: CInt, namePart: String?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Type Aliases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlfield\/parent",
+                "title" : "SysctlField.Parent",
+                "type" : "typealias"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/sysctlfield\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/sysctlfield\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/sysctlfield\/init(extendedgraphemeclusterliteral:)",
+                    "title" : "init(extendedGraphemeClusterLiteral: Self.StringLiteralType)",
+                    "type" : "init"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/sysctlfield\/expressiblebyextendedgraphemeclusterliteral-implementations",
+                "title" : "ExpressibleByExtendedGraphemeClusterLiteral Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/sysctlfield\/init(integerliteral:)",
+                    "title" : "init(integerLiteral: SysctlField<Namespace, Value>.IntegerLiteralType)",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Type Aliases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/sysctlfield\/integerliteraltype",
+                    "title" : "SysctlField.IntegerLiteralType",
+                    "type" : "typealias"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/sysctlfield\/expressiblebyintegerliteral-implementations",
+                "title" : "ExpressibleByIntegerLiteral Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/sysctlfield\/init(stringliteral:)",
+                    "title" : "init(stringLiteral: String)",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Type Aliases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/sysctlfield\/stringliteraltype",
+                    "title" : "SysctlField.StringLiteralType",
+                    "type" : "typealias"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/sysctlfield\/expressiblebystringliteral-implementations",
+                "title" : "ExpressibleByStringLiteral Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/sysctlfield\/init(unicodescalarliteral:)",
+                    "title" : "init(unicodeScalarLiteral: Self.ExtendedGraphemeClusterLiteralType)",
+                    "type" : "init"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/sysctlfield\/expressiblebyunicodescalarliteral-implementations",
+                "title" : "ExpressibleByUnicodeScalarLiteral Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/sysctlfield",
+            "title" : "SysctlField",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlrootnamespace\/hardware",
+                "title" : "var hardware: Hardware",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlrootnamespace\/kernel",
+                "title" : "var kernel: Kernel",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlrootnamespace\/machinedependent",
+                "title" : "var machineDependent: MachineDependent",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlrootnamespace\/networking",
+                "title" : "var networking: Networking",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlrootnamespace\/user",
+                "title" : "var user: User",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlrootnamespace\/virtualmemory",
+                "title" : "var virtualMemory: VirtualMemory",
+                "type" : "property"
+              },
+              {
+                "title" : "Type Aliases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlrootnamespace\/parentnamespace",
+                "title" : "SysctlRootNamespace.ParentNamespace",
+                "type" : "typealias"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlrootnamespace\/managementinformationbasepart-26x0r",
+                "title" : "static var managementInformationBasePart: CInt",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/sysctlrootnamespace\/namepart",
+                "title" : "static var namePart: String",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/sysctlrootnamespace\/managementinformationbasepart-9gf0o",
+                    "title" : "static var managementInformationBasePart: CInt?",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/sysctlrootnamespace\/sysctlfullyqualifiednamespace-implementations",
+                "title" : "SysctlFullyQualifiedNamespace Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Aliases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/sysctlrootnamespace\/field",
+                    "title" : "SysctlRootNamespace.Field",
+                    "type" : "typealias"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/sysctlrootnamespace\/managementinformationbasepart-5wxii",
+                    "title" : "static var managementInformationBasePart: CInt?",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/sysctlrootnamespace\/sysctlnamespace-implementations",
+                "title" : "SysctlNamespace Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/sysctlrootnamespace",
+            "title" : "SysctlRootNamespace",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/systemcontrol\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Subscripts",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/systemcontrol\/subscript(dynamicmember:)-3vr2e",
+                "title" : "subscript<Value>(dynamicMember _: KeyPath<SysctlRootNamespace, SysctlRootNamespace.Field<Value>>) -> Value",
+                "type" : "subscript"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/systemcontrol\/subscript(dynamicmember:)-6okj9",
+                "title" : "subscript<ChildSpace>(dynamicMember _: KeyPath<SysctlRootNamespace, ChildSpace>) -> SysctlContainer<ChildSpace>",
+                "type" : "subscript"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/systemcontrol\/subscript(dynamicmember:)-742b4",
+                "title" : "subscript<Value>(dynamicMember _: WritableKeyPath<SysctlRootNamespace, SysctlRootNamespace.Field<Value>>) -> Value",
+                "type" : "subscript"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/systemcontrol",
+            "title" : "SystemControl",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/user\/standardsearchpath",
+                "title" : "var standardSearchPath: User.Field<String>",
+                "type" : "property"
+              },
+              {
+                "title" : "Type Aliases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/user\/parentnamespace",
+                "title" : "User.ParentNamespace",
+                "type" : "typealias"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/user\/managementinformationbasepart-277t2",
+                "title" : "static var managementInformationBasePart: CInt",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/user\/namepart",
+                "title" : "static var namePart: String",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/user\/managementinformationbasepart-5vmsj",
+                    "title" : "static var managementInformationBasePart: CInt?",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/user\/sysctlfullyqualifiednamespace-implementations",
+                "title" : "SysctlFullyQualifiedNamespace Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Aliases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/user\/field",
+                    "title" : "User.Field",
+                    "type" : "typealias"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/user\/managementinformationbasepart-30anb",
+                    "title" : "static var managementInformationBasePart: CInt?",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/user\/sysctlnamespace-implementations",
+                "title" : "SysctlNamespace Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/user",
+            "title" : "User",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/virtualmemory\/isswappingenabled",
+                "title" : "var isSwappingEnabled: VirtualMemory.Field<loadavg>",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/virtualmemory\/loadaveragehistory",
+                "title" : "var loadAverageHistory: VirtualMemory.Field<loadavg>",
+                "type" : "property"
+              },
+              {
+                "title" : "Type Aliases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/virtualmemory\/parentnamespace",
+                "title" : "VirtualMemory.ParentNamespace",
+                "type" : "typealias"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/virtualmemory\/managementinformationbasepart-3e10o",
+                "title" : "static var managementInformationBasePart: CInt",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/sysctl\/virtualmemory\/namepart",
+                "title" : "static var namePart: String",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/virtualmemory\/managementinformationbasepart-7etrd",
+                    "title" : "static var managementInformationBasePart: CInt?",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/virtualmemory\/sysctlfullyqualifiednamespace-implementations",
+                "title" : "SysctlFullyQualifiedNamespace Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Aliases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/virtualmemory\/field",
+                    "title" : "VirtualMemory.Field",
+                    "type" : "typealias"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/sysctl\/virtualmemory\/managementinformationbasepart-2uprh",
+                    "title" : "static var managementInformationBasePart: CInt?",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/virtualmemory\/sysctlnamespace-implementations",
+                "title" : "SysctlNamespace Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/virtualmemory",
+            "title" : "VirtualMemory",
+            "type" : "struct"
+          },
+          {
+            "title" : "Type Aliases",
+            "type" : "groupMarker"
+          },
+          {
+            "path" : "\/documentation\/sysctl\/sysctlnamedfield",
+            "title" : "SysctlNamedField",
+            "type" : "typealias"
+          },
+          {
+            "title" : "Extended Modules",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Extended Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/clockinfo\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/clockinfo\/init(sysctlpointer:capacity:)-3bdd9",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/clockinfo\/init(sysctlpointer:capacity:)-55j5y",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/clockinfo\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/clockinfo\/sysctlpointertype",
+                        "title" : "clockinfo.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/darwin\/clockinfo\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/darwin\/clockinfo",
+                "title" : "clockinfo",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/kinfo_proc\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/kinfo_proc\/init(sysctlpointer:capacity:)-72l8j",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/kinfo_proc\/init(sysctlpointer:capacity:)-8futd",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/kinfo_proc\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/kinfo_proc\/sysctlpointertype",
+                        "title" : "kinfo_proc.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/darwin\/kinfo_proc\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/darwin\/kinfo_proc",
+                "title" : "kinfo_proc",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/loadavg\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/loadavg\/init(sysctlpointer:capacity:)-2c9qx",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/loadavg\/init(sysctlpointer:capacity:)-3bsc8",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/loadavg\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/darwin\/loadavg\/sysctlpointertype",
+                        "title" : "loadavg.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/darwin\/loadavg\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/darwin\/loadavg",
+                "title" : "loadavg",
+                "type" : "extension"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/darwin",
+            "title" : "Darwin",
+            "type" : "extension"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Extended Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/foundation\/date\/init(sysctlpointer:)-5txn3",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/foundation\/date\/init(sysctlpointer:)-9b1eh",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/foundation\/date\/init(sysctlpointer:capacity:)-49fxz",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/foundation\/date\/init(sysctlpointer:capacity:)-860y8",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/foundation\/date\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlValue.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/foundation\/date\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/foundation\/date\/init(sysctlvalue:)",
+                        "title" : "init(sysctlValue: Date.SysctlValue)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/foundation\/date\/sysctlvalue-swift.property",
+                        "title" : "var sysctlValue: Date.SysctlValue",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/foundation\/date\/sysctlvalue-swift.typealias",
+                        "title" : "Date.SysctlValue",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/foundation\/date\/sysctlvaluerepresentable-implementations",
+                    "title" : "SysctlValueRepresentable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/foundation\/date",
+                "title" : "Date",
+                "type" : "extension"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/foundation",
+            "title" : "Foundation",
+            "type" : "extension"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Extended Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/array\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/array\/init(sysctlpointer:capacity:)-3l11v",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/array\/init(sysctlpointer:capacity:)-5gg96",
+                        "title" : "init(sysctlPointer: UnsafePointer<Array<Element>.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/array\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Array<Element>.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/array\/sysctlpointertype",
+                        "title" : "Array.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/swift\/array\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/swift\/array",
+                "title" : "Array",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/bool\/init(sysctlpointer:)-34v24",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/bool\/init(sysctlpointer:)-5k8qu",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/bool\/init(sysctlpointer:capacity:)-1vr2o",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/bool\/init(sysctlpointer:capacity:)-3l11s",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/bool\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlValue.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/swift\/bool\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/bool\/init(sysctlvalue:)",
+                        "title" : "init(sysctlValue: Bool.SysctlValue)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/bool\/sysctlvalue-swift.property",
+                        "title" : "var sysctlValue: Bool.SysctlValue",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/bool\/sysctlvalue-swift.typealias",
+                        "title" : "Bool.SysctlValue",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/swift\/bool\/sysctlvaluerepresentable-implementations",
+                    "title" : "SysctlValueRepresentable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/swift\/bool",
+                "title" : "Bool",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int32\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int32\/init(sysctlpointer:capacity:)-3ozb2",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int32\/init(sysctlpointer:capacity:)-6noue",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int32\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int32\/sysctlpointertype",
+                        "title" : "Int32.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/swift\/int32\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/swift\/int32",
+                "title" : "Int32",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int64\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int64\/init(sysctlpointer:capacity:)-3el25",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int64\/init(sysctlpointer:capacity:)-6dao5",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int64\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/int64\/sysctlpointertype",
+                        "title" : "Int64.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/swift\/int64\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/swift\/int64",
+                "title" : "Int64",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/string\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/string\/init(sysctlpointer:capacity:)-3l129",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/string\/init(sysctlpointer:capacity:)-4csc0",
+                        "title" : "init(sysctlPointer: UnsafePointer<String.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/string\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<String.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/swift\/string\/sysctlpointertype",
+                        "title" : "String.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/swift\/string\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/swift\/string",
+                "title" : "String",
+                "type" : "extension"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/swift",
+            "title" : "Swift",
+            "type" : "extension"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Extended Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sys_time\/timeval\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sys_time\/timeval\/init(sysctlpointer:capacity:)-7xtvr",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sys_time\/timeval\/init(sysctlpointer:capacity:)-9g5vs",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sys_time\/timeval\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sys_time\/timeval\/sysctlpointertype",
+                        "title" : "timeval.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/sys_time\/timeval\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/sys_time\/timeval",
+                "title" : "timeval",
+                "type" : "extension"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/sys_time",
+            "title" : "sys_time",
+            "type" : "extension"
+          }
+        ],
+        "path" : "\/documentation\/sysctl",
+        "title" : "Sysctl",
+        "type" : "module"
+      }
+    ]
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 2
+  }
+}
