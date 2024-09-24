@@ -54,7 +54,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Hardware.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Hardware.swift#L4"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Hardware.swift#L8"
     },
     "role" : "symbol",
     "roleHeading" : "Structure",
@@ -112,6 +112,8 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware\/machine",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware\/memorySize",
@@ -122,12 +124,16 @@
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware\/ParentNamespace"
       ],
       "title" : "Type Aliases"
     },
     {
+      "anchor" : "Type-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware\/managementInformationBasePart-4nnmv",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware\/namePart"
@@ -135,6 +141,7 @@
       "title" : "Type Properties"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware\/SysctlFullyQualifiedNamespace-Implementations",

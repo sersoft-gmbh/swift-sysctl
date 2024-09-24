@@ -15,6 +15,7 @@
   ],
   "defaultImplementationsSections" : [
     {
+      "anchor" : "SysctlValue-Implementations",
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/withSysctlPointer(do:)-pl2w",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/withSysctlPointer(do:)-6ybr3"
@@ -141,7 +142,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L19"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L18"
     },
     "required" : true,
     "role" : "symbol",

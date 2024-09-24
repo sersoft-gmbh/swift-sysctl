@@ -55,7 +55,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Container.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Container.swift#L67"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Container.swift#L65"
     },
     "role" : "symbol",
     "roleHeading" : "Structure",
@@ -161,6 +161,8 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Subscripts",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlContainer\/subscript(dynamicMember:)-57k7b",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlContainer\/subscript(dynamicMember:)-6011h",

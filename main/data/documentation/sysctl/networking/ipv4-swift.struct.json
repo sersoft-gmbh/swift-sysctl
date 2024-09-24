@@ -56,7 +56,7 @@
     ],
     "remoteSource" : {
       "fileName" : "IPv4.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Network\/IPv4.swift#L6"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Network\/IPv4.swift#L9"
     },
     "role" : "symbol",
     "roleHeading" : "Structure",
@@ -114,6 +114,8 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Structures",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/ICMP-swift.struct",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/IP-swift.struct",
@@ -122,6 +124,8 @@
       "title" : "Structures"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/icmp-swift.property",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/ip-swift.property",
@@ -130,12 +134,16 @@
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/ParentNamespace"
       ],
       "title" : "Type Aliases"
     },
     {
+      "anchor" : "Type-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/managementInformationBasePart-2nzsu",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/namePart"
@@ -143,6 +151,7 @@
       "title" : "Type Properties"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/SysctlFullyQualifiedNamespace-Implementations",

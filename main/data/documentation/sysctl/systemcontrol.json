@@ -135,12 +135,16 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/init()"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Subscripts",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-3vr2e",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl\/subscript(dynamicMember:)-6okj9",

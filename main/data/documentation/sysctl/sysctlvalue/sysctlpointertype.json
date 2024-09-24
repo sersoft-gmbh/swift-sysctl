@@ -41,7 +41,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L8"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L7"
     },
     "required" : true,
     "role" : "symbol",

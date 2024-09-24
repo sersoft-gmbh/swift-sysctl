@@ -128,7 +128,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L88"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L87"
     },
     "role" : "symbol",
     "roleHeading" : "Initializer",

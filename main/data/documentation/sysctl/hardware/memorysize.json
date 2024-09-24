@@ -80,7 +80,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Hardware.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Hardware.swift#L27"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Hardware.swift#L31"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Property",

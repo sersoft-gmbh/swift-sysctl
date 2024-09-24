@@ -33,6 +33,7 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation\/Date\/init(sysctlPointer:)-5txn3",
@@ -43,6 +44,7 @@
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Methods",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation\/Date\/withSysctlPointer(do:)"

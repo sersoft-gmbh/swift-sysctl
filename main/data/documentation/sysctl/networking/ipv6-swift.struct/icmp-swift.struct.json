@@ -56,7 +56,7 @@
     ],
     "remoteSource" : {
       "fileName" : "IPv6.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Network\/IPv6.swift#L32"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Network\/IPv6.swift#L36"
     },
     "role" : "symbol",
     "roleHeading" : "Structure",
@@ -113,6 +113,8 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/ICMP-swift.struct\/acceptRedirects",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/ICMP-swift.struct\/redirectTimeout"
@@ -120,18 +122,23 @@
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/ICMP-swift.struct\/ParentNamespace"
       ],
       "title" : "Type Aliases"
     },
     {
+      "anchor" : "Type-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/ICMP-swift.struct\/namePart"
       ],
       "title" : "Type Properties"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/ICMP-swift.struct\/SysctlNamespace-Implementations"

@@ -1,4 +1,7 @@
 {
+  "includedArchiveIdentifiers" : [
+    "Sysctl"
+  ],
   "interfaceLanguages" : {
     "swift" : [
       {
@@ -18,16 +21,16 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-2izp1",
+                        "path" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-2izp1",
                         "title" : "static var managementInformationBasePart: CInt?",
                         "type" : "property"
                       }
                     ],
-                    "title" : "SysctlFullyQualifiedNamespace Implementations",
+                    "title" : "SysctlNamespace Implementations",
                     "type" : "groupMarker"
                   }
                 ],
-                "path" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-1e0vl",
+                "path" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart",
                 "title" : "static var managementInformationBasePart: CInt",
                 "type" : "property"
               }
@@ -65,18 +68,12 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-2izp1",
+                        "path" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-q8vf",
                         "title" : "static var managementInformationBasePart: CInt?",
                         "type" : "property"
-                      }
-                    ],
-                    "title" : "SysctlFullyQualifiedNamespace Implementations",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "children" : [
+                      },
                       {
-                        "path" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-q8vf",
+                        "path" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-2izp1",
                         "title" : "static var managementInformationBasePart: CInt?",
                         "type" : "property"
                       }
@@ -142,6 +139,11 @@
                   {
                     "children" : [
                       {
+                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-751yh",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
                         "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-4t3r8",
                         "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
                         "type" : "init"
@@ -149,11 +151,6 @@
                       {
                         "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-7xle2",
                         "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
-                        "type" : "init"
-                      },
-                      {
-                        "path" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-751yh",
-                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlValue.SysctlPointerType>, capacity: Int)",
                         "type" : "init"
                       }
                     ],
@@ -2190,61 +2187,6 @@
                 "path" : "\/documentation\/sysctl\/darwin\/loadavg",
                 "title" : "loadavg",
                 "type" : "extension"
-              },
-              {
-                "children" : [
-                  {
-                    "title" : "Default Implementations",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "children" : [
-                      {
-                        "title" : "Initializers",
-                        "type" : "groupMarker"
-                      },
-                      {
-                        "path" : "\/documentation\/sysctl\/darwin\/timeval\/init(sysctlpointer:)",
-                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
-                        "type" : "init"
-                      },
-                      {
-                        "path" : "\/documentation\/sysctl\/darwin\/timeval\/init(sysctlpointer:capacity:)-7xtvr",
-                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
-                        "type" : "init"
-                      },
-                      {
-                        "path" : "\/documentation\/sysctl\/darwin\/timeval\/init(sysctlpointer:capacity:)-9g5vs",
-                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
-                        "type" : "init"
-                      },
-                      {
-                        "title" : "Instance Methods",
-                        "type" : "groupMarker"
-                      },
-                      {
-                        "path" : "\/documentation\/sysctl\/darwin\/timeval\/withsysctlpointer(do:)",
-                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
-                        "type" : "method"
-                      },
-                      {
-                        "title" : "Type Aliases",
-                        "type" : "groupMarker"
-                      },
-                      {
-                        "path" : "\/documentation\/sysctl\/darwin\/timeval\/sysctlpointertype",
-                        "title" : "timeval.SysctlPointerType",
-                        "type" : "typealias"
-                      }
-                    ],
-                    "path" : "\/documentation\/sysctl\/darwin\/timeval\/sysctlvalue-implementations",
-                    "title" : "SysctlValue Implementations",
-                    "type" : "symbol"
-                  }
-                ],
-                "path" : "\/documentation\/sysctl\/darwin\/timeval",
-                "title" : "timeval",
-                "type" : "extension"
               }
             ],
             "path" : "\/documentation\/sysctl\/darwin",
@@ -2662,6 +2604,72 @@
             "path" : "\/documentation\/sysctl\/swift",
             "title" : "Swift",
             "type" : "extension"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Extended Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sys_time\/timeval\/init(sysctlpointer:)",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sys_time\/timeval\/init(sysctlpointer:capacity:)-7xtvr",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sys_time\/timeval\/init(sysctlpointer:capacity:)-9g5vs",
+                        "title" : "init(sysctlPointer: UnsafePointer<Self.SysctlPointerType>, capacity: Int)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sys_time\/timeval\/withsysctlpointer(do:)",
+                        "title" : "func withSysctlPointer<T>(do: (UnsafePointer<Self.SysctlPointerType>, Int) throws -> T) rethrows -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/sysctl\/sys_time\/timeval\/sysctlpointertype",
+                        "title" : "timeval.SysctlPointerType",
+                        "type" : "typealias"
+                      }
+                    ],
+                    "path" : "\/documentation\/sysctl\/sys_time\/timeval\/sysctlvalue-implementations",
+                    "title" : "SysctlValue Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/sysctl\/sys_time\/timeval",
+                "title" : "timeval",
+                "type" : "extension"
+              }
+            ],
+            "path" : "\/documentation\/sysctl\/sys_time",
+            "title" : "sys_time",
+            "type" : "extension"
           }
         ],
         "path" : "\/documentation\/sysctl",
@@ -2673,6 +2681,6 @@
   "schemaVersion" : {
     "major" : 0,
     "minor" : 1,
-    "patch" : 1
+    "patch" : 2
   }
 }

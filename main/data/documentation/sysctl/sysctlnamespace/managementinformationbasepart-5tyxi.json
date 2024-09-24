@@ -24,14 +24,10 @@
   ],
   "defaultImplementationsSections" : [
     {
+      "anchor" : "SysctlNamespace-Implementations",
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart-2izp1"
-      ],
-      "title" : "SysctlFullyQualifiedNamespace Implementations"
-    },
-    {
-      "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/managementInformationBasePart-q8vf"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/managementInformationBasePart-q8vf",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/managementInformationBasePart-2izp1"
       ],
       "title" : "SysctlNamespace Implementations"
     }
@@ -276,52 +272,6 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct"
 },
-"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace/managementInformationBasePart-2izp1": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "static"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "managementInformationBasePart"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s4CInta",
-      "text" : "CInt"
-    },
-    {
-      "kind" : "text",
-      "text" : "?"
-    }
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart-2izp1",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "managementInformationBasePart",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-2izp1"
-},
 "doc://Sysctl/documentation/Sysctl/SysctlNamespace": {
   "abstract" : [
     {
@@ -413,6 +363,52 @@
   "title" : "SysctlNamespace",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlnamespace"
+},
+"doc://Sysctl/documentation/Sysctl/SysctlNamespace/managementInformationBasePart-2izp1": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "managementInformationBasePart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/managementInformationBasePart-2izp1",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "managementInformationBasePart",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-2izp1"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlNamespace/managementInformationBasePart-5tyxi": {
   "abstract" : [

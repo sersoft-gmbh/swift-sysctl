@@ -82,6 +82,7 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
+        "doc:\/\/Sysctl\/s8CopyableP",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable"
       ],
@@ -100,6 +101,7 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Bool\/SysctlValue-Implementations",
@@ -354,6 +356,11 @@
   "title" : "SysctlValue",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlvaluerepresentable\/sysctlvalue-swift.associatedtype"
+},
+"doc://Sysctl/s8CopyableP": {
+  "identifier" : "doc:\/\/Sysctl\/s8CopyableP",
+  "title" : "Swift.Copyable",
+  "type" : "unresolvable"
 }
 }
 }

@@ -33,6 +33,7 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg\/init(sysctlPointer:)",
@@ -42,6 +43,7 @@
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Methods",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg\/withSysctlPointer(do:)"
@@ -49,6 +51,7 @@
       "title" : "Instance Methods"
     },
     {
+      "anchor" : "Type-Aliases",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg\/SysctlPointerType"

@@ -82,6 +82,7 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
+        "doc:\/\/Sysctl\/s8CopyableP",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue"
       ],
       "kind" : "relationships",
@@ -99,6 +100,7 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/clockinfo\/SysctlValue-Implementations"
@@ -226,6 +228,11 @@
   "title" : "SysctlValue",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlvalue"
+},
+"doc://Sysctl/s8CopyableP": {
+  "identifier" : "doc:\/\/Sysctl\/s8CopyableP",
+  "title" : "Swift.Copyable",
+  "type" : "unresolvable"
 }
 }
 }

@@ -33,6 +33,7 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Bool\/init(sysctlPointer:)-34v24",
@@ -43,6 +44,7 @@
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Methods",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Bool\/withSysctlPointer(do:)"

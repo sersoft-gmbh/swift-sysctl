@@ -219,6 +219,7 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
+        "doc:\/\/Sysctl\/s8CopyableP",
         "doc:\/\/Sysctl\/SQ",
         "doc:\/\/Sysctl\/s43ExpressibleByExtendedGraphemeClusterLiteralP",
         "doc:\/\/Sysctl\/s27ExpressibleByIntegerLiteralP",
@@ -242,6 +243,8 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/init(managementInformationBasePart:namePart:)-1s6xv",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/init(managementInformationBasePart:namePart:)-6emlq",
@@ -251,12 +254,15 @@
       "title" : "Initializers"
     },
     {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/Parent"
       ],
       "title" : "Type Aliases"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/Equatable-Implementations",
@@ -1155,6 +1161,11 @@
 "doc://Sysctl/s43ExpressibleByExtendedGraphemeClusterLiteralP": {
   "identifier" : "doc:\/\/Sysctl\/s43ExpressibleByExtendedGraphemeClusterLiteralP",
   "title" : "Swift.ExpressibleByExtendedGraphemeClusterLiteral",
+  "type" : "unresolvable"
+},
+"doc://Sysctl/s8CopyableP": {
+  "identifier" : "doc:\/\/Sysctl\/s8CopyableP",
+  "title" : "Swift.Copyable",
   "type" : "unresolvable"
 },
 "doc://Sysctl/s8SendableP": {

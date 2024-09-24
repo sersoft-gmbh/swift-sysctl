@@ -33,6 +33,8 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Extended-Structures",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Array",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Bool",

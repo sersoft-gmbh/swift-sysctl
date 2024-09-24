@@ -165,18 +165,24 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Associated-Types",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable\/SysctlValue-swift.associatedtype"
       ],
       "title" : "Associated Types"
     },
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable\/init(sysctlValue:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable\/sysctlValue-swift.property"
       ],

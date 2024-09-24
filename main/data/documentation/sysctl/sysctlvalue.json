@@ -54,7 +54,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L6"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L5"
     },
     "role" : "symbol",
     "roleHeading" : "Protocol",
@@ -110,7 +110,7 @@
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/clockinfo",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/kinfo_proc",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/timeval"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/sys_time\/timeval"
       ],
       "kind" : "relationships",
       "title" : "Conforming Types",
@@ -127,12 +127,16 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Associated-Types",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/SysctlPointerType"
       ],
       "title" : "Associated Types"
     },
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-6wee0",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:capacity:)-7x01x"
@@ -140,6 +144,8 @@
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/withSysctlPointer(do:)-16k5u"
       ],
@@ -266,38 +272,6 @@
   "title" : "loadavg",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/darwin\/loadavg"
-},
-"doc://Sysctl/documentation/Sysctl/Darwin/timeval": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "extension"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "preciseIdentifier" : "c:@S@timeval",
-      "text" : "timeval"
-    }
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/timeval",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "timeval"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "timeval",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/darwin\/timeval"
 },
 "doc://Sysctl/documentation/Sysctl/Foundation/Date": {
   "abstract" : [
@@ -967,6 +941,38 @@
   "title" : "SysctlValue",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlvaluerepresentable\/sysctlvalue-swift.associatedtype"
+},
+"doc://Sysctl/documentation/Sysctl/sys_time/timeval": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "c:@S@timeval",
+      "text" : "timeval"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/sys_time\/timeval",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "timeval"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "timeval",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sys_time\/timeval"
 }
 }
 }

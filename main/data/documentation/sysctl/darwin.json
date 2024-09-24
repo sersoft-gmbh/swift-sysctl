@@ -33,11 +33,12 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Extended-Structures",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/clockinfo",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/kinfo_proc",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/timeval"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg"
       ],
       "title" : "Extended Structures"
     }
@@ -173,38 +174,6 @@
   "title" : "loadavg",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/darwin\/loadavg"
-},
-"doc://Sysctl/documentation/Sysctl/Darwin/timeval": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "extension"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "preciseIdentifier" : "c:@S@timeval",
-      "text" : "timeval"
-    }
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/timeval",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "timeval"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "timeval",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/darwin\/timeval"
 }
 }
 }

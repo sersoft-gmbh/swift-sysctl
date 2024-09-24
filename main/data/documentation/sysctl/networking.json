@@ -54,7 +54,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Network.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Network\/Network.swift#L4"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Network\/Network.swift#L8"
     },
     "role" : "symbol",
     "roleHeading" : "Structure",
@@ -112,6 +112,8 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Structures",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct"
@@ -119,6 +121,8 @@
       "title" : "Structures"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/ipv4-swift.property",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/ipv6-swift.property"
@@ -126,12 +130,16 @@
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/ParentNamespace"
       ],
       "title" : "Type Aliases"
     },
     {
+      "anchor" : "Type-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/managementInformationBasePart-92zqi",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/namePart"
@@ -139,6 +147,7 @@
       "title" : "Type Properties"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/SysctlFullyQualifiedNamespace-Implementations",

@@ -33,6 +33,8 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Protocols",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace",
@@ -42,6 +44,8 @@
       "title" : "Protocols"
     },
     {
+      "anchor" : "Structures",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel",
@@ -57,16 +61,21 @@
       "title" : "Structures"
     },
     {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamedField"
       ],
       "title" : "Type Aliases"
     },
     {
+      "anchor" : "Extended-Modules",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/sys_time"
       ],
       "title" : "Extended Modules"
     }
@@ -996,6 +1005,17 @@
   "title" : "VirtualMemory",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/virtualmemory"
+},
+"doc://Sysctl/documentation/Sysctl/sys_time": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/sys_time",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "sys_time",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/sys_time"
 }
 }
 }

@@ -42,7 +42,7 @@
     ],
     "remoteSource" : {
       "fileName" : "MachineDependent.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/MachineDependent.swift#L14"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/MachineDependent.swift#L18"
     },
     "role" : "symbol",
     "roleHeading" : "Type Alias",

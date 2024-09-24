@@ -33,6 +33,7 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation\/Date\/init(sysctlValue:)"
@@ -40,6 +41,7 @@
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation\/Date\/sysctlValue-swift.property"
@@ -47,6 +49,7 @@
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Type-Aliases",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation\/Date\/SysctlValue-swift.typealias"
