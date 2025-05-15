@@ -51,7 +51,7 @@ extension SysctlField {
         }
     }
 
-#if swift(>=6.0)
+#if swift(>=6.1)
     @usableFromInline
     func _withMIB<T, E: Error>(do work: (inout UnsafeMutableBufferPointer<CInt>) throws(E) -> T) throws(E) -> T {
         guard var mib = _buildMib() ?? _buildName().map(Self._mib(forName:))
