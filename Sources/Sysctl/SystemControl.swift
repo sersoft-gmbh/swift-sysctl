@@ -6,7 +6,7 @@ public struct SystemControl: Sendable {
     @usableFromInline
     let container = SysctlContainer<SysctlRootNamespace>(namespace: .init())
 
-    /// Creates a new instance. Trivial to call.     
+    /// Creates a new instance. Trivial to call.
     public init() {}
 
     /// Returns a child container for the given child namespace path.

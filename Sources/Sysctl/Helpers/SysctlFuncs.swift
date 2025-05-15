@@ -14,6 +14,11 @@ struct SysctlError: Error, CustomStringConvertible {
     }
 }
 
+#if swift(>=6.0)
+@DebugDescription
+extension SysctlError {}
+#endif
+
 extension Result where Failure == SysctlError {
     func requireSuccess() -> Success {
         switch self {

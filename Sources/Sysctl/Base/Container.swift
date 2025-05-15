@@ -51,12 +51,21 @@ extension SysctlField {
         }
     }
 
+#if swift(>=6.0)
+    @usableFromInline
+    func _withMIB<T, E: Error>(do work: (inout UnsafeMutableBufferPointer<CInt>) throws(E) -> T) throws(E) -> T {
+        guard var mib = _buildMib() ?? _buildName().map(Self._mib(forName:))
+        else { fatalError("Invalid field: \(self)") }
+        return try mib.withUnsafeMutableBufferPointer(work)
+    }
+#else
     @usableFromInline
     func _withMIB<T>(do work: (inout UnsafeMutableBufferPointer<CInt>) throws -> T) rethrows -> T {
         guard var mib = _buildMib() ?? _buildName().map(Self._mib(forName:))
         else { fatalError("Invalid field: \(self)") }
         return try mib.withUnsafeMutableBufferPointer(work)
     }
+#endif
 }
 
 /// A container that gives access to the children namespaces and values of a ``SysctlNamespace``.

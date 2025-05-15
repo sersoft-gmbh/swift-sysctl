@@ -13,7 +13,7 @@ public struct VirtualMemory: SysctlFullyQualifiedNamespace {
     }
 
     /// Wheter swapping is enabled (`swap_enabled`).
-    public var isSwappingEnabled: Field<loadavg> {
+    public var isSwappingEnabled: Field<Bool> {
         get { "swap_enabled" }
         nonmutating set {}
     }

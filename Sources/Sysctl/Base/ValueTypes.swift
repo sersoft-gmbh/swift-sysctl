@@ -36,9 +36,15 @@ extension SysctlValue where SysctlPointerType == Self {
         self = sysctlPointer.pointee
     }
 
+#if swift(>=6.0)
+    public func withSysctlPointer<T, E: Error>(do work: (UnsafePointer<SysctlPointerType>, Int) throws(E) -> T) throws(E) -> T {
+        try withUnsafePointer(to: self) { ptr throws(E) -> T in try work(ptr, MemoryLayout<SysctlPointerType>.size) }
+    }
+#else
     public func withSysctlPointer<T>(do work: (UnsafePointer<SysctlPointerType>, Int) throws -> T) rethrows -> T {
         try withUnsafePointer(to: self) { try work($0, MemoryLayout<SysctlPointerType>.size) }
     }
+#endif
 }
 
 extension String: SysctlValue {
@@ -90,6 +96,19 @@ extension Array: SysctlValue where Element: SysctlValue {
         }
     }
 
+#if swift(>=6.0)
+    @inlinable
+    public func withSysctlPointer<T, E: Error>(do work: (UnsafePointer<SysctlPointerType>, Int) throws(E) -> T) throws(E) -> T {
+        let buffer = UnsafeMutableBufferPointer<SysctlPointerType>.allocate(capacity: count)
+        defer { buffer.deallocate() }
+        for (offset, element) in enumerated() {
+            element.withSysctlPointer { ptr, size in
+                buffer.initializeElement(at: offset, to: ptr.pointee)
+            }
+        }
+        return try work(buffer.baseAddress!, buffer.count)
+    }
+#else
     @inlinable
     public func withSysctlPointer<T>(do work: (UnsafePointer<SysctlPointerType>, Int) throws -> T) rethrows -> T {
         let buffer = UnsafeMutableBufferPointer<SysctlPointerType>.allocate(capacity: count)
@@ -101,4 +120,5 @@ extension Array: SysctlValue where Element: SysctlValue {
         }
         return try work(buffer.baseAddress!, buffer.count)
     }
+#endif
 }
