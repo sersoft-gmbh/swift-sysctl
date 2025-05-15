@@ -15,8 +15,7 @@
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation\/Date",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation\/Date\/SysctlValue-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation\/Date"
       ]
     ]
   },
@@ -95,11 +94,16 @@
       }
     ],
     "platforms" : [
-
+      {
+        "beta" : false,
+        "deprecated" : true,
+        "message" : "Implement this yourself",
+        "unavailable" : false
+      }
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L23"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L23"
     },
     "role" : "symbol",
     "roleHeading" : "Initializer",
@@ -258,17 +262,6 @@
   "title" : "Date",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/foundation\/date"
-},
-"doc://Sysctl/documentation/Sysctl/Foundation/Date/SysctlValue-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation\/Date\/SysctlValue-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlValue Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/foundation\/date\/sysctlvalue-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/Foundation/Date/init(sysctlPointer:capacity:)-49fxz": {
   "abstract" : [

@@ -3,8 +3,7 @@
     "paths" : [
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/withSysctlPointer(do:)-16k5u"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue"
       ]
     ]
   },
@@ -129,7 +128,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueRepresentable.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueRepresentable.swift#L30"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueRepresentable.swift#L30"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Method",
@@ -370,127 +369,6 @@
   "title" : "SysctlPointerType",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlvalue\/sysctlpointertype"
-},
-"doc://Sysctl/documentation/Sysctl/SysctlValue/withSysctlPointer(do:)-16k5u": {
-  "abstract" : [
-    {
-      "text" : "Retrieves a pointer to write to sysctl. Note that the pointer should only be alive during the execution of ",
-      "type" : "text"
-    },
-    {
-      "code" : "work",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
-  ],
-  "defaultImplementations" : 2,
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "withSysctlPointer"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "genericParameter",
-      "text" : "T"
-    },
-    {
-      "kind" : "text",
-      "text" : ">("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "do"
-    },
-    {
-      "kind" : "text",
-      "text" : ": ("
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SP",
-      "text" : "UnsafePointer"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
-      "text" : "SysctlPointerType"
-    },
-    {
-      "kind" : "text",
-      "text" : ">, "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Si",
-      "text" : "Int"
-    },
-    {
-      "kind" : "text",
-      "text" : ") "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "throws"
-    },
-    {
-      "kind" : "text",
-      "text" : " -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "T"
-    },
-    {
-      "kind" : "text",
-      "text" : ") "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "rethrows"
-    },
-    {
-      "kind" : "text",
-      "text" : " -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "T"
-    }
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/withSysctlPointer(do:)-16k5u",
-  "kind" : "symbol",
-  "required" : true,
-  "role" : "symbol",
-  "title" : "withSysctlPointer(do:)",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlvalue\/withsysctlpointer(do:)-16k5u"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlValue/withSysctlPointer(do:)-6ybr3": {
   "abstract" : [

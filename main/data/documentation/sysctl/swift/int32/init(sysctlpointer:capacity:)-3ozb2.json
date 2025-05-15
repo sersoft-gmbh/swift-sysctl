@@ -15,8 +15,7 @@
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int32",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int32\/SysctlValue-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int32"
       ]
     ]
   },
@@ -95,11 +94,16 @@
       }
     ],
     "platforms" : [
-
+      {
+        "beta" : false,
+        "deprecated" : true,
+        "message" : "Implement this yourself",
+        "unavailable" : false
+      }
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L23"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L23"
     },
     "role" : "symbol",
     "roleHeading" : "Initializer",
@@ -258,17 +262,6 @@
   "title" : "Int32",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/swift\/int32"
-},
-"doc://Sysctl/documentation/Sysctl/Swift/Int32/SysctlValue-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int32\/SysctlValue-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlValue Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/swift\/int32\/sysctlvalue-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/Swift/Int32/init(sysctlPointer:capacity:)-3ozb2": {
   "abstract" : [

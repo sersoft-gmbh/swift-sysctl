@@ -4,8 +4,7 @@
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int32",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int32\/SysctlValue-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int32"
       ]
     ]
   },
@@ -48,7 +47,7 @@
       ]
     },
     "extendedModule" : "Sysctl",
-    "externalID" : "s:6Sysctl0A5ValuePAA0A11PointerTypeQzRszrlE04withaC02doqd__qd__SPyxG_SitKXE_tKlF::SYNTHESIZED::s:s5Int32V",
+    "externalID" : "s:6Sysctl0A5ValuePAA0A11PointerTypeQzRszrlE04withaC02doqd__qd__SPyxG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF::SYNTHESIZED::s:s5Int32V",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -69,6 +68,14 @@
       {
         "kind" : "genericParameter",
         "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "genericParameter",
+        "text" : "E"
       },
       {
         "kind" : "text",
@@ -123,7 +130,15 @@
       },
       {
         "kind" : "text",
-        "text" : " -> "
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "E"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
       },
       {
         "kind" : "typeIdentifier",
@@ -135,11 +150,19 @@
       },
       {
         "kind" : "keyword",
-        "text" : "rethrows"
+        "text" : "throws"
       },
       {
         "kind" : "text",
-        "text" : " -> "
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "E"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
       },
       {
         "kind" : "typeIdentifier",
@@ -153,7 +176,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L39"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L40"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Method",
@@ -190,6 +213,14 @@
             {
               "kind" : "genericParameter",
               "text" : "T"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "E"
             },
             {
               "kind" : "text",
@@ -253,7 +284,15 @@
             },
             {
               "kind" : "text",
-              "text" : " -> "
+              "text" : "("
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "E"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
             },
             {
               "kind" : "typeIdentifier",
@@ -265,15 +304,48 @@
             },
             {
               "kind" : "keyword",
-              "text" : "rethrows"
+              "text" : "throws"
             },
             {
               "kind" : "text",
-              "text" : " -> "
+              "text" : "("
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "E"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
             },
             {
               "kind" : "typeIdentifier",
               "text" : "T"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "E"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s5ErrorP",
+              "text" : "Error"
             }
           ]
         }
@@ -357,17 +429,6 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/swift\/int32"
 },
-"doc://Sysctl/documentation/Sysctl/Swift/Int32/SysctlValue-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int32\/SysctlValue-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlValue Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/swift\/int32\/sysctlvalue-implementations"
-},
 "doc://Sysctl/documentation/Sysctl/Swift/Int32/withSysctlPointer(do:)": {
   "abstract" : [
 
@@ -427,6 +488,14 @@
     },
     {
       "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
       "text" : ">("
     },
     {
@@ -478,7 +547,15 @@
     },
     {
       "kind" : "text",
-      "text" : " -> "
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
     },
     {
       "kind" : "typeIdentifier",
@@ -490,11 +567,19 @@
     },
     {
       "kind" : "keyword",
-      "text" : "rethrows"
+      "text" : "throws"
     },
     {
       "kind" : "text",
-      "text" : " -> "
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
     },
     {
       "kind" : "typeIdentifier",

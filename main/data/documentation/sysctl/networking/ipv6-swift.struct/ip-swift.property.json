@@ -77,7 +77,7 @@
     ],
     "remoteSource" : {
       "fileName" : "IPv6.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Network\/IPv6.swift#L55"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Namespaces\/Network\/IPv6.swift#L55"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Property",

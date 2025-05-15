@@ -4,8 +4,7 @@
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation\/Date",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation\/Date\/SysctlValue-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation\/Date"
       ]
     ]
   },
@@ -130,7 +129,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueRepresentable.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueRepresentable.swift#L30"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueRepresentable.swift#L30"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Method",
@@ -343,17 +342,6 @@
   "title" : "Date",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/foundation\/date"
-},
-"doc://Sysctl/documentation/Sysctl/Foundation/Date/SysctlValue-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation\/Date\/SysctlValue-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlValue Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/foundation\/date\/sysctlvalue-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/Foundation/Date/withSysctlPointer(do:)": {
   "abstract" : [

@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/Equatable-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField"
       ]
     ]
   },
@@ -495,17 +494,6 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlfield\/!=(_:_:)"
-},
-"doc://Sysctl/documentation/Sysctl/SysctlField/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlfield\/equatable-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace": {
   "abstract" : [

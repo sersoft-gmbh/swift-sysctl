@@ -112,7 +112,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Field.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Field.swift#L6"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Field.swift#L6"
     },
     "role" : "symbol",
     "roleHeading" : "Structure",
@@ -268,8 +268,7 @@
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/Equatable-Implementations",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/ExpressibleByExtendedGraphemeClusterLiteral-Implementations",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/ExpressibleByIntegerLiteral-Implementations",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/ExpressibleByStringLiteral-Implementations",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/ExpressibleByUnicodeScalarLiteral-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/ExpressibleByStringLiteral-Implementations"
       ],
       "title" : "Default Implementations"
     }
@@ -536,17 +535,6 @@
   "title" : "ExpressibleByStringLiteral Implementations",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlfield\/expressiblebystringliteral-implementations"
-},
-"doc://Sysctl/documentation/Sysctl/SysctlField/ExpressibleByUnicodeScalarLiteral-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/ExpressibleByUnicodeScalarLiteral-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "ExpressibleByUnicodeScalarLiteral Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlfield\/expressiblebyunicodescalarliteral-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlField/Parent": {
   "abstract" : [

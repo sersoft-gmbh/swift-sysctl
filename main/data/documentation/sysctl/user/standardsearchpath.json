@@ -72,7 +72,7 @@
     ],
     "remoteSource" : {
       "fileName" : "User.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/User.swift#L15"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Namespaces\/User.swift#L15"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Property",

@@ -3,8 +3,7 @@
     "paths" : [
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/SysctlFullyQualifiedNamespace-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking"
       ]
     ]
   },
@@ -58,7 +57,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Namespace.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Namespace.swift#L29"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Namespace.swift#L29"
     },
     "role" : "symbol",
     "roleHeading" : "Type Property",
@@ -197,17 +196,6 @@
   "title" : "Networking",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking"
-},
-"doc://Sysctl/documentation/Sysctl/Networking/SysctlFullyQualifiedNamespace-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/SysctlFullyQualifiedNamespace-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlFullyQualifiedNamespace Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/networking\/sysctlfullyqualifiednamespace-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/Networking/managementInformationBasePart-2y8uu": {
   "abstract" : [

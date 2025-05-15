@@ -4,8 +4,7 @@
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/String",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/String\/SysctlValue-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/String"
       ]
     ]
   },
@@ -47,7 +46,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L45"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L51"
     },
     "role" : "symbol",
     "roleHeading" : "Type Alias",
@@ -198,17 +197,6 @@
   "title" : "String.SysctlPointerType",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/swift\/string\/sysctlpointertype"
-},
-"doc://Sysctl/documentation/Sysctl/Swift/String/SysctlValue-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/String\/SysctlValue-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlValue Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/swift\/string\/sysctlvalue-implementations"
 }
 }
 }

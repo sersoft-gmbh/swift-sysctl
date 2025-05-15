@@ -100,11 +100,17 @@
       }
     ],
     "platforms" : [
-
+      {
+        "beta" : false,
+        "deprecated" : true,
+        "message" : "Use Namespace",
+        "renamed" : "Namespace",
+        "unavailable" : false
+      }
     ],
     "remoteSource" : {
       "fileName" : "Field.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Field.swift#L73"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Field.swift#L73"
     },
     "role" : "symbol",
     "roleHeading" : "Type Alias",

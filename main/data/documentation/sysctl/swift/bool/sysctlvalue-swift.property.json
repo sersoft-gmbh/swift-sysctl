@@ -4,8 +4,7 @@
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Bool",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Bool\/SysctlValueRepresentable-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Bool"
       ]
     ]
   },
@@ -59,7 +58,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueRepresentable.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueRepresentable.swift#L39"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueRepresentable.swift#L39"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Property",
@@ -232,17 +231,6 @@
   "title" : "Bool.SysctlValue",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/swift\/bool\/sysctlvalue-swift.typealias"
-},
-"doc://Sysctl/documentation/Sysctl/Swift/Bool/SysctlValueRepresentable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Bool\/SysctlValueRepresentable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlValueRepresentable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/swift\/bool\/sysctlvaluerepresentable-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/Swift/Bool/sysctlValue-swift.property": {
   "abstract" : [

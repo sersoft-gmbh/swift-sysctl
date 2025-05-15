@@ -3,8 +3,7 @@
     "paths" : [
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/SysctlNamespace-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace"
       ]
     ]
   },
@@ -58,7 +57,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Namespace.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Namespace.swift#L17"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Namespace.swift#L17"
     },
     "role" : "symbol",
     "roleHeading" : "Type Property",
@@ -189,17 +188,6 @@
   "title" : "SysctlRootNamespace",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlrootnamespace"
-},
-"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace/SysctlNamespace-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/SysctlNamespace-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlNamespace Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlrootnamespace\/sysctlnamespace-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlRootNamespace/managementInformationBasePart-5wxii": {
   "abstract" : [

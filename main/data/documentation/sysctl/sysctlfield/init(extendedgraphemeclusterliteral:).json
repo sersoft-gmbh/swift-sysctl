@@ -3,8 +3,7 @@
     "paths" : [
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/ExpressibleByExtendedGraphemeClusterLiteral-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField"
       ]
     ]
   },
@@ -286,17 +285,6 @@
   "title" : "SysctlField",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlfield"
-},
-"doc://Sysctl/documentation/Sysctl/SysctlField/ExpressibleByExtendedGraphemeClusterLiteral-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/ExpressibleByExtendedGraphemeClusterLiteral-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "ExpressibleByExtendedGraphemeClusterLiteral Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlfield\/expressiblebyextendedgraphemeclusterliteral-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlField/init(extendedGraphemeClusterLiteral:)": {
   "abstract" : [

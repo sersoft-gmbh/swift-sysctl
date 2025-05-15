@@ -27,7 +27,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:6Sysctl13VirtualMemoryV17isSwappingEnabledAA0A5FieldVyACSo7loadavgVGvp",
+    "externalID" : "s:6Sysctl13VirtualMemoryV17isSwappingEnabledAA0A5FieldVyACSbGvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -65,8 +65,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "c:@S@loadavg",
-        "text" : "loadavg"
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
       },
       {
         "kind" : "text",
@@ -80,7 +80,7 @@
     ],
     "remoteSource" : {
       "fileName" : "VirtualMemory.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/VirtualMemory.swift#L16"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Namespaces\/VirtualMemory.swift#L16"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Property",
@@ -136,8 +136,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "c:@S@loadavg",
-              "text" : "loadavg"
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
             },
             {
               "kind" : "text",
@@ -334,8 +334,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "c:@S@loadavg",
-      "text" : "loadavg"
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
     },
     {
       "kind" : "text",

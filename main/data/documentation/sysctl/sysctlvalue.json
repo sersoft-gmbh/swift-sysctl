@@ -54,7 +54,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L5"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L5"
     },
     "role" : "symbol",
     "roleHeading" : "Protocol",
@@ -138,8 +138,8 @@
       "anchor" : "Initializers",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-6wee0",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:capacity:)-7x01x"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:capacity:)"
       ],
       "title" : "Initializers"
     },
@@ -147,7 +147,7 @@
       "anchor" : "Instance-Methods",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/withSysctlPointer(do:)-16k5u"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/withSysctlPointer(do:)"
       ],
       "title" : "Instance Methods"
     }
@@ -568,7 +568,7 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlvalue\/sysctlpointertype"
 },
-"doc://Sysctl/documentation/Sysctl/SysctlValue/init(sysctlPointer:)-6wee0": {
+"doc://Sysctl/documentation/Sysctl/SysctlValue/init(sysctlPointer:)": {
   "abstract" : [
     {
       "text" : "Creates the type from a pointer read from sysctl.",
@@ -621,15 +621,15 @@
       "text" : ">)"
     }
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-6wee0",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
   "title" : "init(sysctlPointer:)",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-6wee0"
+  "url" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)"
 },
-"doc://Sysctl/documentation/Sysctl/SysctlValue/init(sysctlPointer:capacity:)-7x01x": {
+"doc://Sysctl/documentation/Sysctl/SysctlValue/init(sysctlPointer:capacity:)": {
   "abstract" : [
     {
       "text" : "Creates the type from a pointer read from sysctl.",
@@ -698,15 +698,15 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:capacity:)-7x01x",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:capacity:)",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
   "title" : "init(sysctlPointer:capacity:)",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)-7x01x"
+  "url" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:capacity:)"
 },
-"doc://Sysctl/documentation/Sysctl/SysctlValue/withSysctlPointer(do:)-16k5u": {
+"doc://Sysctl/documentation/Sysctl/SysctlValue/withSysctlPointer(do:)": {
   "abstract" : [
     {
       "text" : "Retrieves a pointer to write to sysctl. Note that the pointer should only be alive during the execution of ",
@@ -819,13 +819,13 @@
       "text" : "T"
     }
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/withSysctlPointer(do:)-16k5u",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/withSysctlPointer(do:)",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
   "title" : "withSysctlPointer(do:)",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlvalue\/withsysctlpointer(do:)-16k5u"
+  "url" : "\/documentation\/sysctl\/sysctlvalue\/withsysctlpointer(do:)"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlValueRepresentable": {
   "abstract" : [

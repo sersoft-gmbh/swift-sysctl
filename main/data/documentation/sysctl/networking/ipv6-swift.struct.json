@@ -56,7 +56,7 @@
     ],
     "remoteSource" : {
       "fileName" : "IPv6.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Network\/IPv6.swift#L9"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Namespaces\/Network\/IPv6.swift#L9"
     },
     "role" : "symbol",
     "roleHeading" : "Structure",
@@ -143,7 +143,7 @@
       "anchor" : "Type-Properties",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/managementInformationBasePart-5f0cm",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/managementInformationBasePart",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/namePart"
       ],
       "title" : "Type Properties"
@@ -152,7 +152,6 @@
       "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/SysctlFullyQualifiedNamespace-Implementations",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/SysctlNamespace-Implementations"
       ],
       "title" : "Default Implementations"
@@ -424,17 +423,6 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/parentnamespace"
 },
-"doc://Sysctl/documentation/Sysctl/Networking/IPv6-swift.struct/SysctlFullyQualifiedNamespace-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/SysctlFullyQualifiedNamespace-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlFullyQualifiedNamespace Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/sysctlfullyqualifiednamespace-implementations"
-},
 "doc://Sysctl/documentation/Sysctl/Networking/IPv6-swift.struct/SysctlNamespace-Implementations": {
   "abstract" : [
 
@@ -572,7 +560,7 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/ip-swift.property"
 },
-"doc://Sysctl/documentation/Sysctl/Networking/IPv6-swift.struct/managementInformationBasePart-5f0cm": {
+"doc://Sysctl/documentation/Sysctl/Networking/IPv6-swift.struct/managementInformationBasePart": {
   "abstract" : [
 
   ],
@@ -607,12 +595,12 @@
       "text" : "CInt"
     }
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/managementInformationBasePart-5f0cm",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv6-swift.struct\/managementInformationBasePart",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "managementInformationBasePart",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/managementinformationbasepart-5f0cm"
+  "url" : "\/documentation\/sysctl\/networking\/ipv6-swift.struct\/managementinformationbasepart"
 },
 "doc://Sysctl/documentation/Sysctl/Networking/IPv6-swift.struct/namePart": {
   "abstract" : [

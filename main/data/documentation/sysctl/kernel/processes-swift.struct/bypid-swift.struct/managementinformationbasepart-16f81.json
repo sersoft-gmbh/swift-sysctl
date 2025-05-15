@@ -5,8 +5,7 @@
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Processes-swift.struct",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Processes-swift.struct\/ByPID-swift.struct",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Processes-swift.struct\/ByPID-swift.struct\/SysctlFullyQualifiedNamespace-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Processes-swift.struct\/ByPID-swift.struct"
       ]
     ]
   },
@@ -60,7 +59,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Namespace.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Namespace.swift#L29"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Namespace.swift#L29"
     },
     "role" : "symbol",
     "roleHeading" : "Type Property",
@@ -275,17 +274,6 @@
   "title" : "Kernel.Processes.ByPID",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/bypid-swift.struct"
-},
-"doc://Sysctl/documentation/Sysctl/Kernel/Processes-swift.struct/ByPID-swift.struct/SysctlFullyQualifiedNamespace-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Processes-swift.struct\/ByPID-swift.struct\/SysctlFullyQualifiedNamespace-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlFullyQualifiedNamespace Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/bypid-swift.struct\/sysctlfullyqualifiednamespace-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/Kernel/Processes-swift.struct/ByPID-swift.struct/managementInformationBasePart-16f81": {
   "abstract" : [

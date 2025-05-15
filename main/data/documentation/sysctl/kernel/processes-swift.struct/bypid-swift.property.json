@@ -77,7 +77,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Kernel.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Kernel.swift#L129"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Namespaces\/Kernel.swift#L129"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Property",

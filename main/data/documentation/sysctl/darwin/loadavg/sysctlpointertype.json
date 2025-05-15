@@ -4,8 +4,7 @@
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg\/SysctlValue-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg"
       ]
     ]
   },
@@ -47,7 +46,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L76"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L82"
     },
     "role" : "symbol",
     "roleHeading" : "Type Alias",
@@ -198,17 +197,6 @@
   "title" : "loadavg.SysctlPointerType",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/darwin\/loadavg\/sysctlpointertype"
-},
-"doc://Sysctl/documentation/Sysctl/Darwin/loadavg/SysctlValue-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg\/SysctlValue-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlValue Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/darwin\/loadavg\/sysctlvalue-implementations"
 }
 }
 }

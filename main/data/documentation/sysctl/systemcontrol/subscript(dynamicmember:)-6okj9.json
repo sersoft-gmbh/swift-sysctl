@@ -96,7 +96,7 @@
     ],
     "remoteSource" : {
       "fileName" : "SystemControl.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/SystemControl.swift#L15"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/SystemControl.swift#L15"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Subscript",

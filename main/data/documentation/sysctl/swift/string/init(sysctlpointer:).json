@@ -15,8 +15,7 @@
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/String",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/String\/SysctlValue-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/String"
       ]
     ]
   },
@@ -78,11 +77,16 @@
       }
     ],
     "platforms" : [
-
+      {
+        "beta" : false,
+        "deprecated" : true,
+        "message" : "Use initializer with capacity",
+        "unavailable" : false
+      }
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L28"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L28"
     },
     "role" : "symbol",
     "roleHeading" : "Initializer",
@@ -224,17 +228,6 @@
   "title" : "String",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/swift\/string"
-},
-"doc://Sysctl/documentation/Sysctl/Swift/String/SysctlValue-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/String\/SysctlValue-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlValue Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/swift\/string\/sysctlvalue-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/Swift/String/init(sysctlPointer:)": {
   "abstract" : [

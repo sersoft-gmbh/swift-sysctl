@@ -15,8 +15,7 @@
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/clockinfo",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/clockinfo\/SysctlValue-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/clockinfo"
       ]
     ]
   },
@@ -78,11 +77,16 @@
       }
     ],
     "platforms" : [
-
+      {
+        "beta" : false,
+        "deprecated" : true,
+        "message" : "Use initializer with capacity",
+        "unavailable" : false
+      }
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L28"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L28"
     },
     "role" : "symbol",
     "roleHeading" : "Initializer",
@@ -224,17 +228,6 @@
   "title" : "clockinfo",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/darwin\/clockinfo"
-},
-"doc://Sysctl/documentation/Sysctl/Darwin/clockinfo/SysctlValue-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/clockinfo\/SysctlValue-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlValue Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/darwin\/clockinfo\/sysctlvalue-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/Darwin/clockinfo/init(sysctlPointer:)": {
   "abstract" : [

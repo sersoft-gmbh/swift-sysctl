@@ -59,7 +59,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Network.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/Network\/Network.swift#L17"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Namespaces\/Network\/Network.swift#L17"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Property",

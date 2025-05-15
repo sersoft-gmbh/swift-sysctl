@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/VirtualMemory",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/VirtualMemory\/SysctlNamespace-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/VirtualMemory"
       ]
     ]
   },
@@ -49,7 +48,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Field.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Field.swift#L65"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Field.swift#L65"
     },
     "role" : "symbol",
     "roleHeading" : "Type Alias",
@@ -460,17 +459,6 @@
   "title" : "VirtualMemory.Field",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/virtualmemory\/field"
-},
-"doc://Sysctl/documentation/Sysctl/VirtualMemory/SysctlNamespace-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/VirtualMemory\/SysctlNamespace-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlNamespace Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/virtualmemory\/sysctlnamespace-implementations"
 }
 }
 }

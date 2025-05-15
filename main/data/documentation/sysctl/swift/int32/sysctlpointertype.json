@@ -4,8 +4,7 @@
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int32",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int32\/SysctlValue-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int32"
       ]
     ]
   },
@@ -47,7 +46,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L60"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L66"
     },
     "role" : "symbol",
     "roleHeading" : "Type Alias",
@@ -198,17 +197,6 @@
   "title" : "Int32.SysctlPointerType",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/swift\/int32\/sysctlpointertype"
-},
-"doc://Sysctl/documentation/Sysctl/Swift/Int32/SysctlValue-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int32\/SysctlValue-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlValue Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/swift\/int32\/sysctlvalue-implementations"
 }
 }
 }

@@ -4,8 +4,7 @@
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/sys_time",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/sys_time\/timeval",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/sys_time\/timeval\/SysctlValue-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/sys_time\/timeval"
       ]
     ]
   },
@@ -117,7 +116,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L34"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L34"
     },
     "role" : "symbol",
     "roleHeading" : "Initializer",
@@ -305,17 +304,6 @@
   "title" : "timeval",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sys_time\/timeval"
-},
-"doc://Sysctl/documentation/Sysctl/sys_time/timeval/SysctlValue-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/sys_time\/timeval\/SysctlValue-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlValue Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sys_time\/timeval\/sysctlvalue-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/sys_time/timeval/init(sysctlPointer:capacity:)-9g5vs": {
   "abstract" : [

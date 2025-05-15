@@ -3,8 +3,7 @@
     "paths" : [
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/SysctlNamespace-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent"
       ]
     ]
   },
@@ -58,7 +57,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Namespace.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Namespace.swift#L17"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Namespace.swift#L17"
     },
     "role" : "symbol",
     "roleHeading" : "Type Property",
@@ -197,17 +196,6 @@
   "title" : "MachineDependent",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/machinedependent"
-},
-"doc://Sysctl/documentation/Sysctl/MachineDependent/SysctlNamespace-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/MachineDependent\/SysctlNamespace-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlNamespace Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/machinedependent\/sysctlnamespace-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/MachineDependent/managementInformationBasePart-559so": {
   "abstract" : [

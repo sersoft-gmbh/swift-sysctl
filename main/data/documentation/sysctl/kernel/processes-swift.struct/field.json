@@ -10,8 +10,7 @@
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Processes-swift.struct",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Processes-swift.struct\/SysctlNamespace-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Processes-swift.struct"
       ]
     ]
   },
@@ -50,7 +49,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Field.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Field.swift#L65"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Field.swift#L65"
     },
     "role" : "symbol",
     "roleHeading" : "Type Alias",
@@ -296,17 +295,6 @@
   "title" : "Kernel.Processes.Field",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/field"
-},
-"doc://Sysctl/documentation/Sysctl/Kernel/Processes-swift.struct/SysctlNamespace-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/Processes-swift.struct\/SysctlNamespace-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlNamespace Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/kernel\/processes-swift.struct\/sysctlnamespace-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlField": {
   "abstract" : [

@@ -3,8 +3,7 @@
     "paths" : [
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/SysctlFullyQualifiedNamespace-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel"
       ]
     ]
   },
@@ -58,7 +57,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Namespace.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Namespace.swift#L29"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Namespace.swift#L29"
     },
     "role" : "symbol",
     "roleHeading" : "Type Property",
@@ -197,17 +196,6 @@
   "title" : "Kernel",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/kernel"
-},
-"doc://Sysctl/documentation/Sysctl/Kernel/SysctlFullyQualifiedNamespace-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Kernel\/SysctlFullyQualifiedNamespace-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlFullyQualifiedNamespace Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/kernel\/sysctlfullyqualifiednamespace-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/Kernel/managementInformationBasePart-4ftut": {
   "abstract" : [

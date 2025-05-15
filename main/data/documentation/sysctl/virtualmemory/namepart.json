@@ -52,7 +52,7 @@
     ],
     "remoteSource" : {
       "fileName" : "VirtualMemory.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/VirtualMemory.swift#L7"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Namespaces\/VirtualMemory.swift#L7"
     },
     "role" : "symbol",
     "roleHeading" : "Type Property",

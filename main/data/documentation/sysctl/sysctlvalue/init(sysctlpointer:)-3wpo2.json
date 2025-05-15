@@ -14,8 +14,7 @@
     "paths" : [
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-6wee0"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue"
       ]
     ]
   },
@@ -77,11 +76,16 @@
       }
     ],
     "platforms" : [
-
+      {
+        "beta" : false,
+        "deprecated" : true,
+        "message" : "Use initializer with capacity",
+        "unavailable" : false
+      }
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L28"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L28"
     },
     "role" : "symbol",
     "roleHeading" : "Initializer",
@@ -307,67 +311,6 @@
   "title" : "init(sysctlPointer:)",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-3wpo2"
-},
-"doc://Sysctl/documentation/Sysctl/SysctlValue/init(sysctlPointer:)-6wee0": {
-  "abstract" : [
-    {
-      "text" : "Creates the type from a pointer read from sysctl.",
-      "type" : "text"
-    }
-  ],
-  "defaultImplementations" : 2,
-  "deprecated" : true,
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "sysctlPointer"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SP",
-      "text" : "UnsafePointer"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
-      "text" : "SysctlPointerType"
-    },
-    {
-      "kind" : "text",
-      "text" : ">)"
-    }
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/init(sysctlPointer:)-6wee0",
-  "kind" : "symbol",
-  "required" : true,
-  "role" : "symbol",
-  "title" : "init(sysctlPointer:)",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlvalue\/init(sysctlpointer:)-6wee0"
 }
 }
 }

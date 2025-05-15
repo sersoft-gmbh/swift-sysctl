@@ -4,8 +4,7 @@
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int64",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int64\/SysctlValue-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int64"
       ]
     ]
   },
@@ -117,7 +116,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L34"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L34"
     },
     "role" : "symbol",
     "roleHeading" : "Initializer",
@@ -276,17 +275,6 @@
   "title" : "Int64",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/swift\/int64"
-},
-"doc://Sysctl/documentation/Sysctl/Swift/Int64/SysctlValue-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int64\/SysctlValue-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlValue Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/swift\/int64\/sysctlvalue-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/Swift/Int64/init(sysctlPointer:capacity:)-6dao5": {
   "abstract" : [

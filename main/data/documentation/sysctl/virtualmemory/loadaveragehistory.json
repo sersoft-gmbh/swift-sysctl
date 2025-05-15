@@ -80,7 +80,7 @@
     ],
     "remoteSource" : {
       "fileName" : "VirtualMemory.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Namespaces\/VirtualMemory.swift#L11"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Namespaces\/VirtualMemory.swift#L11"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Property",

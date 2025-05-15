@@ -36,20 +36,10 @@
       "anchor" : "Initializers",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Bool\/init(sysctlPointer:)-34v24",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Bool\/init(sysctlPointer:)-5k8qu",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Bool\/init(sysctlPointer:capacity:)-1vr2o",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Bool\/init(sysctlPointer:capacity:)-3l11s"
       ],
       "title" : "Initializers"
-    },
-    {
-      "anchor" : "Instance-Methods",
-      "generated" : true,
-      "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Bool\/withSysctlPointer(do:)"
-      ],
-      "title" : "Instance Methods"
     }
   ],
   "variants" : [
@@ -120,71 +110,6 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/swift\/bool"
 },
-"doc://Sysctl/documentation/Sysctl/Swift/Bool/init(sysctlPointer:)-34v24": {
-  "abstract" : [
-
-  ],
-  "deprecated" : true,
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "sysctlPointer"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SP",
-      "text" : "UnsafePointer"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentableP0aB0Qa",
-      "text" : "SysctlValue"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
-      "text" : "SysctlPointerType"
-    },
-    {
-      "kind" : "text",
-      "text" : ">)"
-    }
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Bool\/init(sysctlPointer:)-34v24",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "init(sysctlPointer:)",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/swift\/bool\/init(sysctlpointer:)-34v24"
-},
 "doc://Sysctl/documentation/Sysctl/Swift/Bool/init(sysctlPointer:)-5k8qu": {
   "abstract" : [
 
@@ -240,87 +165,6 @@
   "title" : "init(sysctlPointer:)",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/swift\/bool\/init(sysctlpointer:)-5k8qu"
-},
-"doc://Sysctl/documentation/Sysctl/Swift/Bool/init(sysctlPointer:capacity:)-1vr2o": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "sysctlPointer"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SP",
-      "text" : "UnsafePointer"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentableP0aB0Qa",
-      "text" : "SysctlValue"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
-      "text" : "SysctlPointerType"
-    },
-    {
-      "kind" : "text",
-      "text" : ">, "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "capacity"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Si",
-      "text" : "Int"
-    },
-    {
-      "kind" : "text",
-      "text" : ")"
-    }
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Bool\/init(sysctlPointer:capacity:)-1vr2o",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "init(sysctlPointer:capacity:)",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/swift\/bool\/init(sysctlpointer:capacity:)-1vr2o"
 },
 "doc://Sysctl/documentation/Sysctl/Swift/Bool/init(sysctlPointer:capacity:)-3l11s": {
   "abstract" : [
@@ -394,123 +238,6 @@
   "title" : "init(sysctlPointer:capacity:)",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/swift\/bool\/init(sysctlpointer:capacity:)-3l11s"
-},
-"doc://Sysctl/documentation/Sysctl/Swift/Bool/withSysctlPointer(do:)": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "withSysctlPointer"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "genericParameter",
-      "text" : "T"
-    },
-    {
-      "kind" : "text",
-      "text" : ">("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "do"
-    },
-    {
-      "kind" : "text",
-      "text" : ": ("
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SP",
-      "text" : "UnsafePointer"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentableP0aB0Qa",
-      "text" : "SysctlValue"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
-      "text" : "SysctlPointerType"
-    },
-    {
-      "kind" : "text",
-      "text" : ">, "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Si",
-      "text" : "Int"
-    },
-    {
-      "kind" : "text",
-      "text" : ") "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "throws"
-    },
-    {
-      "kind" : "text",
-      "text" : " -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "T"
-    },
-    {
-      "kind" : "text",
-      "text" : ") "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "rethrows"
-    },
-    {
-      "kind" : "text",
-      "text" : " -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "T"
-    }
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Bool\/withSysctlPointer(do:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "withSysctlPointer(do:)",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/swift\/bool\/withsysctlpointer(do:)"
 }
 }
 }

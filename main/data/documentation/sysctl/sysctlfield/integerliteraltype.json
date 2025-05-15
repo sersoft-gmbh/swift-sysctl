@@ -3,8 +3,7 @@
     "paths" : [
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/ExpressibleByIntegerLiteral-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField"
       ]
     ]
   },
@@ -91,7 +90,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Field.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Field.swift#L55"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Field.swift#L55"
     },
     "role" : "symbol",
     "roleHeading" : "Type Alias",
@@ -268,17 +267,6 @@
   "title" : "SysctlField",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlfield"
-},
-"doc://Sysctl/documentation/Sysctl/SysctlField/ExpressibleByIntegerLiteral-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/ExpressibleByIntegerLiteral-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "ExpressibleByIntegerLiteral Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlfield\/expressiblebyintegerliteral-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlField/IntegerLiteralType": {
   "abstract" : [

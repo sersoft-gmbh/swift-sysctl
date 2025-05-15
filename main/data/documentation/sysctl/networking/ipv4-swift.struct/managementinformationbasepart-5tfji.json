@@ -4,8 +4,7 @@
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/SysctlFullyQualifiedNamespace-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct"
       ]
     ]
   },
@@ -59,7 +58,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Namespace.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Namespace.swift#L29"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Namespace.swift#L29"
     },
     "role" : "symbol",
     "roleHeading" : "Type Property",
@@ -240,17 +239,6 @@
   "title" : "Networking.IPv4",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct"
-},
-"doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct/SysctlFullyQualifiedNamespace-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/SysctlFullyQualifiedNamespace-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlFullyQualifiedNamespace Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/networking\/ipv4-swift.struct\/sysctlfullyqualifiednamespace-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/Networking/IPv4-swift.struct/managementInformationBasePart-5tfji": {
   "abstract" : [

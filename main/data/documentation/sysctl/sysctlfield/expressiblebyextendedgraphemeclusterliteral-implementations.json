@@ -35,7 +35,7 @@
       "anchor" : "Initializers",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/init(extendedGraphemeClusterLiteral:)"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/init(unicodeScalarLiteral:)"
       ],
       "title" : "Initializers"
     }
@@ -165,7 +165,7 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlfield"
 },
-"doc://Sysctl/documentation/Sysctl/SysctlField/init(extendedGraphemeClusterLiteral:)": {
+"doc://Sysctl/documentation/Sysctl/SysctlField/init(unicodeScalarLiteral:)": {
   "abstract" : [
 
   ],
@@ -192,7 +192,7 @@
         "type" : "text"
       },
       {
-        "code" : "Self.StringLiteralType",
+        "code" : "Self.UnicodeScalarLiteralType",
         "type" : "codeVoice"
       },
       {
@@ -212,7 +212,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "extendedGraphemeClusterLiteral"
+      "text" : "unicodeScalarLiteral"
     },
     {
       "kind" : "text",
@@ -228,20 +228,20 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s26ExpressibleByStringLiteralP0cD4TypeQa",
-      "text" : "StringLiteralType"
+      "preciseIdentifier" : "s:s43ExpressibleByExtendedGraphemeClusterLiteralP0cdeF4TypeQa",
+      "text" : "ExtendedGraphemeClusterLiteralType"
     },
     {
       "kind" : "text",
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/init(extendedGraphemeClusterLiteral:)",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/init(unicodeScalarLiteral:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(extendedGraphemeClusterLiteral:)",
+  "title" : "init(unicodeScalarLiteral:)",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlfield\/init(extendedgraphemeclusterliteral:)"
+  "url" : "\/documentation\/sysctl\/sysctlfield\/init(unicodescalarliteral:)"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace": {
   "abstract" : [

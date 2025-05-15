@@ -4,8 +4,7 @@
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/kinfo_proc",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/kinfo_proc\/SysctlValue-Implementations"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/kinfo_proc"
       ]
     ]
   },
@@ -117,7 +116,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/ValueTypes.swift#L34"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L34"
     },
     "role" : "symbol",
     "roleHeading" : "Initializer",
@@ -276,17 +275,6 @@
   "title" : "kinfo_proc",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/darwin\/kinfo_proc"
-},
-"doc://Sysctl/documentation/Sysctl/Darwin/kinfo_proc/SysctlValue-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/kinfo_proc\/SysctlValue-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlValue Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/darwin\/kinfo_proc\/sysctlvalue-implementations"
 },
 "doc://Sysctl/documentation/Sysctl/Darwin/kinfo_proc/init(sysctlPointer:capacity:)-8futd": {
   "abstract" : [

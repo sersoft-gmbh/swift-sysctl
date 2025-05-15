@@ -7,11 +7,11 @@
   ],
   "defaultImplementationsSections" : [
     {
-      "anchor" : "SysctlNamespace-Implementations",
+      "anchor" : "SysctlFullyQualifiedNamespace-Implementations",
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/managementInformationBasePart-2izp1"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart-2izp1"
       ],
-      "title" : "SysctlNamespace Implementations"
+      "title" : "SysctlFullyQualifiedNamespace Implementations"
     }
   ],
   "hierarchy" : {
@@ -67,7 +67,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Namespace.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Namespace.swift#L24"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Namespace.swift#L24"
     },
     "required" : true,
     "role" : "symbol",
@@ -244,7 +244,7 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart"
 },
-"doc://Sysctl/documentation/Sysctl/SysctlNamespace/managementInformationBasePart-2izp1": {
+"doc://Sysctl/documentation/Sysctl/SysctlFullyQualifiedNamespace/managementInformationBasePart-2izp1": {
   "abstract" : [
 
   ],
@@ -283,12 +283,12 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/managementInformationBasePart-2izp1",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace\/managementInformationBasePart-2izp1",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "managementInformationBasePart",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-2izp1"
+  "url" : "\/documentation\/sysctl\/sysctlfullyqualifiednamespace\/managementinformationbasepart-2izp1"
 }
 }
 }

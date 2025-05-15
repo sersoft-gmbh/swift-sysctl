@@ -46,7 +46,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Namespace.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Namespace.swift#L34"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Namespace.swift#L34"
     },
     "role" : "symbol",
     "roleHeading" : "Structure",
@@ -137,7 +137,7 @@
       "anchor" : "Type-Properties",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/managementInformationBasePart-26x0r",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/managementInformationBasePart",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/namePart"
       ],
       "title" : "Type Properties"
@@ -146,7 +146,6 @@
       "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/SysctlFullyQualifiedNamespace-Implementations",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/SysctlNamespace-Implementations"
       ],
       "title" : "Default Implementations"
@@ -452,17 +451,6 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlrootnamespace\/parentnamespace"
 },
-"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace/SysctlFullyQualifiedNamespace-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/SysctlFullyQualifiedNamespace-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "SysctlFullyQualifiedNamespace Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlrootnamespace\/sysctlfullyqualifiednamespace-implementations"
-},
 "doc://Sysctl/documentation/Sysctl/SysctlRootNamespace/SysctlNamespace-Implementations": {
   "abstract" : [
 
@@ -609,7 +597,7 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlrootnamespace\/machinedependent"
 },
-"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace/managementInformationBasePart-26x0r": {
+"doc://Sysctl/documentation/Sysctl/SysctlRootNamespace/managementInformationBasePart": {
   "abstract" : [
     {
       "text" : "The root namespace has no mib part. Do not call this!",
@@ -647,12 +635,12 @@
       "text" : "CInt"
     }
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/managementInformationBasePart-26x0r",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace\/managementInformationBasePart",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "managementInformationBasePart",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlrootnamespace\/managementinformationbasepart-26x0r"
+  "url" : "\/documentation\/sysctl\/sysctlrootnamespace\/managementinformationbasepart"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlRootNamespace/namePart": {
   "abstract" : [

@@ -3,8 +3,7 @@
     "paths" : [
       [
         "doc:\/\/Sysctl\/documentation\/Sysctl",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/managementInformationBasePart-5tyxi"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace"
       ]
     ]
   },
@@ -58,7 +57,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Namespace.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/Sources\/Sysctl\/Base\/Namespace.swift#L17"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Namespace.swift#L17"
     },
     "role" : "symbol",
     "roleHeading" : "Type Property",
@@ -331,74 +330,6 @@
   "title" : "SysctlNamespace",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlnamespace"
-},
-"doc://Sysctl/documentation/Sysctl/SysctlNamespace/managementInformationBasePart-5tyxi": {
-  "abstract" : [
-    {
-      "text" : "The mib part of the namespace (e.g. ",
-      "type" : "text"
-    },
-    {
-      "code" : "CTL_NET",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " for ",
-      "type" : "text"
-    },
-    {
-      "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
-      "isActive" : true,
-      "type" : "reference"
-    },
-    {
-      "text" : ")",
-      "type" : "text"
-    }
-  ],
-  "defaultImplementations" : 2,
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "static"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "managementInformationBasePart"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s4CInta",
-      "text" : "CInt"
-    },
-    {
-      "kind" : "text",
-      "text" : "?"
-    }
-  ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/managementInformationBasePart-5tyxi",
-  "kind" : "symbol",
-  "required" : true,
-  "role" : "symbol",
-  "title" : "managementInformationBasePart",
-  "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sysctlnamespace\/managementinformationbasepart-5tyxi"
 },
 "doc://Sysctl/documentation/Sysctl/SysctlNamespace/managementInformationBasePart-q8vf": {
   "abstract" : [
