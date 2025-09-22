@@ -6,7 +6,8 @@ import PackageDescription
 let swiftSettings: Array<SwiftSetting> = [
     .swiftLanguageMode(.v6),
     .strictMemorySafety(),
-    .treatAllWarnings(as: .error),
+    // Xcode 26.0 fails to build targets with dependencies having this enabled...
+    // .treatAllWarnings(as: .error),
     .enableUpcomingFeature("ExistentialAny"),
     .enableUpcomingFeature("InternalImportsByDefault"),
     .enableUpcomingFeature("MemberImportVisibility"),
