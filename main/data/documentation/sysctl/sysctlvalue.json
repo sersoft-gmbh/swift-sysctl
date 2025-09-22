@@ -110,7 +110,7 @@
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/clockinfo",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/kinfo_proc",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin\/loadavg",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/sys_time\/timeval"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/_DarwinFoundation2\/timeval"
       ],
       "kind" : "relationships",
       "title" : "Conforming Types",
@@ -168,7 +168,18 @@
 "references": {
 "doc://Sysctl/documentation/Sysctl": {
   "abstract" : [
-
+    {
+      "text" : "A Swift interface for reading (and writing) ",
+      "type" : "text"
+    },
+    {
+      "code" : "sysctl",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
   "kind" : "symbol",
@@ -942,7 +953,7 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlvaluerepresentable\/sysctlvalue-swift.associatedtype"
 },
-"doc://Sysctl/documentation/Sysctl/sys_time/timeval": {
+"doc://Sysctl/documentation/Sysctl/_DarwinFoundation2/timeval": {
   "abstract" : [
 
   ],
@@ -961,7 +972,7 @@
       "text" : "timeval"
     }
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/sys_time\/timeval",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/_DarwinFoundation2\/timeval",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -972,7 +983,7 @@
   "role" : "symbol",
   "title" : "timeval",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sys_time\/timeval"
+  "url" : "\/documentation\/sysctl\/_darwinfoundation2\/timeval"
 }
 }
 }

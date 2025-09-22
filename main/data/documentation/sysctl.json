@@ -1,4 +1,18 @@
 {
+  "abstract" : [
+    {
+      "text" : "A Swift interface for reading (and writing) ",
+      "type" : "text"
+    },
+    {
+      "code" : "sysctl",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -23,6 +37,587 @@
     "symbolKind" : "module",
     "title" : "Sysctl"
   },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Installation",
+          "level" : 2,
+          "text" : "Installation",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Add the following dependency to your ",
+              "type" : "text"
+            },
+            {
+              "code" : "Package.swift",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ":",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            ".package(url: \"https:\/\/github.com\/sersoft-gmbh\/swift-sysctl.git\", from: \"1.0.0\"),"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Or add it via Xcode (as of Xcode 11).",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "Usage",
+          "level" : 2,
+          "text" : "Usage",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Using Swift Sysctl is really easy. You just create a ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SystemControl",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " instance and start accessing values. That’s it:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "let sysctl = SystemControl()",
+            "let machine = sysctl.hardware.machine \/\/ String with the value of `hw.machine`."
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Swift Sysctl contains a few common values and will also grow over time.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "If you find that you need a value that’s not yet present, you can easily add them. Just read through the following sections.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "docSysctldocumentationSysctlSysctlNamespace",
+          "level" : 3,
+          "text" : "``doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace``",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "As you might now, ",
+              "type" : "text"
+            },
+            {
+              "code" : "sysctl",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " addresses values using a name that has dots in it. Swift Sysctl calls the parts between these dots “namespace” and represents them in Swift ",
+              "type" : "text"
+            },
+            {
+              "code" : "struct",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : "s. So for example, there’s ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " representing the ",
+              "type" : "text"
+            },
+            {
+              "code" : "hw",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " namespace in ",
+              "type" : "text"
+            },
+            {
+              "code" : "sysctl",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "Each namespace has a parent. If the namespace is located at the root, use the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " as parent.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "When implementing your own namespaces, simply conform them to ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ", define the parent and implement ",
+              "type" : "text"
+            },
+            {
+              "code" : "static var namePart: String { \/*...*\/ }",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ", returning the name part of your namespace (e.g. ",
+              "type" : "text"
+            },
+            {
+              "code" : "hw",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " for ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ").",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Here’s an example for a new (imaginary) namespace that also has a child namespace:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "struct Superpower: SysctlNamespace {",
+            "    typealias ParentNamespace = SysctlRootNamespace",
+            "",
+            "    static var namePart: String { \"spwr\" }",
+            "",
+            "    struct Control: SysctlNamespace {",
+            "        typealias ParentNamespace = Superpower",
+            "",
+            "        static var namePart: String { \"ctrl\" }",
+            "    }",
+            "",
+            "    var control: Control { .init() }",
+            "}",
+            "",
+            "extension SysctlRootNamespace {",
+            "    var superpower: Superpower { .init() }",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "anchor" : "docSysctldocumentationSysctlSysctlNamespaceField",
+          "level" : 4,
+          "text" : "``doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/Field``",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "To access a value from ",
+              "type" : "text"
+            },
+            {
+              "code" : "sysctl",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ", there are (computed) properties on the namespaces. So for example for ",
+              "type" : "text"
+            },
+            {
+              "code" : "hw.machine",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " there’s a property ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware\/machine",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " on the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " namespace.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "To access new values, simply declare a new (computed) property on the namespace the field is in (either in a namespace that you implemented on your own or by extending an existing one). The value type of these properties needs to be ",
+              "type" : "text"
+            },
+            {
+              "code" : "Field<T>",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " where ",
+              "type" : "text"
+            },
+            {
+              "code" : "T",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " is the type of value.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "code" : "Field",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " is a typealias for ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " inside a namespace. A field contains the last name part of the value’s name. Thus you simply return the name as string.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "If the value is writable, you also provide a ",
+              "type" : "text"
+            },
+            {
+              "code" : "nonmutating set",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " implementation, which can be left empty.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Continuing our example, here’s how fields on ",
+              "type" : "text"
+            },
+            {
+              "code" : "Superpower",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " would look like:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "extension Superpower {",
+            "    \/\/ The current magic level. Read-only.",
+            "    \/\/ The full name will be `spwr.curmaglvl`.",
+            "    var currentMagicLevel: Field<CInt> { \"curmaglvl\" }",
+            "}",
+            "",
+            "extension Superpower.Control {",
+            "    \/\/ Whether superpowers are enabled. This is writable.",
+            "    \/\/ The full name will be `spwr.ctrl.enabled`.",
+            "    var isEnabled: Field<Bool> {",
+            "        get { \"enabled\" }",
+            "        nonmutating set {}",
+            "    }",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "anchor" : "docSysctldocumentationSysctlSysctlValue-and-docSysctldocumentationSysctlSysctlValueRepresentable",
+          "level" : 3,
+          "text" : "``doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue`` and ``doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable``",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "For Swift Sysctl to know how to read (or write) a value into ",
+              "type" : "text"
+            },
+            {
+              "code" : "sysctl",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ", it needs to conform to ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ". However, ",
+              "type" : "text"
+            },
+            {
+              "code" : "sysctl",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " only supports very few value types, so it’s very unlikely that you need to conform another type to it.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "A bit more likely (but still not very likely) is that you want to have custom type that is represented by a value that already conforms to ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ". In this case, the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " protocol is what your type needs to conform to. It behaves very similar to Swift’s ",
+              "type" : "text"
+            },
+            {
+              "code" : "RawRepresentable",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " protocol. You need to declare which underlying ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " type your type will be using and implement the read-only property ",
+              "type" : "text"
+            },
+            {
+              "code" : "var syctlValue: SysctlValue { get }",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " in which you return the underlying ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " of your type. Then you ned to implement ",
+              "type" : "text"
+            },
+            {
+              "code" : "init(sysctlValue:)",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " on your type. Swift Sysctl will pass the underlyling ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " to this initializer and you are left with initializing your type from it.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "With these requirements fulfilled, Swift Sysctl will provide the implementation for ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " for you and you can read and write your type from\/to ",
+              "type" : "text"
+            },
+            {
+              "code" : "sysctl",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Again continuing our example, here’s how you would read a new type from ",
+              "type" : "text"
+            },
+            {
+              "code" : "sysctl",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ":",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "enum MagicSpellPower: SysctlValueRepresentable {",
+            "    typealias SysctlValue = CInt",
+            "",
+            "    case low(Int)",
+            "    case medium",
+            "    case high(unbeatable: Bool)",
+            "",
+            "    var sysctlValue: SysctlValue {",
+            "        switch self {",
+            "        case .low(let val): return numericCast(val)",
+            "        case .medium: return 5",
+            "        case .high(let unbeatable): return unbeatable ? -1 : 10",
+            "        }",
+            "    }",
+            "",
+            "    init(sysctlValue: SysctlValue) {",
+            "        switch sysctlValue {",
+            "        case 0..<5: self = .low(numericCast(sysctlValue))",
+            "        case 5: self = .medium",
+            "        case 10: self = .high(unbeatable: false)",
+            "        case -1: self = .high(unbeatable: true)",
+            "        default: fatalError(\"Invalid value: \\(sysctlValue)\")",
+            "        }",
+            "    }",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
   "schemaVersion" : {
     "major" : 0,
     "minor" : 3,
@@ -75,7 +670,7 @@
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Darwin",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Foundation",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift",
-        "doc:\/\/Sysctl\/documentation\/Sysctl\/sys_time"
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/_DarwinFoundation2"
       ],
       "title" : "Extended Modules"
     }
@@ -96,7 +691,18 @@
 "references": {
 "doc://Sysctl/documentation/Sysctl": {
   "abstract" : [
-
+    {
+      "text" : "A Swift interface for reading (and writing) ",
+      "type" : "text"
+    },
+    {
+      "code" : "sysctl",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
   "kind" : "symbol",
@@ -168,6 +774,73 @@
   "title" : "Hardware",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/hardware"
+},
+"doc://Sysctl/documentation/Sysctl/Hardware/machine": {
+  "abstract" : [
+    {
+      "text" : "The machine value (",
+      "type" : "text"
+    },
+    {
+      "code" : "machine",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "machine"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl8HardwareV",
+      "text" : "Hardware"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
+      "text" : "Field"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Hardware\/machine",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "machine",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/hardware\/machine"
 },
 "doc://Sysctl/documentation/Sysctl/Kernel": {
   "abstract" : [
@@ -1006,16 +1679,16 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/virtualmemory"
 },
-"doc://Sysctl/documentation/Sysctl/sys_time": {
+"doc://Sysctl/documentation/Sysctl/_DarwinFoundation2": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/sys_time",
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/_DarwinFoundation2",
   "kind" : "symbol",
   "role" : "collection",
-  "title" : "sys_time",
+  "title" : "_DarwinFoundation2",
   "type" : "topic",
-  "url" : "\/documentation\/sysctl\/sys_time"
+  "url" : "\/documentation\/sysctl\/_darwinfoundation2"
 }
 }
 }

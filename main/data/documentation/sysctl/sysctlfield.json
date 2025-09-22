@@ -226,7 +226,8 @@
         "doc:\/\/Sysctl\/s26ExpressibleByStringLiteralP",
         "doc:\/\/Sysctl\/s33ExpressibleByUnicodeScalarLiteralP",
         "doc:\/\/Sysctl\/SH",
-        "doc:\/\/Sysctl\/s8SendableP"
+        "doc:\/\/Sysctl\/s8SendableP",
+        "doc:\/\/Sysctl\/s16SendableMetatypeP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -299,7 +300,18 @@
 },
 "doc://Sysctl/documentation/Sysctl": {
   "abstract" : [
-
+    {
+      "text" : "A Swift interface for reading (and writing) ",
+      "type" : "text"
+    },
+    {
+      "code" : "sysctl",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
   "kind" : "symbol",
@@ -618,7 +630,10 @@
 },
 "doc://Sysctl/documentation/Sysctl/SysctlField/init(managementInformationBasePart:namePart:)-1s6xv": {
   "abstract" : [
-
+    {
+      "text" : "Creates a new field with the given mib and name parts.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -673,7 +688,10 @@
 },
 "doc://Sysctl/documentation/Sysctl/SysctlField/init(managementInformationBasePart:namePart:)-6emlq": {
   "abstract" : [
-
+    {
+      "text" : "Creates a new field with the given mib and name parts. Returns nil if both parameters are nil.",
+      "type" : "text"
+    }
   ],
   "conformance" : {
     "availabilityPrefix" : [
@@ -776,7 +794,10 @@
 },
 "doc://Sysctl/documentation/Sysctl/SysctlField/init(managementInformationBasePart:namePart:)-6yfl3": {
   "abstract" : [
-
+    {
+      "text" : "Creates a new field with the given mib and name parts.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -831,7 +852,10 @@
 },
 "doc://Sysctl/documentation/Sysctl/SysctlField/init(managementInformationBasePart:namePart:)-9b5ot": {
   "abstract" : [
-
+    {
+      "text" : "Creates a new field with the given mib and name parts.",
+      "type" : "text"
+    }
   ],
   "conformance" : {
     "availabilityPrefix" : [
@@ -1130,6 +1154,11 @@
   "title" : "SysctlValue",
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/sysctlvalue"
+},
+"doc://Sysctl/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/Sysctl\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
 },
 "doc://Sysctl/s26ExpressibleByStringLiteralP": {
   "identifier" : "doc:\/\/Sysctl\/s26ExpressibleByStringLiteralP",

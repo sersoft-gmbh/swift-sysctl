@@ -53,7 +53,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Kernel.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Namespaces\/Kernel.swift#L121"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Namespaces\/Kernel.swift#L129"
     },
     "role" : "symbol",
     "roleHeading" : "Type Property",
@@ -142,7 +142,18 @@
 "references": {
 "doc://Sysctl/documentation/Sysctl": {
   "abstract" : [
-
+    {
+      "text" : "A Swift interface for reading (and writing) ",
+      "type" : "text"
+    },
+    {
+      "code" : "sysctl",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
   "kind" : "symbol",

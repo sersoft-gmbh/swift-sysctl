@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Creates a new field with the given mib and name parts. Returns nil if both parameters are nil.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -114,7 +120,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Field.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Field.swift#L48"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Field.swift#L97"
     },
     "role" : "symbol",
     "roleHeading" : "Initializer",
@@ -178,6 +184,48 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "managementInformationBasePart: The management information base (MIB) part of the field.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "namePart: The name part of the field.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "schemaVersion" : {
@@ -204,7 +252,18 @@
 "references": {
 "doc://Sysctl/documentation/Sysctl": {
   "abstract" : [
-
+    {
+      "text" : "A Swift interface for reading (and writing) ",
+      "type" : "text"
+    },
+    {
+      "code" : "sysctl",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
   "kind" : "symbol",
@@ -315,7 +374,10 @@
 },
 "doc://Sysctl/documentation/Sysctl/SysctlField/init(managementInformationBasePart:namePart:)-6emlq": {
   "abstract" : [
-
+    {
+      "text" : "Creates a new field with the given mib and name parts. Returns nil if both parameters are nil.",
+      "type" : "text"
+    }
   ],
   "conformance" : {
     "availabilityPrefix" : [

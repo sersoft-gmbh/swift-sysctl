@@ -95,6 +95,7 @@
       "identifiers" : [
         "doc:\/\/Sysctl\/s15BitwiseCopyableP",
         "doc:\/\/Sysctl\/s8SendableP",
+        "doc:\/\/Sysctl\/s16SendableMetatypeP",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlFullyQualifiedNamespace",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace"
       ],
@@ -167,7 +168,18 @@
 "references": {
 "doc://Sysctl/documentation/Sysctl": {
   "abstract" : [
-
+    {
+      "text" : "A Swift interface for reading (and writing) ",
+      "type" : "text"
+    },
+    {
+      "code" : "sysctl",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
   "kind" : "symbol",
@@ -825,6 +837,11 @@
 "doc://Sysctl/s15BitwiseCopyableP": {
   "identifier" : "doc:\/\/Sysctl\/s15BitwiseCopyableP",
   "title" : "Swift.BitwiseCopyable",
+  "type" : "unresolvable"
+},
+"doc://Sysctl/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/Sysctl\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
   "type" : "unresolvable"
 },
 "doc://Sysctl/s8SendableP": {

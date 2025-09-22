@@ -97,7 +97,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Field.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Field.swift#L36"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Field.swift#L68"
     },
     "role" : "symbol",
     "roleHeading" : "Initializer",
@@ -178,7 +178,18 @@
 "references": {
 "doc://Sysctl/documentation/Sysctl": {
   "abstract" : [
-
+    {
+      "text" : "A Swift interface for reading (and writing) ",
+      "type" : "text"
+    },
+    {
+      "code" : "sysctl",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
   "kind" : "symbol",
