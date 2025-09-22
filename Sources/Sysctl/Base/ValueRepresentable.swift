@@ -27,7 +27,7 @@ extension SysctlValueRepresentable {
     }
 
     @inlinable
-    public func withSysctlPointer<T, F>(do work: (UnsafePointer<SysctlValue.SysctlPointerType>, Int) throws(F) -> T) throws(F) -> T {
+    public func withSysctlPointer<T>(do work: (UnsafePointer<SysctlValue.SysctlPointerType>, Int) throws -> T) rethrows -> T {
         try sysctlValue.withSysctlPointer(do: work)
     }
 }
