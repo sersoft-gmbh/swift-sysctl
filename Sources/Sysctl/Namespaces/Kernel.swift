@@ -112,19 +112,35 @@ extension Kernel {
             public static var namePart: String { "pid" }
             public static var managementInformationBasePart: CInt { KERN_PROC_PID }
 
+#if compiler(>=6.2)
+            /// The process(es) for the given pid.
+            @safe
+            public subscript(pid: CInt) -> Field<Array<kinfo_proc>> {
+                .init(managementInformationBasePart: pid)
+            }
+#else
             /// The process(es) for the given pid.
             public subscript(pid: CInt) -> Field<Array<kinfo_proc>> {
                 .init(managementInformationBasePart: pid)
             }
+#endif
         }
 
         public static var namePart: String { "proc" }
         public static var managementInformationBasePart: CInt { KERN_PROC }
 
+#if compiler(>=6.2)
+        /// All processes (`all`).
+        @safe
+        public var all: Field<Array<kinfo_proc>> {
+            .init(managementInformationBasePart: KERN_PROC_ALL, namePart: "all")
+        }
+#else
         /// All processes (`all`).
         public var all: Field<Array<kinfo_proc>> {
             .init(managementInformationBasePart: KERN_PROC_ALL, namePart: "all")
         }
+#endif
         /// Processes by identifier (`pid`).
         public var byPid: ByPID { .init() }
     }

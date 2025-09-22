@@ -1,148 +1,156 @@
-import XCTest
+import Foundation
+import Testing
 @testable import Sysctl
 
-final class NameGenerationTests: XCTestCase {
+@Suite
+struct NameGenerationTests {
     private let root = LookupContainer(namespace: SysctlRootNamespace())
 
-    func testHardwareNamespace() {
-        XCTAssertEqual(root.hardware, "hw")
-        XCTAssertEqual(root.hardware, [CTL_HW])
+    @Test
+    func hardwareNamespace() {
+        #expect(root.hardware == "hw")
+        #expect(root.hardware == [CTL_HW])
 
-        XCTAssertEqual(root.hardware.machine, "hw.machine")
-        XCTAssertEqual(root.hardware.machine, [CTL_HW, HW_MACHINE])
-        XCTAssertEqual(root.hardware.model, "hw.model")
-        XCTAssertEqual(root.hardware.model, [CTL_HW, HW_MODEL])
-        XCTAssertEqual(root.hardware.numberOfCPUs, "hw.ncpu")
-        XCTAssertEqual(root.hardware.numberOfCPUs, [CTL_HW, HW_NCPU])
-        XCTAssertEqual(root.hardware.physicalCPUs, "hw.physicalcpu")
-        XCTAssertNil(root.hardware.physicalCPUs as Array<CInt>?)
-        XCTAssertEqual(root.hardware.memorySize, "hw.memsize")
-        XCTAssertEqual(root.hardware.memorySize, [CTL_HW, HW_MEMSIZE])
+        #expect(root.hardware.machine == "hw.machine")
+        #expect(root.hardware.machine == [CTL_HW, HW_MACHINE])
+        #expect(root.hardware.model == "hw.model")
+        #expect(root.hardware.model == [CTL_HW, HW_MODEL])
+        #expect(root.hardware.numberOfCPUs == "hw.ncpu")
+        #expect(root.hardware.numberOfCPUs == [CTL_HW, HW_NCPU])
+        #expect(root.hardware.physicalCPUs == "hw.physicalcpu")
+        #expect(root.hardware.physicalCPUs as Array<CInt>? == nil)
+        #expect(root.hardware.memorySize == "hw.memsize")
+        #expect(root.hardware.memorySize == [CTL_HW, HW_MEMSIZE])
     }
 
-    func testKernelNamespace() {
-        XCTAssertEqual(root.kernel, "kern")
-        XCTAssertEqual(root.kernel, [CTL_KERN])
+    @Test
+    func kernelNamespace() {
+        #expect(root.kernel == "kern")
+        #expect(root.kernel == [CTL_KERN])
 
-        XCTAssertEqual(root.kernel.bootDate, "kern.boottime")
-        XCTAssertEqual(root.kernel.bootDate, [CTL_KERN, KERN_BOOTTIME])
-        XCTAssertEqual(root.kernel.fullVersionText, "kern.version")
-        XCTAssertEqual(root.kernel.fullVersionText, [CTL_KERN, KERN_VERSION])
-        XCTAssertEqual(root.kernel.hostID, "kern.hostid")
-        XCTAssertEqual(root.kernel.hostID, [CTL_KERN, KERN_HOSTID])
-        XCTAssertEqual(root.kernel.hostname, "kern.hostname")
-        XCTAssertEqual(root.kernel.hostname, [CTL_KERN, KERN_HOSTNAME])
-        XCTAssertEqual(root.kernel.hypervisor, "kern.hv")
-        XCTAssertNil(root.kernel.hypervisor as Array<CInt>?)
-        XCTAssertEqual(root.kernel.hypervisor.isSupported, "kern.hv.supported")
-        XCTAssertNil(root.kernel.hypervisor.isSupported as Array<CInt>?)
-        XCTAssertEqual(root.kernel.isSingleUser, "kern.singleuser")
-        XCTAssertNil(root.kernel.isSingleUser as Array<CInt>?)
-        XCTAssertEqual(root.kernel.kind, "kern.ostype")
-        XCTAssertEqual(root.kernel.kind, [CTL_KERN, KERN_OSTYPE])
-        XCTAssertEqual(root.kernel.osBuild, "kern.osversion")
-        XCTAssertEqual(root.kernel.osBuild, [CTL_KERN, KERN_OSVERSION])
-        XCTAssertEqual(root.kernel.revision, "kern.osrevision")
-        XCTAssertEqual(root.kernel.revision, [CTL_KERN, KERN_OSREV])
-        XCTAssertEqual(root.kernel.version, "kern.osrelease")
-        XCTAssertEqual(root.kernel.version, [CTL_KERN, KERN_OSRELEASE])
+        #expect(root.kernel.bootDate == "kern.boottime")
+        #expect(root.kernel.bootDate == [CTL_KERN, KERN_BOOTTIME])
+        #expect(root.kernel.fullVersionText == "kern.version")
+        #expect(root.kernel.fullVersionText == [CTL_KERN, KERN_VERSION])
+        #expect(root.kernel.hostID == "kern.hostid")
+        #expect(root.kernel.hostID == [CTL_KERN, KERN_HOSTID])
+        #expect(root.kernel.hostname == "kern.hostname")
+        #expect(root.kernel.hostname == [CTL_KERN, KERN_HOSTNAME])
+        #expect(root.kernel.hypervisor == "kern.hv")
+        #expect(root.kernel.hypervisor as Array<CInt>? == nil)
+        #expect(root.kernel.hypervisor.isSupported == "kern.hv.supported")
+        #expect(root.kernel.hypervisor.isSupported as Array<CInt>? == nil)
+        #expect(root.kernel.isSingleUser == "kern.singleuser")
+        #expect(root.kernel.isSingleUser as Array<CInt>? == nil)
+        #expect(root.kernel.kind == "kern.ostype")
+        #expect(root.kernel.kind == [CTL_KERN, KERN_OSTYPE])
+        #expect(root.kernel.osBuild == "kern.osversion")
+        #expect(root.kernel.osBuild == [CTL_KERN, KERN_OSVERSION])
+        #expect(root.kernel.revision == "kern.osrevision")
+        #expect(root.kernel.revision == [CTL_KERN, KERN_OSREV])
+        #expect(root.kernel.version == "kern.osrelease")
+        #expect(root.kernel.version == [CTL_KERN, KERN_OSRELEASE])
 
-        XCTAssertEqual(root.kernel.isJobControlAvailable, "kern.job_control")
-        XCTAssertEqual(root.kernel.isJobControlAvailable, [CTL_KERN, KERN_JOB_CONTROL])
-        XCTAssertEqual(root.kernel.maxOpenFiles, "kern.maxfiles")
-        XCTAssertEqual(root.kernel.maxOpenFiles, [CTL_KERN, KERN_MAXFILES])
-        XCTAssertEqual(root.kernel.maxOpenFilesPerProcess, "kern.maxfilesperproc")
-        XCTAssertEqual(root.kernel.maxOpenFilesPerProcess, [CTL_KERN, KERN_MAXFILESPERPROC])
-        XCTAssertEqual(root.kernel.maxProcesses, "kern.maxproc")
-        XCTAssertEqual(root.kernel.maxProcesses, [CTL_KERN, KERN_MAXPROC])
-        XCTAssertEqual(root.kernel.maxProcessesPerUser, "kern.maxprocperuid")
-        XCTAssertEqual(root.kernel.maxProcessesPerUser, [CTL_KERN, KERN_MAXPROCPERUID])
-        XCTAssertEqual(root.kernel.maxVirtualNodes, "kern.maxvnodes")
-        XCTAssertEqual(root.kernel.maxVirtualNodes, [CTL_KERN, KERN_MAXVNODES])
+        #expect(root.kernel.isJobControlAvailable == "kern.job_control")
+        #expect(root.kernel.isJobControlAvailable == [CTL_KERN, KERN_JOB_CONTROL])
+        #expect(root.kernel.maxOpenFiles == "kern.maxfiles")
+        #expect(root.kernel.maxOpenFiles == [CTL_KERN, KERN_MAXFILES])
+        #expect(root.kernel.maxOpenFilesPerProcess == "kern.maxfilesperproc")
+        #expect(root.kernel.maxOpenFilesPerProcess == [CTL_KERN, KERN_MAXFILESPERPROC])
+        #expect(root.kernel.maxProcesses == "kern.maxproc")
+        #expect(root.kernel.maxProcesses == [CTL_KERN, KERN_MAXPROC])
+        #expect(root.kernel.maxProcessesPerUser == "kern.maxprocperuid")
+        #expect(root.kernel.maxProcessesPerUser == [CTL_KERN, KERN_MAXPROCPERUID])
+        #expect(root.kernel.maxVirtualNodes == "kern.maxvnodes")
+        #expect(root.kernel.maxVirtualNodes == [CTL_KERN, KERN_MAXVNODES])
 
-        XCTAssertEqual(root.kernel.processes, "kern.proc")
-        XCTAssertEqual(root.kernel.processes, [CTL_KERN, KERN_PROC])
-        XCTAssertEqual(root.kernel.processes.all, "kern.proc.all")
-        XCTAssertEqual(root.kernel.processes.all, [CTL_KERN, KERN_PROC, KERN_PROC_ALL])
-        XCTAssertEqual(root.kernel.processes.byPid, "kern.proc.pid")
-        XCTAssertEqual(root.kernel.processes.byPid, [CTL_KERN, KERN_PROC, KERN_PROC_PID])
+        #expect(root.kernel.processes == "kern.proc")
+        #expect(root.kernel.processes == [CTL_KERN, KERN_PROC])
+        #expect(root.kernel.processes.all == "kern.proc.all")
+        #expect(root.kernel.processes.all == [CTL_KERN, KERN_PROC, KERN_PROC_ALL])
+        #expect(root.kernel.processes.byPid == "kern.proc.pid")
+        #expect(root.kernel.processes.byPid == [CTL_KERN, KERN_PROC, KERN_PROC_PID])
 
-        XCTAssertNil(root.kernel.processes.byPid[12345] as String?)
-        XCTAssertEqual(root.kernel.processes.byPid[12345], [CTL_KERN, KERN_PROC, KERN_PROC_PID, 12345])
-    }
-    
-    func testMachineDependentNamespace() {
-        XCTAssertEqual(root.machineDependent, "machdep")
-        XCTAssertEqual(root.machineDependent, [CTL_MACHDEP])
-
-        XCTAssertEqual(root.machineDependent.cpu.brandString, "machdep.cpu.brand_string")
+        #expect(root.kernel.processes.byPid[12345] as String? == nil)
+        #expect(root.kernel.processes.byPid[12345] == [CTL_KERN, KERN_PROC, KERN_PROC_PID, 12345])
     }
 
-    func testVirtualMemoryNamespace() {
-        XCTAssertEqual(root.virtualMemory, "vm")
-        XCTAssertEqual(root.virtualMemory, [CTL_VM])
+    @Test
+    func machineDependentNamespace() {
+        #expect(root.machineDependent == "machdep")
+        #expect(root.machineDependent == [CTL_MACHDEP])
 
-        XCTAssertEqual(root.virtualMemory.isSwappingEnabled, "vm.swap_enabled")
-        XCTAssertNil(root.virtualMemory.isSwappingEnabled as Array<CInt>?)
-        XCTAssertEqual(root.virtualMemory.loadAverageHistory, "vm.loadavg")
-        XCTAssertEqual(root.virtualMemory.loadAverageHistory, [CTL_VM, VM_LOADAVG])
+        #expect(root.machineDependent.cpu.brandString == "machdep.cpu.brand_string")
     }
 
-    func testUserNamespace() {
-        XCTAssertEqual(root.user, "user")
-        XCTAssertEqual(root.user, [CTL_USER])
+    @Test
+    func virtualMemoryNamespace() {
+        #expect(root.virtualMemory == "vm")
+        #expect(root.virtualMemory == [CTL_VM])
 
-        XCTAssertEqual(root.user.standardSearchPath, "user.cs_path")
-        XCTAssertEqual(root.user.standardSearchPath, [CTL_USER, USER_CS_PATH])
+        #expect(root.virtualMemory.isSwappingEnabled == "vm.swap_enabled")
+        #expect(root.virtualMemory.isSwappingEnabled as Array<CInt>? == nil)
+        #expect(root.virtualMemory.loadAverageHistory == "vm.loadavg")
+        #expect(root.virtualMemory.loadAverageHistory == [CTL_VM, VM_LOADAVG])
     }
 
-    func testNetworkingNamespace() {
-        XCTAssertEqual(root.networking, "net")
-        XCTAssertEqual(root.networking, [CTL_NET])
+    @Test
+    func userNamespace() {
+        #expect(root.user == "user")
+        #expect(root.user == [CTL_USER])
+
+        #expect(root.user.standardSearchPath == "user.cs_path")
+        #expect(root.user.standardSearchPath == [CTL_USER, USER_CS_PATH])
+    }
+
+    @Test
+    func networkingNamespace() {
+        #expect(root.networking == "net")
+        #expect(root.networking == [CTL_NET])
 
         // IPv4
-        XCTAssertEqual(root.networking.ipv4, "net.inet")
-        XCTAssertEqual(root.networking.ipv4, [CTL_NET, PF_INET])
-        XCTAssertEqual(root.networking.ipv4.icmp, "net.inet.icmp")
-        XCTAssertNil(root.networking.ipv4.icmp as Array<CInt>?)
-        XCTAssertEqual(root.networking.ipv4.ip, "net.inet.ip")
-        XCTAssertNil(root.networking.ipv4.ip as Array<CInt>?)
+        #expect(root.networking.ipv4 == "net.inet")
+        #expect(root.networking.ipv4 == [CTL_NET, PF_INET])
+        #expect(root.networking.ipv4.icmp == "net.inet.icmp")
+        #expect(root.networking.ipv4.icmp as Array<CInt>? == nil)
+        #expect(root.networking.ipv4.ip == "net.inet.ip")
+        #expect(root.networking.ipv4.ip as Array<CInt>? == nil)
 
-        XCTAssertEqual(root.networking.ipv4.icmp.answerBroadAndMulticastEchoRequests, "net.inet.icmp.bmcastecho")
-        XCTAssertNil(root.networking.ipv4.icmp.answerBroadAndMulticastEchoRequests as Array<CInt>?)
+        #expect(root.networking.ipv4.icmp.answerBroadAndMulticastEchoRequests == "net.inet.icmp.bmcastecho")
+        #expect(root.networking.ipv4.icmp.answerBroadAndMulticastEchoRequests as Array<CInt>? == nil)
 #if os(macOS)
-        XCTAssertEqual(root.networking.ipv4.icmp.answerNetworkMaskRequests, "net.inet.icmp.maskrepl")
-        XCTAssertNil(root.networking.ipv4.icmp.answerNetworkMaskRequests as Array<CInt>?)
+        #expect(root.networking.ipv4.icmp.answerNetworkMaskRequests == "net.inet.icmp.maskrepl")
+        #expect(root.networking.ipv4.icmp.answerNetworkMaskRequests as Array<CInt>? == nil)
 #endif
 
-        XCTAssertEqual(root.networking.ipv4.ip.forwardingEnabled, "net.inet.ip.forwarding")
-        XCTAssertNil(root.networking.ipv4.ip.forwardingEnabled as Array<CInt>?)
-        XCTAssertEqual(root.networking.ipv4.ip.redirectsEnabled, "net.inet.ip.redirect")
-        XCTAssertNil(root.networking.ipv4.ip.redirectsEnabled as Array<CInt>?)
-        XCTAssertEqual(root.networking.ipv4.ip.timeToLive, "net.inet.ip.ttl")
-        XCTAssertNil(root.networking.ipv4.ip.timeToLive as Array<CInt>?)
+        #expect(root.networking.ipv4.ip.forwardingEnabled == "net.inet.ip.forwarding")
+        #expect(root.networking.ipv4.ip.forwardingEnabled as Array<CInt>? == nil)
+        #expect(root.networking.ipv4.ip.redirectsEnabled == "net.inet.ip.redirect")
+        #expect(root.networking.ipv4.ip.redirectsEnabled as Array<CInt>? == nil)
+        #expect(root.networking.ipv4.ip.timeToLive == "net.inet.ip.ttl")
+        #expect(root.networking.ipv4.ip.timeToLive as Array<CInt>? == nil)
 
 #if os(macOS)
-        XCTAssertEqual(root.networking.ipv4.udp.checksumEnabled, "net.inet.udp.checksum")
-        XCTAssertNil(root.networking.ipv4.udp.checksumEnabled as Array<CInt>?)
+        #expect(root.networking.ipv4.udp.checksumEnabled == "net.inet.udp.checksum")
+        #expect(root.networking.ipv4.udp.checksumEnabled as Array<CInt>? == nil)
 #endif
 
         // IPv6
-        XCTAssertEqual(root.networking.ipv6, "net.inet6")
-        XCTAssertEqual(root.networking.ipv6, [CTL_NET, PF_INET6])
-        XCTAssertEqual(root.networking.ipv6.icmp, "net.inet6.icmp6")
-        XCTAssertNil(root.networking.ipv6.icmp as Array<CInt>?)
-        XCTAssertEqual(root.networking.ipv6.ip, "net.inet6.ip6")
-        XCTAssertNil(root.networking.ipv6.ip as Array<CInt>?)
+        #expect(root.networking.ipv6 == "net.inet6")
+        #expect(root.networking.ipv6 == [CTL_NET, PF_INET6])
+        #expect(root.networking.ipv6.icmp == "net.inet6.icmp6")
+        #expect(root.networking.ipv6.icmp as Array<CInt>? == nil)
+        #expect(root.networking.ipv6.ip == "net.inet6.ip6")
+        #expect(root.networking.ipv6.ip as Array<CInt>? == nil)
 
-        XCTAssertEqual(root.networking.ipv6.icmp.acceptRedirects, "net.inet6.icmp6.rediraccept")
-        XCTAssertNil(root.networking.ipv6.icmp.acceptRedirects as Array<CInt>?)
-        XCTAssertEqual(root.networking.ipv6.icmp.redirectTimeout, "net.inet6.icmp6.redirtimeout")
-        XCTAssertNil(root.networking.ipv6.icmp.redirectTimeout as Array<CInt>?)
-        XCTAssertEqual(root.networking.ipv6.ip.forwardingEnabled, "net.inet6.ip6.forwarding")
-        XCTAssertNil(root.networking.ipv6.ip.forwardingEnabled as Array<CInt>?)
-        XCTAssertEqual(root.networking.ipv6.ip.redirectsEnabled, "net.inet6.ip6.redirect")
-        XCTAssertNil(root.networking.ipv6.ip.redirectsEnabled as Array<CInt>?)
+        #expect(root.networking.ipv6.icmp.acceptRedirects == "net.inet6.icmp6.rediraccept")
+        #expect(root.networking.ipv6.icmp.acceptRedirects as Array<CInt>? == nil)
+        #expect(root.networking.ipv6.icmp.redirectTimeout == "net.inet6.icmp6.redirtimeout")
+        #expect(root.networking.ipv6.icmp.redirectTimeout as Array<CInt>? == nil)
+        #expect(root.networking.ipv6.ip.forwardingEnabled == "net.inet6.ip6.forwarding")
+        #expect(root.networking.ipv6.ip.forwardingEnabled as Array<CInt>? == nil)
+        #expect(root.networking.ipv6.ip.redirectsEnabled == "net.inet6.ip6.redirect")
+        #expect(root.networking.ipv6.ip.redirectsEnabled as Array<CInt>? == nil)
     }
 }
 
@@ -157,6 +165,31 @@ fileprivate struct LookupContainer<Namespace: SysctlNamespace>: Sendable {
         LookupContainer<ChildSpace>(namespace: namespace[keyPath: childSpace])
     }
 
+#if compiler(>=6.2)
+    @safe
+    subscript<ChildSpace: SysctlNamespace>(dynamicMember _: KeyPath<Namespace, ChildSpace>) -> String
+    where ChildSpace.ParentNamespace == Namespace
+    {
+        ChildSpace._nameParts().joined(separator: ".")
+    }
+
+    @safe
+    subscript<ChildSpace: SysctlNamespace>(dynamicMember _: KeyPath<Namespace, ChildSpace>) -> Array<CInt>?
+    where ChildSpace.ParentNamespace == Namespace
+    {
+        ChildSpace._mibParts()
+    }
+
+    @safe
+    subscript(dynamicMember field: KeyPath<Namespace, Namespace.Field<some SysctlValue>>) -> String? {
+        namespace[keyPath: field]._buildName()
+    }
+
+    @safe
+    subscript(dynamicMember field: KeyPath<Namespace, Namespace.Field<some SysctlValue>>) -> Array<CInt>? {
+        namespace[keyPath: field]._buildMib()
+    }
+#else
     subscript<ChildSpace: SysctlNamespace>(dynamicMember _: KeyPath<Namespace, ChildSpace>) -> String
     where ChildSpace.ParentNamespace == Namespace
     {
@@ -176,4 +209,5 @@ fileprivate struct LookupContainer<Namespace: SysctlNamespace>: Sendable {
     subscript(dynamicMember field: KeyPath<Namespace, Namespace.Field<some SysctlValue>>) -> Array<CInt>? {
         namespace[keyPath: field]._buildMib()
     }
+#endif
 }

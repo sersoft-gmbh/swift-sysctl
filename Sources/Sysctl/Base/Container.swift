@@ -38,6 +38,19 @@ extension SysctlField {
     }
 
     private static func _mib(forName name: String) -> Array<CInt> {
+#if compiler(>=6.2)
+        unsafe name.withCString {
+            var len = Int()
+            unsafe _sysctlNameToMIB($0, nil, &len).requireSuccess()
+            let mib = UnsafeMutablePointer<CInt>.allocate(capacity: len)
+            defer { unsafe mib.deallocate() }
+            unsafe _sysctlNameToMIB($0, mib, &len).requireSuccess()
+            return unsafe .init(unsafeUninitializedCapacity: len) { buffer, initializedCount in
+                unsafe buffer.baseAddress?.moveUpdate(from: mib, count: len)
+                initializedCount = len
+            }
+        }
+#else
         name.withCString {
             var len = Int()
             _sysctlNameToMIB($0, nil, &len).requireSuccess()
@@ -49,14 +62,19 @@ extension SysctlField {
                 initializedCount = len
             }
         }
+#endif
     }
 
-#if swift(>=6.1)
+#if compiler(>=6.1)
     @usableFromInline
     func _withMIB<T, E: Error>(do work: (inout UnsafeMutableBufferPointer<CInt>) throws(E) -> T) throws(E) -> T {
-        guard var mib = _buildMib() ?? _buildName().map(Self._mib(forName:))
+        guard var mib = _buildMib() ?? _buildName().map({ Self._mib(forName: $0) })
         else { fatalError("Invalid field: \(self)") }
+#if compiler(>=6.2)
+        return unsafe try mib.withUnsafeMutableBufferPointer(work)
+#else
         return try mib.withUnsafeMutableBufferPointer(work)
+#endif
     }
 #else
     @usableFromInline
@@ -92,6 +110,24 @@ public struct SysctlContainer<Namespace: SysctlNamespace>: Sendable {
         SysctlContainer<ChildSpace>(namespace: namespace[keyPath: childSpace])
     }
 
+#if compiler(>=6.2)
+    /// Reads the value for a field on the namespace.
+    /// - Parameter field: The keypath to the field of the namespace.
+    @safe
+    @inlinable
+    public subscript<Value: SysctlValue>(dynamicMember field: KeyPath<Namespace, Namespace.Field<Value>>) -> Value {
+        _readValue(for: field)
+    }
+
+    /// Reads or writes the value for a field on the namespace.
+    /// - Parameter field: The keypath to the field of the namespace.
+    @safe
+    @inlinable
+    public subscript<Value: SysctlValue>(dynamicMember field: WritableKeyPath<Namespace, Namespace.Field<Value>>) -> Value {
+        get { _readValue(for: field) }
+        nonmutating set { _writeValue(newValue, to: field) }
+    }
+#else
     /// Reads the value for a field on the namespace.
     /// - Parameter field: The keypath to the field of the namespace.
     @inlinable
@@ -106,9 +142,21 @@ public struct SysctlContainer<Namespace: SysctlNamespace>: Sendable {
         get { _readValue(for: field) }
         nonmutating set { _writeValue(newValue, to: field) }
     }
+#endif
 
     @usableFromInline
     func _readValue<Value: SysctlValue>(for fieldPath: KeyPath<Namespace, Namespace.Field<Value>>) -> Value {
+#if compiler(>=6.2)
+        unsafe namespace[keyPath: fieldPath]._withMIB {
+            var size = Int()
+            unsafe _sysctl($0.baseAddress!, numericCast($0.count), nil, &size, nil, 0).requireSuccess()
+            let capacity = size / MemoryLayout<Value.SysctlPointerType>.size
+            let pointer = UnsafeMutablePointer<Value.SysctlPointerType>.allocate(capacity: capacity)
+            defer { unsafe pointer.deallocate() }
+            unsafe _sysctl($0.baseAddress!, numericCast($0.count), pointer, &size, nil, 0).requireSuccess()
+            return Value(sysctlPointer: pointer, capacity: capacity)
+        }
+#else
         namespace[keyPath: fieldPath]._withMIB {
             var size = Int()
             _sysctl($0.baseAddress!, numericCast($0.count), nil, &size, nil, 0).requireSuccess()
@@ -118,14 +166,23 @@ public struct SysctlContainer<Namespace: SysctlNamespace>: Sendable {
             _sysctl($0.baseAddress!, numericCast($0.count), pointer, &size, nil, 0).requireSuccess()
             return Value(sysctlPointer: pointer, capacity: capacity)
         }
+#endif
     }
 
     @usableFromInline
     func _writeValue<Value: SysctlValue>(_ value: Value, to fieldPath: WritableKeyPath<Namespace, Namespace.Field<Value>>) {
+#if compiler(>=6.2)
+        unsafe namespace[keyPath: fieldPath]._withMIB { mib in
+            value.withSysctlPointer {
+                unsafe _sysctl(mib.baseAddress!, numericCast(mib.count), nil, nil, UnsafeMutableRawPointer(mutating: $0), $1).requireSuccess()
+            }
+        }
+#else
         namespace[keyPath: fieldPath]._withMIB { mib in
             value.withSysctlPointer {
                 _sysctl(mib.baseAddress!, numericCast(mib.count), nil, nil, UnsafeMutableRawPointer(mutating: $0), $1).requireSuccess()
             }
         }
+#endif
     }
 }

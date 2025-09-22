@@ -1,23 +1,21 @@
-#if swift(>=6.0)
 internal import Darwin
-#else
-public import Darwin
-#endif
 
+@DebugDescription
 struct SysctlError: Error, CustomStringConvertible {
     let target: (function: String, action: String)
     let sourceLocation: (file: StaticString, line: UInt)
     let errno: errno_t
 
+#if compiler(>=6.2)
+    var description: String {
+        unsafe "\(target.function) failed \(target.action) (\(errno)): \(String(cString: strerror(errno)))!"
+    }
+#else
     var description: String {
         "\(target.function) failed \(target.action) (\(errno)): \(String(cString: strerror(errno)))!"
     }
-}
-
-#if swift(>=6.0)
-@DebugDescription
-extension SysctlError {}
 #endif
+}
 
 extension Result where Failure == SysctlError {
     func requireSuccess() -> Success {
@@ -39,10 +37,18 @@ func _sysctl(_ mib: UnsafeMutablePointer<Int32>,
              _ newlen: Int,
              file: StaticString = #file,
              line: UInt = #line) -> Result<Void, SysctlError> {
+#if compiler(>=6.2)
+    guard unsafe sysctl(mib, mibLength, oldptr, oldlenptr, newptr, newlen) != 0 else { return .success(()) }
+    defer { errno = 0 }
+    let mib = (0..<Int(mibLength)).reduce(Array(), { unsafe $0 + CollectionOfOne(mib[$1]) })
+    let action = unsafe newptr != nil ? "writing" : "reading"
+#else
     guard sysctl(mib, mibLength, oldptr, oldlenptr, newptr, newlen) != 0 else { return .success(()) }
     defer { errno = 0 }
     let mib = (0..<Int(mibLength)).reduce(Array(), { $0 + CollectionOfOne(mib[$1]) })
-    return .failure(.init(target: ("sysctl", "when \(newptr != nil ? "writing" : "reading") '\(mib.map(String.init).joined(separator: ","))'"),
+    let action = newptr != nil ? "writing" : "reading"
+#endif
+    return .failure(.init(target: ("sysctl", "when \(action) '\(mib.map(String.init).joined(separator: ","))'"),
                           sourceLocation: (file, line),
                           errno: errno))
 }
@@ -56,9 +62,16 @@ func _sysctlByName(_ name: UnsafePointer<CChar>,
                    _ newlen: Int,
                    file: StaticString = #file,
                    line: UInt = #line) -> Result<Void, SysctlError> {
+#if compiler(>=6.2)
+    guard unsafe sysctlbyname(name, oldptr, oldlenptr, newptr, newlen) != 0 else { return .success(()) }
+    defer { errno = 0 }
+    let action = unsafe "when \(newptr != nil ? "writing" : "reading") '\(String(cString: name))'"
+#else
     guard sysctlbyname(name, oldptr, oldlenptr, newptr, newlen) != 0 else { return .success(()) }
     defer { errno = 0 }
-    return .failure(.init(target: ("sysctlbyname", "when \(newptr != nil ? "writing" : "reading") '\(String(cString: name))'"),
+    let action = "when \(newptr != nil ? "writing" : "reading") '\(String(cString: name))'"
+#endif
+    return .failure(.init(target: ("sysctlbyname", action),
                           sourceLocation: (file, line),
                           errno: errno))
 }
@@ -70,9 +83,16 @@ func _sysctlNameToMIB(_ name: UnsafePointer<CChar>,
                       _ miblen: UnsafeMutablePointer<Int>?,
                       file: StaticString = #file,
                       line: UInt = #line) -> Result<Void, SysctlError> {
+#if compiler(>=6.2)
+    guard unsafe sysctlnametomib(name, mib, miblen) != 0 else { return .success(()) }
+    defer { errno = 0 }
+    let action = unsafe "for name '\(String(cString: name))'"
+#else
     guard sysctlnametomib(name, mib, miblen) != 0 else { return .success(()) }
     defer { errno = 0 }
-    return .failure(.init(target: ("sysctlnametomib", "for name '\(String(cString: name))'"),
+    let action = "for name '\(String(cString: name))'"
+#endif
+    return .failure(.init(target: ("sysctlnametomib", action),
                           sourceLocation: (file, line),
                           errno: errno))
 }
