@@ -23,9 +23,9 @@ let machine = sysctl.hardware.machine // String with the value of `hw.machine`.
 Swift Sysctl contains a few common values and will also grow over time.
 If you find that you need a value that's not yet present, you can easily add them. Just read through the following sections.
 
-### ``SysctlNamespace``
+### Namespaces
 
-As you might now, `sysctl` addresses values using a name that has dots in it. Swift Sysctl calls the parts between these dots "namespace" and represents them in Swift `struct`s. So for example, there's ``Hardware`` representing the `hw` namespace in `sysctl`.
+As you might now, `sysctl` addresses values using a name that has dots in it. Swift Sysctl calls the parts between these dots "namespace" and represents them in Swift `struct`s conforming to ``SysctlNamespace``. So for example, there's ``Hardware`` representing the `hw` namespace in `sysctl`.
 Each namespace has a parent. If the namespace is located at the root, use the ``SysctlRootNamespace`` as parent.
 
 When implementing your own namespaces, simply conform them to ``SysctlNamespace``, define the parent and implement `static var namePart: String { /*...*/ }`, returning the name part of your namespace (e.g. `hw` for ``Hardware``).
@@ -52,11 +52,11 @@ extension SysctlRootNamespace {
 }
 ```
 
-#### ``SysctlNamespace/Field``
+#### Fields
 
 To access a value from `sysctl`, there are (computed) properties on the namespaces. So for example for `hw.machine` there's a property ``Hardware/machine`` on the ``Hardware`` namespace.
 To access new values, simply declare a new (computed) property on the namespace the field is in (either in a namespace that you implemented on your own or by extending an existing one). The value type of these properties needs to be `Field<T>` where `T` is the type of value.
-`Field` is a typealias for ``SysctlField`` inside a namespace. A field contains the last name part of the value's name. Thus you simply return the name as string.
+``SysctlNamespace/Field`` is a typealias for ``SysctlField`` inside a namespace. A field contains the last name part of the value's name. Thus you simply return the name as string.
 If the value is writable, you also provide a `nonmutating set` implementation, which can be left empty.
 
 Continuing our example, here's how fields on `Superpower` would look like:
@@ -78,7 +78,7 @@ extension Superpower.Control {
 }
 ```
 
-### ``SysctlValue`` and ``SysctlValueRepresentable``
+### Values
 
 For Swift Sysctl to know how to read (or write) a value into `sysctl`, it needs to conform to ``SysctlValue``. However, `sysctl` only supports very few value types, so it's very unlikely that you need to conform another type to it.
 
