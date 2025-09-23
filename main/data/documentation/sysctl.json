@@ -129,9 +129,9 @@
           "type" : "paragraph"
         },
         {
-          "anchor" : "docSysctldocumentationSysctlSysctlNamespace",
+          "anchor" : "Namespaces",
           "level" : 3,
-          "text" : "``doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace``",
+          "text" : "Namespaces",
           "type" : "heading"
         },
         {
@@ -153,7 +153,16 @@
               "type" : "codeVoice"
             },
             {
-              "text" : "s. So for example, there’s ",
+              "text" : "s conforming to ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ". So for example, there’s ",
               "type" : "text"
             },
             {
@@ -277,9 +286,9 @@
           "type" : "codeListing"
         },
         {
-          "anchor" : "docSysctldocumentationSysctlSysctlNamespaceField",
+          "anchor" : "Fields",
           "level" : 4,
-          "text" : "``doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/Field``",
+          "text" : "Fields",
           "type" : "heading"
         },
         {
@@ -351,8 +360,9 @@
               "type" : "text"
             },
             {
-              "code" : "Field",
-              "type" : "codeVoice"
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/Field",
+              "isActive" : true,
+              "type" : "reference"
             },
             {
               "text" : " is a typealias for ",
@@ -424,9 +434,9 @@
           "type" : "codeListing"
         },
         {
-          "anchor" : "docSysctldocumentationSysctlSysctlValue-and-docSysctldocumentationSysctlSysctlValueRepresentable",
+          "anchor" : "Values",
           "level" : 3,
-          "text" : "``doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue`` and ``doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable``",
+          "text" : "Values",
           "type" : "heading"
         },
         {
