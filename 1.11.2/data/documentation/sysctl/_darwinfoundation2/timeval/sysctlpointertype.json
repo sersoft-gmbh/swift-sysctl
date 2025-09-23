@@ -1,0 +1,213 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Sysctl\/documentation\/Sysctl",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/_DarwinFoundation2",
+        "doc:\/\/Sysctl\/documentation\/Sysctl\/_DarwinFoundation2\/timeval"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Sysctl\/documentation\/Sysctl\/_DarwinFoundation2\/timeval\/SysctlPointerType"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "_DarwinFoundation2",
+    "externalID" : "s:So7timevalV6SysctlE0B11PointerTypea",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "SysctlPointerType"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Sysctl",
+        "relatedModules" : [
+          "_DarwinFoundation2"
+        ]
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "SysctlPointerType"
+      }
+    ],
+    "remoteSource" : {
+      "fileName" : "ValueTypes.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/tags\/1.11.2\/Sources\/Sysctl\/Base\/ValueTypes.swift#L100"
+    },
+    "role" : "symbol",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
+    "title" : "timeval.SysctlPointerType"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "typealias"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "SysctlPointerType"
+            },
+            {
+              "kind" : "text",
+              "text" : " = "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@S@timeval",
+              "text" : "timeval"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sysctl\/_darwinfoundation2\/timeval\/sysctlpointertype"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Sysctl/documentation/Sysctl": {
+  "abstract" : [
+    {
+      "text" : "A Swift interface for reading (and writing) ",
+      "type" : "text"
+    },
+    {
+      "code" : "sysctl",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Sysctl",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl"
+},
+"doc://Sysctl/documentation/Sysctl/_DarwinFoundation2": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/_DarwinFoundation2",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "_DarwinFoundation2",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/_darwinfoundation2"
+},
+"doc://Sysctl/documentation/Sysctl/_DarwinFoundation2/timeval": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "c:@S@timeval",
+      "text" : "timeval"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/_DarwinFoundation2\/timeval",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "timeval"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "timeval",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/_darwinfoundation2\/timeval"
+},
+"doc://Sysctl/documentation/Sysctl/_DarwinFoundation2/timeval/SysctlPointerType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlPointerType"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/_DarwinFoundation2\/timeval\/SysctlPointerType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlPointerType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "timeval.SysctlPointerType",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/_darwinfoundation2\/timeval\/sysctlpointertype"
+}
+}
+}
