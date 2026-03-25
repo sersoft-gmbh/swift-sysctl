@@ -1,8 +1,4 @@
-#if swift(>=6.0)
 fileprivate import Darwin
-#else
-public import Darwin
-#endif
 
 /// Namespace for the hardware part (`hw`).
 public struct Hardware: SysctlFullyQualifiedNamespace {

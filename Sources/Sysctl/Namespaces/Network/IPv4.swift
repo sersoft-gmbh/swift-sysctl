@@ -1,8 +1,4 @@
-#if swift(>=6.0)
 fileprivate import Darwin
-#else
-public import Darwin
-#endif
 
 extension Networking {
     /// The namespace for IPv4 networking values (`inet`).
