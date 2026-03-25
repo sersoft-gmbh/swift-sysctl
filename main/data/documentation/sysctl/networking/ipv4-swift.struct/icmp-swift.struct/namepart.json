@@ -54,7 +54,7 @@
     ],
     "remoteSource" : {
       "fileName" : "IPv4.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Namespaces\/Network\/IPv4.swift#L43"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Namespaces\/Network\/IPv4.swift#L39"
     },
     "role" : "symbol",
     "roleHeading" : "Type Property",
