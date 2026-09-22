@@ -38,30 +38,24 @@ extension SysctlField {
     }
 
     private static func _mib(forName name: String) -> Array<CInt> {
+        func readMib(from cString: UnsafePointer<CChar>) -> Array<CInt> {
+            var len = Int()
 #if compiler(>=6.2)
-        unsafe name.withCString {
-            var len = Int()
-            unsafe _sysctlNameToMIB($0, nil, &len).requireSuccess()
-            let mib = UnsafeMutablePointer<CInt>.allocate(capacity: len)
-            defer { unsafe mib.deallocate() }
-            unsafe _sysctlNameToMIB($0, mib, &len).requireSuccess()
+            unsafe _sysctlNameToMIB(cString, nil, &len).requireSuccess()
             return unsafe .init(unsafeUninitializedCapacity: len) { buffer, initializedCount in
-                unsafe buffer.baseAddress?.moveUpdate(from: mib, count: len)
-                initializedCount = len
+                unsafe _sysctlNameToMIB(cString, buffer.baseAddress, &initializedCount).requireSuccess()
             }
-        }
 #else
-        name.withCString {
-            var len = Int()
-            _sysctlNameToMIB($0, nil, &len).requireSuccess()
-            let mib = UnsafeMutablePointer<CInt>.allocate(capacity: len)
-            defer { mib.deallocate() }
-            _sysctlNameToMIB($0, mib, &len).requireSuccess()
+            _sysctlNameToMIB(cString, nil, &len).requireSuccess()
             return .init(unsafeUninitializedCapacity: len) { buffer, initializedCount in
-                buffer.baseAddress?.moveUpdate(from: mib, count: len)
-                initializedCount = len
+                _sysctlNameToMIB(cString, buffer.baseAddress, &initializedCount).requireSuccess()
             }
+#endif
         }
+#if compiler(>=6.2) && compiler(<6.4)
+        return unsafe name.withCString(readMib)
+#else
+        return name.withCString(readMib)
 #endif
     }
 
@@ -70,7 +64,7 @@ extension SysctlField {
     func _withMIB<T, E: Error>(do work: (inout UnsafeMutableBufferPointer<CInt>) throws(E) -> T) throws(E) -> T {
         guard var mib = _buildMib() ?? _buildName().map({ Self._mib(forName: $0) })
         else { fatalError("Invalid field: \(self)") }
-#if compiler(>=6.2)
+#if compiler(>=6.2) && compiler(<6.4)
         return unsafe try mib.withUnsafeMutableBufferPointer(work)
 #else
         return try mib.withUnsafeMutableBufferPointer(work)

@@ -26,10 +26,17 @@ extension SysctlValueRepresentable {
         self.init(sysctlValue: SysctlValue(sysctlPointer: sysctlPointer, capacity: capacity))
     }
 
+#if compiler(>=6.4)
+    @inlinable
+    public func withSysctlPointer<T, E: Error>(do work: (UnsafePointer<SysctlValue.SysctlPointerType>, Int) throws(E) -> T) throws(E) -> T {
+        try sysctlValue.withSysctlPointer(do: work)
+    }
+#else
     @inlinable
     public func withSysctlPointer<T>(do work: (UnsafePointer<SysctlValue.SysctlPointerType>, Int) throws -> T) rethrows -> T {
         try sysctlValue.withSysctlPointer(do: work)
     }
+#endif
 }
 
 extension Bool: SysctlValueRepresentable {

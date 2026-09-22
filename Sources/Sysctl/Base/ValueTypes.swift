@@ -15,11 +15,6 @@ public protocol SysctlValue {
     @safe
     @available(*, deprecated, message: "Use initializer with capacity")
     init(sysctlPointer: UnsafePointer<SysctlPointerType>)
-
-    /// Retrieves a pointer to write to sysctl. Note that the pointer should only be alive during the execution of `work`.
-    /// - Parameter work: The closure during which the pointer should be alive. The second parameter should be the size of the pointer.
-    @safe
-    func withSysctlPointer<T>(do work: (UnsafePointer<SysctlPointerType>, Int) throws -> T) rethrows -> T
 #else
     /// Creates the type from a pointer read from sysctl.
     init(sysctlPointer: UnsafePointer<SysctlPointerType>, capacity: Int)
@@ -27,7 +22,19 @@ public protocol SysctlValue {
     /// Creates the type from a pointer read from sysctl.
     @available(*, deprecated, message: "Use initializer with capacity")
     init(sysctlPointer: UnsafePointer<SysctlPointerType>)
+#endif
 
+#if compiler(>=6.4)
+    /// Retrieves a pointer to write to sysctl. Note that the pointer should only be alive during the execution of `work`.
+    /// - Parameter work: The closure during which the pointer should be alive. The second parameter should be the size of the pointer.
+    @safe
+    func withSysctlPointer<T, E: Error>(do work: (UnsafePointer<SysctlPointerType>, Int) throws(E) -> T) throws(E) -> T
+#elseif compiler(>=6.2)
+    /// Retrieves a pointer to write to sysctl. Note that the pointer should only be alive during the execution of `work`.
+    /// - Parameter work: The closure during which the pointer should be alive. The second parameter should be the size of the pointer.
+    @safe
+    func withSysctlPointer<T>(do work: (UnsafePointer<SysctlPointerType>, Int) throws -> T) rethrows -> T
+#else
     /// Retrieves a pointer to write to sysctl. Note that the pointer should only be alive during the execution of `work`.
     /// - Parameter work: The closure during which the pointer should be alive. The second parameter should be the size of the pointer.
     func withSysctlPointer<T>(do work: (UnsafePointer<SysctlPointerType>, Int) throws -> T) rethrows -> T
@@ -57,7 +64,9 @@ extension SysctlValue where SysctlPointerType == Self {
     }
 
     public func withSysctlPointer<T, E: Error>(do work: (UnsafePointer<SysctlPointerType>, Int) throws(E) -> T) throws(E) -> T {
-#if compiler(>=6.2)
+#if compiler(>=6.4)
+        try withUnsafePointer(to: self) { ptr throws(E) -> T in unsafe try work(ptr, MemoryLayout<SysctlPointerType>.size) }
+#elseif compiler(>=6.2)
         unsafe try withUnsafePointer(to: self) { ptr throws(E) -> T in unsafe try work(ptr, MemoryLayout<SysctlPointerType>.size) }
 #else
         try withUnsafePointer(to: self) { ptr throws(E) -> T in try work(ptr, MemoryLayout<SysctlPointerType>.size) }
@@ -78,6 +87,12 @@ extension String: SysctlValue {
         assert(utf8.count + 1 == capacity) // + 1 => \0 at the end.
     }
 
+#if compiler(>=6.4)
+    @inlinable
+    public func withSysctlPointer<T, E: Error>(do work: (UnsafePointer<SysctlPointerType>, Int) throws(E) -> T) throws(E) -> T {
+        try withCString { (ptr) throws(E) in unsafe try work(ptr, utf8.count) }
+    }
+#else
     @inlinable
     public func withSysctlPointer<T>(do work: (UnsafePointer<SysctlPointerType>, Int) throws -> T) rethrows -> T {
 #if compiler(>=6.2)
@@ -86,6 +101,7 @@ extension String: SysctlValue {
         try withCString { try work($0, utf8.count) }
 #endif
     }
+#endif
 }
 
 extension CInt: SysctlValue {

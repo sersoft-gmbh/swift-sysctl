@@ -30,7 +30,7 @@ extension Result where Failure == SysctlError {
 /// Runs `sysctl` returning the result.
 /// Signature is copied from `sysctl` except for the `file` and `line` parameters.
 func _sysctl(_ mib: UnsafeMutablePointer<Int32>,
-             _ mibLength: u_int,
+             _ mibLength: UInt32,
              _ oldptr: UnsafeMutableRawPointer?,
              _ oldlenptr: UnsafeMutablePointer<Int>?,
              _ newptr: UnsafeMutableRawPointer?,
