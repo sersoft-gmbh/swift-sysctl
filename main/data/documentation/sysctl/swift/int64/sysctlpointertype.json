@@ -46,7 +46,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L96"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L112"
     },
     "role" : "symbol",
     "roleHeading" : "Type Alias",
@@ -78,12 +78,7 @@
             },
             {
               "kind" : "text",
-              "text" : " = "
-            },
-            {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:s5Int64V",
-              "text" : "Int64"
+              "text" : " = `Self`"
             }
           ]
         }
@@ -160,9 +155,9 @@
       "text" : " "
     },
     {
-      "kind" : "identifier",
-      "preciseIdentifier" : "s:s5Int64V",
-      "text" : "Int64"
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s9CLongLonga",
+      "text" : "CLongLong"
     }
   ],
   "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int64",

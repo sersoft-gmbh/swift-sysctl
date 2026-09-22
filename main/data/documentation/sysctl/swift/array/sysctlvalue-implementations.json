@@ -234,14 +234,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
       "text" : "SysctlPointerType"
     },
@@ -321,23 +313,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sa",
-      "text" : "Array"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Element"
-    },
-    {
-      "kind" : "text",
-      "text" : ">."
-    },
-    {
-      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE0A11PointerTypea",
       "text" : "SysctlPointerType"
     },
     {
@@ -399,14 +375,6 @@
     {
       "kind" : "text",
       "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
@@ -530,23 +498,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sa",
-      "text" : "Array"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Element"
-    },
-    {
-      "kind" : "text",
-      "text" : ">."
-    },
-    {
-      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE0A11PointerTypea",
       "text" : "SysctlPointerType"
     },
     {
@@ -572,6 +524,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE04withA7Pointer2doqd__qd__SPy0aD4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
       "text" : "E"
     },
     {
@@ -580,6 +533,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE04withA7Pointer2doqd__qd__SPy0aD4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
       "text" : "T"
     },
     {
@@ -596,6 +550,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE04withA7Pointer2doqd__qd__SPy0aD4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
       "text" : "E"
     },
     {
@@ -604,6 +559,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE04withA7Pointer2doqd__qd__SPy0aD4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
       "text" : "T"
     }
   ],

@@ -25,9 +25,9 @@
         "text" : " "
       },
       {
-        "kind" : "identifier",
-        "preciseIdentifier" : "s:s5Int32V",
-        "text" : "Int32"
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s4CInta",
+        "text" : "CInt"
       }
     ],
     "modules" : [
@@ -70,8 +70,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:s5Int32V",
-              "text" : "Int32"
+              "preciseIdentifier" : "s:s4CInta",
+              "text" : "CInt"
             }
           ]
         }
@@ -83,6 +83,7 @@
     {
       "identifiers" : [
         "doc:\/\/Sysctl\/s8CopyableP",
+        "doc:\/\/Sysctl\/s9EscapableP",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue"
       ],
       "kind" : "relationships",
@@ -169,9 +170,9 @@
       "text" : " "
     },
     {
-      "kind" : "identifier",
-      "preciseIdentifier" : "s:s5Int32V",
-      "text" : "Int32"
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
     }
   ],
   "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int32",
@@ -243,6 +244,11 @@
 "doc://Sysctl/s8CopyableP": {
   "identifier" : "doc:\/\/Sysctl\/s8CopyableP",
   "title" : "Swift.Copyable",
+  "type" : "unresolvable"
+},
+"doc://Sysctl/s9EscapableP": {
+  "identifier" : "doc:\/\/Sysctl\/s9EscapableP",
+  "title" : "Swift.Escapable",
   "type" : "unresolvable"
 }
 }

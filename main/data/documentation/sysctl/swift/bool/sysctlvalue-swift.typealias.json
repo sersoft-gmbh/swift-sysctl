@@ -46,7 +46,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueRepresentable.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueRepresentable.swift#L36"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueRepresentable.swift#L43"
     },
     "role" : "symbol",
     "roleHeading" : "Type Alias",

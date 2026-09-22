@@ -409,15 +409,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
       "text" : "Field"
     },
@@ -473,15 +464,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
@@ -543,15 +525,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
       "text" : "Field"
     },
@@ -607,15 +580,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
@@ -677,15 +641,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl6KernelV10HypervisorV",
       "text" : "Hypervisor"
     }
@@ -728,15 +683,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
@@ -798,15 +744,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
       "text" : "Field"
     },
@@ -862,15 +799,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
@@ -974,15 +902,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
       "text" : "Field"
     },
@@ -1038,15 +957,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
@@ -1108,15 +1018,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
       "text" : "Field"
     },
@@ -1175,15 +1076,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
       "text" : "Field"
     },
@@ -1239,15 +1131,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
@@ -1351,15 +1234,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
       "text" : "Field"
     },
@@ -1418,15 +1292,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl6KernelV9ProcessesV",
       "text" : "Processes"
     }
@@ -1469,15 +1334,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
@@ -1536,15 +1392,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl6KernelV",
-      "text" : "Kernel"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",

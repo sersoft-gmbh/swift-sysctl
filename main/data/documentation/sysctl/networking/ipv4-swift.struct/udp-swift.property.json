@@ -48,24 +48,6 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:6Sysctl10NetworkingV",
-        "text" : "Networking"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:6Sysctl10NetworkingV4IPv4V",
-        "text" : "IPv4"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
         "preciseIdentifier" : "s:6Sysctl10NetworkingV4IPv4V3UDPV",
         "text" : "UDP"
       }
@@ -110,26 +92,6 @@
             {
               "kind" : "text",
               "text" : ": "
-            },
-            {
-              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:6Sysctl10NetworkingV",
-              "text" : "Networking"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
-            },
-            {
-              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:6Sysctl10NetworkingV4IPv4V",
-              "text" : "IPv4"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
             },
             {
               "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Networking\/IPv4-swift.struct\/UDP-swift.struct",
@@ -356,24 +318,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl10NetworkingV",
-      "text" : "Networking"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl10NetworkingV4IPv4V",
-      "text" : "IPv4"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",

@@ -76,23 +76,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:Sa",
-        "text" : "Array"
-      },
-      {
-        "kind" : "text",
-        "text" : "<"
-      },
-      {
-        "kind" : "typeIdentifier",
-        "text" : "Element"
-      },
-      {
-        "kind" : "text",
-        "text" : ">."
-      },
-      {
-        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE0A11PointerTypea",
         "text" : "SysctlPointerType"
       },
       {
@@ -127,7 +111,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L125"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L141"
     },
     "role" : "symbol",
     "roleHeading" : "Initializer",
@@ -171,24 +155,9 @@
               "text" : "<"
             },
             {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Array\/SysctlPointerType",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:Sa",
-              "text" : "Array"
-            },
-            {
-              "kind" : "text",
-              "text" : "<"
-            },
-            {
-              "kind" : "typeIdentifier",
-              "text" : "Element"
-            },
-            {
-              "kind" : "text",
-              "text" : ">."
-            },
-            {
-              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE0A11PointerTypea",
               "text" : "SysctlPointerType"
             },
             {
@@ -305,6 +274,69 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/swift\/array"
 },
+"doc://Sysctl/documentation/Sysctl/Swift/Array/SysctlPointerType": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Element",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "SysctlValue",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlPointerType"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Array\/SysctlPointerType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlPointerType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Array.SysctlPointerType",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/swift\/array\/sysctlpointertype"
+},
 "doc://Sysctl/documentation/Sysctl/Swift/Array/init(sysctlPointer:capacity:)": {
   "abstract" : [
 
@@ -369,23 +401,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sa",
-      "text" : "Array"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Element"
-    },
-    {
-      "kind" : "text",
-      "text" : ">."
-    },
-    {
-      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE0A11PointerTypea",
       "text" : "SysctlPointerType"
     },
     {

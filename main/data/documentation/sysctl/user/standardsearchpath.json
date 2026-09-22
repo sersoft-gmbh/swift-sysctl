@@ -39,15 +39,6 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:6Sysctl4UserV",
-        "text" : "User"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
         "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
         "text" : "Field"
       },
@@ -105,16 +96,6 @@
             {
               "kind" : "text",
               "text" : ": "
-            },
-            {
-              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/User",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:6Sysctl4UserV",
-              "text" : "User"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
             },
             {
               "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlNamespace\/Field",
@@ -308,15 +289,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl4UserV",
-      "text" : "User"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",

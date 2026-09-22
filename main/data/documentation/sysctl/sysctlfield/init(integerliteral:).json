@@ -82,31 +82,6 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:6Sysctl0A5FieldV",
-        "text" : "SysctlField"
-      },
-      {
-        "kind" : "text",
-        "text" : "<"
-      },
-      {
-        "kind" : "typeIdentifier",
-        "text" : "Namespace"
-      },
-      {
-        "kind" : "text",
-        "text" : ", "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "text" : "Value"
-      },
-      {
-        "kind" : "text",
-        "text" : ">."
-      },
-      {
-        "kind" : "typeIdentifier",
         "preciseIdentifier" : "s:6Sysctl0A5FieldVA2A0A23FullyQualifiedNamespaceRzrlE18IntegerLiteralTypea",
         "text" : "IntegerLiteralType"
       },
@@ -163,32 +138,6 @@
             {
               "kind" : "text",
               "text" : ": "
-            },
-            {
-              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:6Sysctl0A5FieldV",
-              "text" : "SysctlField"
-            },
-            {
-              "kind" : "text",
-              "text" : "<"
-            },
-            {
-              "kind" : "typeIdentifier",
-              "text" : "Namespace"
-            },
-            {
-              "kind" : "text",
-              "text" : ", "
-            },
-            {
-              "kind" : "typeIdentifier",
-              "text" : "Value"
-            },
-            {
-              "kind" : "text",
-              "text" : ">."
             },
             {
               "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlField\/IntegerLiteralType",
@@ -497,31 +446,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl0A5FieldV",
-      "text" : "SysctlField"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Namespace"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Value"
-    },
-    {
-      "kind" : "text",
-      "text" : ">."
     },
     {
       "kind" : "typeIdentifier",

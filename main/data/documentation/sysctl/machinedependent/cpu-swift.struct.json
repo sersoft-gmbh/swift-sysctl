@@ -342,24 +342,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl16MachineDependentV",
-      "text" : "MachineDependent"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl16MachineDependentV3CPUV",
-      "text" : "CPU"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
       "text" : "Field"
     },

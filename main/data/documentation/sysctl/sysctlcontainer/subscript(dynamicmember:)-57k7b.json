@@ -56,6 +56,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A9ContainerV9Namespacexmfp",
         "text" : "Namespace"
       },
       {
@@ -64,6 +65,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A9ContainerV9Namespacexmfp",
         "text" : "Namespace"
       },
       {
@@ -81,6 +83,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberqd__s15WritableKeyPathCyxAA0A5FieldVyxqd__GG_tcAA0A5ValueRd__luip0I0L_qd__mfp",
         "text" : "Value"
       },
       {
@@ -89,6 +92,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberqd__s15WritableKeyPathCyxAA0A5FieldVyxqd__GG_tcAA0A5ValueRd__luip0I0L_qd__mfp",
         "text" : "Value"
       }
     ],
@@ -99,7 +103,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Container.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Container.swift#L126"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Container.swift#L120"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Subscript",
@@ -160,6 +164,7 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A9ContainerV9Namespacexmfp",
               "text" : "Namespace"
             },
             {
@@ -168,6 +173,7 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A9ContainerV9Namespacexmfp",
               "text" : "Namespace"
             },
             {
@@ -186,6 +192,7 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberqd__s15WritableKeyPathCyxAA0A5FieldVyxqd__GG_tcAA0A5ValueRd__luip0I0L_qd__mfp",
               "text" : "Value"
             },
             {
@@ -194,6 +201,7 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberqd__s15WritableKeyPathCyxAA0A5FieldVyxqd__GG_tcAA0A5ValueRd__luip0I0L_qd__mfp",
               "text" : "Value"
             },
             {
@@ -405,6 +413,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV9Namespacexmfp",
       "text" : "Namespace"
     },
     {
@@ -413,6 +422,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV9Namespacexmfp",
       "text" : "Namespace"
     },
     {
@@ -430,6 +440,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberqd__s15WritableKeyPathCyxAA0A5FieldVyxqd__GG_tcAA0A5ValueRd__luip0I0L_qd__mfp",
       "text" : "Value"
     },
     {
@@ -438,6 +449,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberqd__s15WritableKeyPathCyxAA0A5FieldVyxqd__GG_tcAA0A5ValueRd__luip0I0L_qd__mfp",
       "text" : "Value"
     }
   ],

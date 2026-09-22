@@ -221,6 +221,7 @@
       "identifiers" : [
         "doc:\/\/Sysctl\/s8CopyableP",
         "doc:\/\/Sysctl\/SQ",
+        "doc:\/\/Sysctl\/s9EscapableP",
         "doc:\/\/Sysctl\/s43ExpressibleByExtendedGraphemeClusterLiteralP",
         "doc:\/\/Sysctl\/s27ExpressibleByIntegerLiteralP",
         "doc:\/\/Sysctl\/s26ExpressibleByStringLiteralP",
@@ -1188,6 +1189,11 @@
 "doc://Sysctl/s8SendableP": {
   "identifier" : "doc:\/\/Sysctl\/s8SendableP",
   "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+},
+"doc://Sysctl/s9EscapableP": {
+  "identifier" : "doc:\/\/Sysctl\/s9EscapableP",
+  "title" : "Swift.Escapable",
   "type" : "unresolvable"
 }
 }

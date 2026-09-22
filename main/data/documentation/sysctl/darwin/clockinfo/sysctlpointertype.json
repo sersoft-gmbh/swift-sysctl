@@ -46,7 +46,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L104"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L120"
     },
     "role" : "symbol",
     "roleHeading" : "Type Alias",
@@ -78,12 +78,7 @@
             },
             {
               "kind" : "text",
-              "text" : " = "
-            },
-            {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "c:@S@clockinfo",
-              "text" : "clockinfo"
+              "text" : " = `Self`"
             }
           ]
         }

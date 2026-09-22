@@ -55,14 +55,6 @@
       },
       {
         "kind" : "typeIdentifier",
-        "text" : "Self"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
         "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
         "text" : "SysctlPointerType"
       },
@@ -76,17 +68,9 @@
         "name" : "Sysctl"
       }
     ],
-    "platforms" : [
-      {
-        "beta" : false,
-        "deprecated" : true,
-        "message" : "Use initializer with capacity",
-        "unavailable" : false
-      }
-    ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L44"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L51"
     },
     "role" : "symbol",
     "roleHeading" : "Initializer",
@@ -128,14 +112,6 @@
             {
               "kind" : "text",
               "text" : "<"
-            },
-            {
-              "kind" : "typeIdentifier",
-              "text" : "Self"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
             },
             {
               "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/SysctlPointerType",
@@ -222,9 +198,9 @@
       "text" : " "
     },
     {
-      "kind" : "identifier",
-      "preciseIdentifier" : "s:s5Int32V",
-      "text" : "Int32"
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4CInta",
+      "text" : "CInt"
     }
   ],
   "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int32",
@@ -270,14 +246,6 @@
     {
       "kind" : "text",
       "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",

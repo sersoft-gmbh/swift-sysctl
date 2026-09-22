@@ -100,23 +100,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:Sa",
-        "text" : "Array"
-      },
-      {
-        "kind" : "text",
-        "text" : "<"
-      },
-      {
-        "kind" : "typeIdentifier",
-        "text" : "Element"
-      },
-      {
-        "kind" : "text",
-        "text" : ">."
-      },
-      {
-        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE0A11PointerTypea",
         "text" : "SysctlPointerType"
       },
       {
@@ -142,6 +126,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE04withA7Pointer2doqd__qd__SPy0aD4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
         "text" : "E"
       },
       {
@@ -150,6 +135,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE04withA7Pointer2doqd__qd__SPy0aD4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
         "text" : "T"
       },
       {
@@ -166,6 +152,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE04withA7Pointer2doqd__qd__SPy0aD4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
         "text" : "E"
       },
       {
@@ -174,6 +161,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE04withA7Pointer2doqd__qd__SPy0aD4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
         "text" : "T"
       }
     ],
@@ -187,7 +175,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L136"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L152"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Method",
@@ -263,24 +251,9 @@
               "text" : "<"
             },
             {
+              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Array\/SysctlPointerType",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:Sa",
-              "text" : "Array"
-            },
-            {
-              "kind" : "text",
-              "text" : "<"
-            },
-            {
-              "kind" : "typeIdentifier",
-              "text" : "Element"
-            },
-            {
-              "kind" : "text",
-              "text" : ">."
-            },
-            {
-              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE0A11PointerTypea",
               "text" : "SysctlPointerType"
             },
             {
@@ -306,6 +279,7 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE04withA7Pointer2doqd__qd__SPy0aD4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
               "text" : "E"
             },
             {
@@ -314,6 +288,7 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE04withA7Pointer2doqd__qd__SPy0aD4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
               "text" : "T"
             },
             {
@@ -330,6 +305,7 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE04withA7Pointer2doqd__qd__SPy0aD4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
               "text" : "E"
             },
             {
@@ -338,6 +314,7 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE04withA7Pointer2doqd__qd__SPy0aD4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
               "text" : "T"
             },
             {
@@ -458,6 +435,69 @@
   "type" : "topic",
   "url" : "\/documentation\/sysctl\/swift\/array"
 },
+"doc://Sysctl/documentation/Sysctl/Swift/Array/SysctlPointerType": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Element",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "SysctlValue",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SysctlPointerType"
+    }
+  ],
+  "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Array\/SysctlPointerType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SysctlPointerType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Array.SysctlPointerType",
+  "type" : "topic",
+  "url" : "\/documentation\/sysctl\/swift\/array\/sysctlpointertype"
+},
 "doc://Sysctl/documentation/Sysctl/Swift/Array/withSysctlPointer(do:)": {
   "abstract" : [
 
@@ -546,23 +586,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sa",
-      "text" : "Array"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Element"
-    },
-    {
-      "kind" : "text",
-      "text" : ">."
-    },
-    {
-      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE0A11PointerTypea",
       "text" : "SysctlPointerType"
     },
     {
@@ -588,6 +612,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE04withA7Pointer2doqd__qd__SPy0aD4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
       "text" : "E"
     },
     {
@@ -596,6 +621,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE04withA7Pointer2doqd__qd__SPy0aD4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
       "text" : "T"
     },
     {
@@ -612,6 +638,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE04withA7Pointer2doqd__qd__SPy0aD4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
       "text" : "E"
     },
     {
@@ -620,6 +647,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sa6SysctlAA0A5ValueRzlE04withA7Pointer2doqd__qd__SPy0aD4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
       "text" : "T"
     }
   ],

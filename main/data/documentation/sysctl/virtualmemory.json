@@ -508,15 +508,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl13VirtualMemoryV",
-      "text" : "VirtualMemory"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
       "text" : "Field"
     },
@@ -572,15 +563,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl13VirtualMemoryV",
-      "text" : "VirtualMemory"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",

@@ -819,15 +819,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl8HardwareV",
-      "text" : "Hardware"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl0A9NamespacePAAE5Fielda",
       "text" : "Field"
     },

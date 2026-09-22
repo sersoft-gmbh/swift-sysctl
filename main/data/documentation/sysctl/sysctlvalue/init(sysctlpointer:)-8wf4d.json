@@ -54,14 +54,6 @@
       },
       {
         "kind" : "typeIdentifier",
-        "text" : "Self"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
         "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentableP0aB0Qa",
         "text" : "SysctlValue"
       },
@@ -82,14 +74,6 @@
     "modules" : [
       {
         "name" : "Sysctl"
-      }
-    ],
-    "platforms" : [
-      {
-        "beta" : false,
-        "deprecated" : true,
-        "message" : "Use initializer with capacity",
-        "unavailable" : false
       }
     ],
     "remoteSource" : {
@@ -136,14 +120,6 @@
             {
               "kind" : "text",
               "text" : "<"
-            },
-            {
-              "kind" : "typeIdentifier",
-              "text" : "Self"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
             },
             {
               "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable\/SysctlValue-swift.associatedtype",
@@ -316,14 +292,6 @@
     {
       "kind" : "text",
       "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",

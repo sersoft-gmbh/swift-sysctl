@@ -202,14 +202,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
       "text" : "SysctlPointerType"
     },
@@ -254,15 +246,6 @@
     {
       "kind" : "text",
       "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SS",
-      "text" : "String"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
@@ -331,14 +314,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
       "text" : "SysctlPointerType"
     },
@@ -398,6 +373,14 @@
     },
     {
       "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
       "text" : ">("
     },
     {
@@ -416,15 +399,6 @@
     {
       "kind" : "text",
       "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SS",
-      "text" : "String"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
@@ -450,10 +424,20 @@
     },
     {
       "kind" : "text",
-      "text" : " -> "
+      "text" : "("
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF1EL_q_mfp",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF1TL_xmfp",
       "text" : "T"
     },
     {
@@ -462,14 +446,24 @@
     },
     {
       "kind" : "keyword",
-      "text" : "rethrows"
+      "text" : "throws"
     },
     {
       "kind" : "text",
-      "text" : " -> "
+      "text" : "("
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF1EL_q_mfp",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF1TL_xmfp",
       "text" : "T"
     }
   ],

@@ -56,6 +56,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A9ContainerV9Namespacexmfp",
         "text" : "Namespace"
       },
       {
@@ -64,6 +65,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberACyqd__Gs7KeyPathCyxqd__G_tc15ParentNamespaceQyd__RszAA0aH0Rd__luip10ChildSpaceL_qd__mfp",
         "text" : "ChildSpace"
       },
       {
@@ -81,6 +83,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberACyqd__Gs7KeyPathCyxqd__G_tc15ParentNamespaceQyd__RszAA0aH0Rd__luip10ChildSpaceL_qd__mfp",
         "text" : "ChildSpace"
       },
       {
@@ -95,7 +98,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Container.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Container.swift#L107"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Container.swift#L101"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Subscript",
@@ -156,6 +159,7 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A9ContainerV9Namespacexmfp",
               "text" : "Namespace"
             },
             {
@@ -164,6 +168,7 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberACyqd__Gs7KeyPathCyxqd__G_tc15ParentNamespaceQyd__RszAA0aH0Rd__luip10ChildSpaceL_qd__mfp",
               "text" : "ChildSpace"
             },
             {
@@ -182,6 +187,7 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberACyqd__Gs7KeyPathCyxqd__G_tc15ParentNamespaceQyd__RszAA0aH0Rd__luip10ChildSpaceL_qd__mfp",
               "text" : "ChildSpace"
             },
             {
@@ -487,6 +493,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV9Namespacexmfp",
       "text" : "Namespace"
     },
     {
@@ -495,6 +502,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberACyqd__Gs7KeyPathCyxqd__G_tc15ParentNamespaceQyd__RszAA0aH0Rd__luip10ChildSpaceL_qd__mfp",
       "text" : "ChildSpace"
     },
     {
@@ -512,6 +520,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberACyqd__Gs7KeyPathCyxqd__G_tc15ParentNamespaceQyd__RszAA0aH0Rd__luip10ChildSpaceL_qd__mfp",
       "text" : "ChildSpace"
     },
     {

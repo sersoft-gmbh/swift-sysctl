@@ -99,15 +99,6 @@
         "text" : "Parent"
       }
     ],
-    "platforms" : [
-      {
-        "beta" : false,
-        "deprecated" : true,
-        "message" : "Use Namespace",
-        "renamed" : "Namespace",
-        "unavailable" : false
-      }
-    ],
     "remoteSource" : {
       "fileName" : "Field.swift",
       "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Field.swift#L150"
@@ -146,6 +137,7 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A5FieldV9Namespacexmfp",
               "text" : "Namespace"
             }
           ]

@@ -79,13 +79,7 @@
             },
             {
               "kind" : "text",
-              "text" : " = "
-            },
-            {
-              "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlRootNamespace",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:6Sysctl0A13RootNamespaceV",
-              "text" : "SysctlRootNamespace"
+              "text" : " = `Self`"
             }
           ]
         }

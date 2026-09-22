@@ -83,6 +83,7 @@
     {
       "identifiers" : [
         "doc:\/\/Sysctl\/s8CopyableP",
+        "doc:\/\/Sysctl\/s9EscapableP",
         "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue"
       ],
       "kind" : "relationships",
@@ -275,6 +276,11 @@
 "doc://Sysctl/s8CopyableP": {
   "identifier" : "doc:\/\/Sysctl\/s8CopyableP",
   "title" : "Swift.Copyable",
+  "type" : "unresolvable"
+},
+"doc://Sysctl/s9EscapableP": {
+  "identifier" : "doc:\/\/Sysctl\/s9EscapableP",
+  "title" : "Swift.Escapable",
   "type" : "unresolvable"
 }
 }

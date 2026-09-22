@@ -55,7 +55,7 @@
     ],
     "remoteSource" : {
       "fileName" : "Container.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Container.swift#L92"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/Container.swift#L86"
     },
     "role" : "symbol",
     "roleHeading" : "Structure",
@@ -378,6 +378,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV9Namespacexmfp",
       "text" : "Namespace"
     },
     {
@@ -386,6 +387,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV9Namespacexmfp",
       "text" : "Namespace"
     },
     {
@@ -403,6 +405,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberqd__s15WritableKeyPathCyxAA0A5FieldVyxqd__GG_tcAA0A5ValueRd__luip0I0L_qd__mfp",
       "text" : "Value"
     },
     {
@@ -411,6 +414,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberqd__s15WritableKeyPathCyxAA0A5FieldVyxqd__GG_tcAA0A5ValueRd__luip0I0L_qd__mfp",
       "text" : "Value"
     }
   ],
@@ -464,6 +468,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV9Namespacexmfp",
       "text" : "Namespace"
     },
     {
@@ -472,6 +477,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberACyqd__Gs7KeyPathCyxqd__G_tc15ParentNamespaceQyd__RszAA0aH0Rd__luip10ChildSpaceL_qd__mfp",
       "text" : "ChildSpace"
     },
     {
@@ -489,6 +495,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberACyqd__Gs7KeyPathCyxqd__G_tc15ParentNamespaceQyd__RszAA0aH0Rd__luip10ChildSpaceL_qd__mfp",
       "text" : "ChildSpace"
     },
     {
@@ -546,6 +553,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV9Namespacexmfp",
       "text" : "Namespace"
     },
     {
@@ -554,6 +562,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV9Namespacexmfp",
       "text" : "Namespace"
     },
     {
@@ -571,6 +580,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberqd__s7KeyPathCyxAA0A5FieldVyxqd__GG_tcAA0A5ValueRd__luip0H0L_qd__mfp",
       "text" : "Value"
     },
     {
@@ -579,6 +589,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A9ContainerV13dynamicMemberqd__s7KeyPathCyxAA0A5FieldVyxqd__GG_tcAA0A5ValueRd__luip0H0L_qd__mfp",
       "text" : "Value"
     }
   ],

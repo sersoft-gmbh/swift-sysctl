@@ -15,7 +15,7 @@
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "Swift",
-    "externalID" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_SitKXE_tKlF",
+    "externalID" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -39,6 +39,14 @@
       },
       {
         "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "genericParameter",
+        "text" : "E"
+      },
+      {
+        "kind" : "text",
         "text" : ">("
       },
       {
@@ -57,15 +65,6 @@
       {
         "kind" : "text",
         "text" : "<"
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:SS",
-        "text" : "String"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
       },
       {
         "kind" : "typeIdentifier",
@@ -91,10 +90,20 @@
       },
       {
         "kind" : "text",
-        "text" : " -> "
+        "text" : "("
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF1EL_q_mfp",
+        "text" : "E"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF1TL_xmfp",
         "text" : "T"
       },
       {
@@ -103,14 +112,24 @@
       },
       {
         "kind" : "keyword",
-        "text" : "rethrows"
+        "text" : "throws"
       },
       {
         "kind" : "text",
-        "text" : " -> "
+        "text" : "("
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF1EL_q_mfp",
+        "text" : "E"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF1TL_xmfp",
         "text" : "T"
       }
     ],
@@ -124,7 +143,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L82"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L92"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Method",
@@ -164,6 +183,14 @@
             },
             {
               "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "E"
+            },
+            {
+              "kind" : "text",
               "text" : ">("
             },
             {
@@ -192,15 +219,6 @@
               "text" : "<"
             },
             {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:SS",
-              "text" : "String"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
-            },
-            {
               "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/String\/SysctlPointerType",
               "kind" : "typeIdentifier",
               "preciseIdentifier" : "s:SS6SysctlE0A11PointerTypea",
@@ -225,10 +243,20 @@
             },
             {
               "kind" : "text",
-              "text" : " -> "
+              "text" : "("
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF1EL_q_mfp",
+              "text" : "E"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF1TL_xmfp",
               "text" : "T"
             },
             {
@@ -237,15 +265,50 @@
             },
             {
               "kind" : "keyword",
-              "text" : "rethrows"
+              "text" : "throws"
             },
             {
               "kind" : "text",
-              "text" : " -> "
+              "text" : "("
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF1EL_q_mfp",
+              "text" : "E"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF1TL_xmfp",
               "text" : "T"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "E"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s5ErrorP",
+              "text" : "Error"
             }
           ]
         }
@@ -398,6 +461,14 @@
     },
     {
       "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
       "text" : ">("
     },
     {
@@ -416,15 +487,6 @@
     {
       "kind" : "text",
       "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SS",
-      "text" : "String"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
@@ -450,10 +512,20 @@
     },
     {
       "kind" : "text",
-      "text" : " -> "
+      "text" : "("
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF1EL_q_mfp",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF1TL_xmfp",
       "text" : "T"
     },
     {
@@ -462,14 +534,24 @@
     },
     {
       "kind" : "keyword",
-      "text" : "rethrows"
+      "text" : "throws"
     },
     {
       "kind" : "text",
-      "text" : " -> "
+      "text" : "("
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF1EL_q_mfp",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS6SysctlE04withA7Pointer2doxxSPys4Int8VG_Sitq_YKXE_tq_YKs5ErrorR_r0_lF1TL_xmfp",
       "text" : "T"
     }
   ],

@@ -100,14 +100,6 @@
       },
       {
         "kind" : "typeIdentifier",
-        "text" : "Self"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
         "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
         "text" : "SysctlPointerType"
       },
@@ -134,6 +126,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A5ValuePAA0A11PointerTypeQzRszrlE04withaC02doqd__qd__SPyxG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
         "text" : "E"
       },
       {
@@ -142,6 +135,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A5ValuePAA0A11PointerTypeQzRszrlE04withaC02doqd__qd__SPyxG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
         "text" : "T"
       },
       {
@@ -158,6 +152,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A5ValuePAA0A11PointerTypeQzRszrlE04withaC02doqd__qd__SPyxG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
         "text" : "E"
       },
       {
@@ -166,6 +161,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A5ValuePAA0A11PointerTypeQzRszrlE04withaC02doqd__qd__SPyxG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
         "text" : "T"
       }
     ],
@@ -176,7 +172,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueTypes.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L59"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueTypes.swift#L66"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Method",
@@ -252,14 +248,6 @@
               "text" : "<"
             },
             {
-              "kind" : "typeIdentifier",
-              "text" : "Self"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
-            },
-            {
               "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValue\/SysctlPointerType",
               "kind" : "typeIdentifier",
               "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
@@ -288,6 +276,7 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A5ValuePAA0A11PointerTypeQzRszrlE04withaC02doqd__qd__SPyxG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
               "text" : "E"
             },
             {
@@ -296,6 +285,7 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A5ValuePAA0A11PointerTypeQzRszrlE04withaC02doqd__qd__SPyxG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
               "text" : "T"
             },
             {
@@ -312,6 +302,7 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A5ValuePAA0A11PointerTypeQzRszrlE04withaC02doqd__qd__SPyxG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
               "text" : "E"
             },
             {
@@ -320,6 +311,7 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A5ValuePAA0A11PointerTypeQzRszrlE04withaC02doqd__qd__SPyxG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
               "text" : "T"
             },
             {
@@ -422,9 +414,9 @@
       "text" : " "
     },
     {
-      "kind" : "identifier",
-      "preciseIdentifier" : "s:s5Int64V",
-      "text" : "Int64"
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s9CLongLonga",
+      "text" : "CLongLong"
     }
   ],
   "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/Swift\/Int64",
@@ -528,14 +520,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl0A5ValueP0A11PointerTypeQa",
       "text" : "SysctlPointerType"
     },
@@ -562,6 +546,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A5ValuePAA0A11PointerTypeQzRszrlE04withaC02doqd__qd__SPyxG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
       "text" : "E"
     },
     {
@@ -570,6 +555,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A5ValuePAA0A11PointerTypeQzRszrlE04withaC02doqd__qd__SPyxG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
       "text" : "T"
     },
     {
@@ -586,6 +572,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A5ValuePAA0A11PointerTypeQzRszrlE04withaC02doqd__qd__SPyxG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
       "text" : "E"
     },
     {
@@ -594,6 +581,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A5ValuePAA0A11PointerTypeQzRszrlE04withaC02doqd__qd__SPyxG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
       "text" : "T"
     }
   ],

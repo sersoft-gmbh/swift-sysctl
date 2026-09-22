@@ -350,15 +350,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:6Sysctl16MachineDependentV",
-      "text" : "MachineDependent"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:6Sysctl16MachineDependentV3CPUV",
       "text" : "CPU"
     }

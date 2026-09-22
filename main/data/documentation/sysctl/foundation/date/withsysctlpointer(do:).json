@@ -15,7 +15,7 @@
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "Sysctl",
-    "externalID" : "s:6Sysctl0A18ValueRepresentablePAAE04withA7Pointer2doqd__qd__SPy0aE4TypeQzG_SitKXE_tKlF::SYNTHESIZED::s:10Foundation4DateV",
+    "externalID" : "s:6Sysctl0A18ValueRepresentablePAAE04withA7Pointer2doqd__qd__SPy0aE4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF::SYNTHESIZED::s:10Foundation4DateV",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -39,6 +39,14 @@
       },
       {
         "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "genericParameter",
+        "text" : "E"
+      },
+      {
+        "kind" : "text",
         "text" : ">("
       },
       {
@@ -57,14 +65,6 @@
       {
         "kind" : "text",
         "text" : "<"
-      },
-      {
-        "kind" : "typeIdentifier",
-        "text" : "Self"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
       },
       {
         "kind" : "typeIdentifier",
@@ -99,10 +99,20 @@
       },
       {
         "kind" : "text",
-        "text" : " -> "
+        "text" : "("
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentablePAAE04withA7Pointer2doqd__qd__SPy0aE4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
+        "text" : "E"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentablePAAE04withA7Pointer2doqd__qd__SPy0aE4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
         "text" : "T"
       },
       {
@@ -111,14 +121,24 @@
       },
       {
         "kind" : "keyword",
-        "text" : "rethrows"
+        "text" : "throws"
       },
       {
         "kind" : "text",
-        "text" : " -> "
+        "text" : "("
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentablePAAE04withA7Pointer2doqd__qd__SPy0aE4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
+        "text" : "E"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentablePAAE04withA7Pointer2doqd__qd__SPy0aE4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
         "text" : "T"
       }
     ],
@@ -129,7 +149,7 @@
     ],
     "remoteSource" : {
       "fileName" : "ValueRepresentable.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueRepresentable.swift#L30"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/swift-sysctl\/blob\/refs\/heads\/main\/Sources\/Sysctl\/Base\/ValueRepresentable.swift#L31"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Method",
@@ -169,6 +189,14 @@
             },
             {
               "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "E"
+            },
+            {
+              "kind" : "text",
               "text" : ">("
             },
             {
@@ -195,14 +223,6 @@
             {
               "kind" : "text",
               "text" : "<"
-            },
-            {
-              "kind" : "typeIdentifier",
-              "text" : "Self"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
             },
             {
               "identifier" : "doc:\/\/Sysctl\/documentation\/Sysctl\/SysctlValueRepresentable\/SysctlValue-swift.associatedtype",
@@ -239,10 +259,20 @@
             },
             {
               "kind" : "text",
-              "text" : " -> "
+              "text" : "("
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentablePAAE04withA7Pointer2doqd__qd__SPy0aE4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
+              "text" : "E"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentablePAAE04withA7Pointer2doqd__qd__SPy0aE4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
               "text" : "T"
             },
             {
@@ -251,15 +281,50 @@
             },
             {
               "kind" : "keyword",
-              "text" : "rethrows"
+              "text" : "throws"
             },
             {
               "kind" : "text",
-              "text" : " -> "
+              "text" : "("
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentablePAAE04withA7Pointer2doqd__qd__SPy0aE4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
+              "text" : "E"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentablePAAE04withA7Pointer2doqd__qd__SPy0aE4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
               "text" : "T"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "E"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s5ErrorP",
+              "text" : "Error"
             }
           ]
         }
@@ -381,6 +446,14 @@
     },
     {
       "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
       "text" : ">("
     },
     {
@@ -399,14 +472,6 @@
     {
       "kind" : "text",
       "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
@@ -441,10 +506,20 @@
     },
     {
       "kind" : "text",
-      "text" : " -> "
+      "text" : "("
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentablePAAE04withA7Pointer2doqd__qd__SPy0aE4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentablePAAE04withA7Pointer2doqd__qd__SPy0aE4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
       "text" : "T"
     },
     {
@@ -453,14 +528,24 @@
     },
     {
       "kind" : "keyword",
-      "text" : "rethrows"
+      "text" : "throws"
     },
     {
       "kind" : "text",
-      "text" : " -> "
+      "text" : "("
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentablePAAE04withA7Pointer2doqd__qd__SPy0aE4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1EL_qd_0_mfp",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Sysctl0A18ValueRepresentablePAAE04withA7Pointer2doqd__qd__SPy0aE4TypeQzG_Sitqd_0_YKXE_tqd_0_YKs5ErrorRd_0_r0_lF1TL_qd__mfp",
       "text" : "T"
     }
   ],
