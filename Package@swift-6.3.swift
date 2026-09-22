@@ -13,6 +13,7 @@ let swiftSettings: Array<SwiftSetting> = [
     .enableUpcomingFeature("MemberImportVisibility"),
     .enableUpcomingFeature("ImmutableWeakCaptures"),
     .enableUpcomingFeature("NonisolatedNonsendingByDefault"),
+]
 
 let package = Package(
     name: "swift-sysctl",
