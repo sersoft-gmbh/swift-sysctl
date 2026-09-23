@@ -43,11 +43,19 @@ extension SysctlField {
 #if compiler(>=6.2)
             unsafe _sysctlNameToMIB(cString, nil, &len).requireSuccess()
             return unsafe .init(unsafeUninitializedCapacity: len) { buffer, initializedCount in
+                // This is necessary.
+                // Contrary to the docs, when calling sysctlnametomib with a pointer,
+                // the length arg should give the size of the pointer - it'll be decreased to what was initialized.
+                initializedCount = len
                 unsafe _sysctlNameToMIB(cString, buffer.baseAddress, &initializedCount).requireSuccess()
             }
 #else
             _sysctlNameToMIB(cString, nil, &len).requireSuccess()
             return .init(unsafeUninitializedCapacity: len) { buffer, initializedCount in
+                // This is necessary.
+                // Contrary to the docs, when calling sysctlnametomib with a pointer,
+                // the length arg should give the size of the pointer - it'll be decreased to what was initialized.
+                initializedCount = len
                 _sysctlNameToMIB(cString, buffer.baseAddress, &initializedCount).requireSuccess()
             }
 #endif
